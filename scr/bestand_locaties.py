@@ -5,7 +5,7 @@ zodat deze locaties in de andere scripts geïmporteerd en gebruikt kunnen worden
 import os
 import pandas as pd
 
-# TODO: verander de adressen die worden gebruikt van locaal naar cloud.
+# TODO: verander de adressen die worden gebruikt van lokaal naar cloud.
 # Definiëren van de mappen en documenten
 # Pad naar de algemene TBI One Drive Map (tijdenlijke centrale opslag)
 TBI_Holding_OneDrive = 'C:\\Users\\NBais\\TBI Holding'
