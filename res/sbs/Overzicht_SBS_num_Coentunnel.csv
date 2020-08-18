@@ -1,0 +1,46 @@
+SBS - nummer;SBS - beschijving;Generiek SBS nummer
+10;Energievoorziening;9
+10;Energievoorziening;10
+21;Tunnelverlichting;16
+22;Verlichting Vluchtwegen;20
+23;Openbare Verlichting;21
+24;Aanduiding van vluchtwegen en brandblusmiddelen;22
+24;Aanduiding van vluchtwegen en brandblusmiddelen;23
+25;Evacuatie- en Verkeersgeleidingsverlichting;24
+26;Evacuatie- en Verkeersgeleidingsverlichting;24
+30;Waterafvoersysteem Tunnel;1014
+36;Ventilatiesysteem Tunnelverkeersbuizen;28
+37;Ventilatiesysteem luchtmaatregelen;28
+38;Overdrukinstallatie Ventilatie Kelders & Pompruimten;33
+39;Ventilatie- en Overdrukinstallatie Vluchtwegen;34
+41;Verkeerssignaleringssysteem;35
+42;Verkeersregelinstallatie;36
+43;Verkeersdetectiesysteem;37
+44;Hoogtedetectiesysteem;38
+45;Afsluitbomen;43
+46A;Calamiteiten Doorsteek;44
+46B;Verplaatsbare Vangrail;45
+47A;Kantelwalsborden VTTI;47
+47B;Bijzondere Borden VTTI;49
+48;Toeritdoseerinstallatie VTTI;50
+51;Brandblusinstallatie tunnel en hulpposten;56
+52;Zichtmeetinstallatie tunnel ;29
+53;Brandblusinstallatie hulppost;57
+59;Brandmeldinstallatie;58
+61;CCTV camerasysteem en DBOS;61
+62;Hoogfrequent installatie;62
+63;Telefoon- en Intercominstallatie;65
+63;Telefoon- en Intercominstallatie;63
+64;Omroepinstallatie;64
+67;Geluidsbakeninstallatie vluchtdeuren;69
+69;Gevaarlijke stoffen identificatiesysteem;70
+71;Klimaatinstallatie Dienstengebouwen;75
+72;Beveiliging en Toegangscontrole Dienstengebouwen;76
+72;Beveiliging en Toegangscontrole Dienstengebouwen;77
+73;Dienstgebouwenverlichting;78
+74;Brandmeldinstallatie Dienstengebouwen;58
+75;Brandblusvoorzieningen Dienstengebouwen;79
+78;Waarschuwingsinstallatie Dienstengebouwen;80
+84;Intern Transmissienetwerk;85
+86;Bediening en Besturing;83
+91;Deurvergrendelingsinstallatie Vluchtdeuren;60

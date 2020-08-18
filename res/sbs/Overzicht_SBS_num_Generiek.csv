@@ -1,0 +1,154 @@
+Discipline;Hoofd SBS - beschijving;Hoofd SBS - nummer
+Elektrotechniek;Algemeen;0
+Elektrotechniek;Openbaar nutsbedrijf;1
+Elektrotechniek;Aardinginstallatie;2
+Elektrotechniek;Bliksembeveiligingsinstallatie;3
+Elektrotechniek;Laagspanning;4
+Elektrotechniek;Noodstroomaggregaat;5
+Elektrotechniek;Statische no-break voorziening;6
+Elektrotechniek;Dynamische no-break voorziening;7
+Elektrotechniek;Hoogspanning;8
+Elektrotechniek;Windenergie;9
+Elektrotechniek;Zonne-energie;10
+Elektrotechniek;Geothermie;11
+Elektrotechniek;Waterkracht;12
+Elektrotechniek;Biogas;13
+Elektrotechniek;Biomassa;14
+Elektrotechniek;Waterstof;15
+Elektrotechniek;Tunnelverlichting;16
+Elektrotechniek;Objectverlichting;17
+Elektrotechniek;Contourverlichting;18
+Elektrotechniek;Aanstraalverlichting;19
+Elektrotechniek;Vluchtwegverlichting ;20
+Elektrotechniek;Openbare verlichting;21
+Elektrotechniek;Vluchtwegaanduiding;22
+Elektrotechniek;Hulppost aanduiding;23
+Elektrotechniek;Verkeersgeleidingsverlichting;24
+Elektrotechniek;Terreinverlichting;25
+Elektrotechniek;Vloeistof afvoerpomp;26
+Elektrotechniek;Spuipomp;27
+Elektrotechniek;Tunnelventilatie;28
+Elektrotechniek;Zichtmeting;29
+Elektrotechniek;LEL-meting;30
+Elektrotechniek;NOx-meting;31
+Elektrotechniek;CO-meting;32
+Elektrotechniek;Overdruk kelders en pompen;33
+Elektrotechniek;Overdruk vluchtwegen;34
+Elektrotechniek;Wegkantsysteem (MTM);35
+Elektrotechniek;Verkeersregelinstallatie (VRI);36
+Elektrotechniek;Verkeersdetectie (SOS/SDS);37
+Elektrotechniek;Hoogtedetectie;38
+Elektrotechniek;Weigh in motion;39
+Elektrotechniek;Radar;40
+Elektrotechniek;Verkeersmanagement Ondersteuning voor de Scheepvaart (VOS);41
+Elektrotechniek;Automatic Identification System (AIS);42
+Elektrotechniek;Afsluitbomen;43
+Elektrotechniek;Calamiteiten Doorsteek (CADO);44
+Elektrotechniek;Verplaatsbare Vangrail (VEVA);45
+Elektrotechniek;Gladheidmeldsysteem (GMS);46
+Elektrotechniek;Kantelwalsborden;47
+Elektrotechniek;DRIPS;48
+Elektrotechniek;Bijzondere borden;49
+Elektrotechniek;Toeritdoseerinstallatie (TDI);50
+Elektrotechniek;Vluchthaven aanwezigheidsdetectiesysteem (VAD);51
+Elektrotechniek;Tracing;52
+Elektrotechniek;Scheepvaartseinen;53
+Elektrotechniek;Ijsbestrijding;54
+Elektrotechniek;Aanvaarbeveiliging;55
+Elektrotechniek;Brandblusinstallatie;56
+Elektrotechniek;Brandblusinstallatie hulpposten;57
+Elektrotechniek;Brandmeldinstallatie;58
+Elektrotechniek;Brandblusmiddelen;59
+Elektrotechniek;Deurvergrendeling en -signalering;60
+Elektrotechniek;CCTV;61
+Elektrotechniek;HF / C2000;62
+Elektrotechniek;Intercom;63
+Elektrotechniek;Omroep;64
+Elektrotechniek;Telefoon;65
+Elektrotechniek;Digitale audio-opslag;66
+Elektrotechniek;Digitale video-opslag;67
+Elektrotechniek;Portofoon;68
+Elektrotechniek;Geluidsbakens;69
+Elektrotechniek;Gevaarlijke stoffen identificatiesysteem (GSIS);70
+Elektrotechniek;Marifoon;71
+Elektrotechniek;Meteo-meetsysteem;72
+Elektrotechniek;Debietmeting;73
+Elektrotechniek;Niveaumeting;74
+Elektrotechniek;Klimaatinstallatie gebouwen;75
+Elektrotechniek;Toegangscontrole gebouwen;76
+Elektrotechniek;Inbraakbeveiliging gebouwen;77
+Elektrotechniek;Licht- en kracht gebouwen;78
+Elektrotechniek;Brandblusvoorzieningen gebouwen;79
+Elektrotechniek;Waarschuwingsinstallatie gebouwen;80
+Elektrotechniek;Sanitaire installaties gebouwen;81
+Elektrotechniek;Gasvoorziening;82
+Elektrotechniek;Bediening, besturing & bewaking;83
+Elektrotechniek;Noodbediening en bewaking;84
+Elektrotechniek;Transmissie;85
+Elektrotechniek;Opleiding,training & ontwikkeling;86
+Elektrotechniek;Kabeltrace's, kabelgoten en ladders;87
+Elektrotechniek;Verkeerskundige draagconstructies;88
+Elektrotechniek;Parkeerverwijzing;89
+Elektrotechniek;Lift;90
+Elektrotechniek;Roltrap;91
+Elektrotechniek;Personenzoekinstallatie (PZI);92
+Elektrotechniek;Toegangshek;93
+Civiel;Afmeervoorziening;1001
+Civiel;Antivandalismevoorziening;1002
+Civiel;Bebording/bewegwijzering (statisch);1003
+Civiel;Beplanting;1004
+Civiel;Berm;1005
+Civiel;Terrein;1006
+Civiel;Verhardingen;1007
+Civiel;Draagconstructie;1008
+Civiel;Drainage;1009
+Civiel;Faunadekking;1010
+Civiel;Fundering;1011
+Civiel;Geleideconstructie;1012
+Civiel;Geluidwerende constructie;1013
+Civiel;Hemelwaterafvoer (HWA);1014
+Civiel;Hoofddraagconstructie;1015
+Civiel;Kabel- en leidingtunnel;1016
+Civiel;Kelder;1017
+Civiel;Kerende constructie;1018
+Civiel;Leuningconstructie;1019
+Civiel;Noodstroominstallatie, roterend;1020
+Civiel;Onderhoudsvoorziening;1021
+Civiel;Oplegging;1022
+Civiel;Opstal;1023
+Civiel;Opstorting;1024
+Civiel;Overgangsconstructie;1025
+Civiel;Brandblusreservoir;1026
+Civiel;Pompkelder;1027
+Civiel;Randelement;1028
+Civiel;Sloot;1029
+Civiel;Sluishoofd;1030
+Civiel;Sluiskolk;1031
+Civiel;Steunpunt;1032
+Civiel;Talud;1033
+Civiel;Terreinmeubilair;1034
+Civiel;Verharding wegtype 1, Hoofdwegennet;1035
+Civiel;Verharding wegtype 2, Zwaarbelaste weg;1036
+Civiel;Verharding wegtype 3, Gemiddeld belaste weg;1037
+Civiel;Verharding wegtype 4, Licht belast;1038
+Civiel;Verharding wegtype 5, Weg in woongebied;1039
+Civiel;Verharding wegtype 6, Weg in verblijfsgebied;1040
+Civiel;Verharding wegtype 7, Fietspaden;1041
+Civiel;Vluchtweginstallatie;1042
+Civiel;Voegovergang;1043
+Civiel;Waterhuishouding;1044
+Civiel;Wegmarkering;1045
+Civiel;Vaarwegbodem;1046
+Civiel;Remming- en geleidewerk;1047
+Civiel;Vleermuisscherm;1048
+Civiel;Folieconstructie;1049
+Werktuigbouwkunde;Aandrijving en bewegingswerk;2001
+Werktuigbouwkunde;Grendelinrichting;2002
+Werktuigbouwkunde;Hijs- en transportinstallatie;2003
+Werktuigbouwkunde;Hoofddraaipunt;2004
+Werktuigbouwkunde;Pompinstallatie;2005
+Werktuigbouwkunde;Schuifconstructie;2006
+Werktuigbouwkunde;Sluisdeur;2007
+Werktuigbouwkunde;Vangconstructie t.b.v. scheepvaart;2008
+n.v.t.;n.v.t.;9009
+Onbekend;Onbekend;9999

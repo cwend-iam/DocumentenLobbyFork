@@ -1,0 +1,36 @@
+SBS - nummer;SBS - beschijving;Generiek SBS nummer
+11;Energiebedrijf aansluiting autotunnel;9999
+12;Aarding-, Bliksem- en Overspanningsbeveiliging;3
+12;Aarding-, Bliksem- en Overspanningsbeveiliging;55
+13;Laagspanningsverdeling;4
+15;No-break installatie Autotunnel/Fietstunnel;6
+15;No-break installatie Autotunnel/Fietstunnel;7
+21;Verlichting verkeerstunnel;16
+22;Verlichting Perskanaal;17
+31;Pompinstallatie hoofdkelder Autotunnel;2005
+32;Pompinstallatie middenkelder Autotunnel;2005
+36;Tunnelventilatie Autotunnel;28
+37;Meting van luchtkwaliteit;9999
+38;Ventilatie kabelkanaal Autotunnel;87
+41;Rijstrooksignalering Autotunnel;36
+42;Verkeersdetectie Autotunnel;37
+43;Hoogtedetectie Autotunnel;38
+44;Afsluitbomen Autotunnel;43
+45;Verkeersregelinstallatie Autotunnel;36
+46;Afsluithekken Autotunnel;93
+51;Brandblusinstallatie in tunnel Autotunnel;56
+53;Hulppostkasten Autotunnel;57
+61;CCTV-video installatie Autotunnel;61
+62;HF/C2000 installatie Autotunnel/Fietstunnel;62
+63;Omroepinstallatie Autotunnel;64
+64;Noodtelefooninstallatie Autotunnel;65
+71;HVAC installatie Autotunnel;75
+73;Licht+krachtinstallaties;78
+76;Waarschuwings- en Ontruimingsinstallatie;80
+82;Besturing en Bewaking VTTI;83
+83;Centrale en lokale bediening en bewaking;83
+85;Datatransmissie Autotunnel;85
+86;Noodbediening Autotunnel;84
+91;Vluchtdeuren en vluchttrappen Autotunnel;1042
+92;Kabelgoten en kabelwegen;87
+94;Vluchtwegen Autotunnel;1042

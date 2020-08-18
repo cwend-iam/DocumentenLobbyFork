@@ -1,0 +1,49 @@
+SBS - nummer;SBS - beschijving;Generiek SBS nummer
+13;Laagspanningsverdeling;4
+13;Energievoorziening;10
+13;Energievoorziening;9
+23;Dynamische openbare verlichting;21
+30;Pompinstallatie;2005
+36;Tunnelventilatie;28
+36;Tunnelventilatie Novenco;28
+36;Ventilatiesysteem;28
+39;Overdrukventilatie vluchtgang;34
+41;Rijstrooksignalering;36
+41;Matrix signaalgever;48
+41;Monitoring en signalering;9999
+41;Wegkantstation;35
+42;Landverkeersseinen;9999
+42;Verkeersdetectiesysteem;37
+45;Afsluitbomen;43
+47;Dynamische voorwaarschuwing;48
+47;BermDRIP;48
+47;DRIP;48
+48;Scheepvaartseinen;53
+48;Bijzondere borden;49
+48;Rotatiepaneel;9999
+48;Toeritdosserinstallatie;50
+50;Brandblusinstallatie;56
+52;Meteoinstallatie;72
+61;CCTV;61
+61;Camerasysteem;61
+61;Video CCTV installatie;61
+61;CCTV installatie;61
+62;HF installatie (marifoon);62
+62;VHF Installatie (Marifoon);62
+62;HF-installatie;62
+63;Telefoon en intercominstallatie;63
+63;Telefoon en intercominstallatie;65
+63;Luidsprekerinstallatie;64
+63;Luidsprekerinstallatie;69
+64;Omroepinstallatie ;64
+64;Intercominstallatie;65
+67;Wegkantnetwerk;35
+80;Bediening en besturing;83
+84;Transmissienetwerk;85
+86;Bedienings- en Besturingsinstallatie;83
+91;Centrale deurontgrendeling;60
+92;Kabeltrace en kabelgoten;87
+92;Kabelwegen;1016
+94;Vluchtwegaanduiding;22
+96;Voorwaarschuwing slipgevaar;48
+98;Verkeerskundige draagconstructies;88
