@@ -6,7 +6,7 @@ import pandas as pd
 import bestand_locaties
 import IAMDataMinePackage as dmp
 
-from Export_dataframe import Export_data
+from export_dataframe import Export_data
 
 if __name__ == '__main__':
 
