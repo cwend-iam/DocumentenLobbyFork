@@ -1,0 +1,35 @@
+SBS - nummer;SBS - beschijving;Genriek SBS nummer
+E430;Dynamische Route Informatie Paneel, DRIP;48
+E601.010;Energievoorziening;9
+E601.010;Energievoorziening;10
+E601.021;Verlichting verkeerstunnel;16
+E601.022;Verlichting kabelkanaal;17
+E601.036;Tunnelventilatie;28
+E601.037;Meting van luchtverontreiniging;9999
+E601.038;Overdrukinstallatie pompkamers;33
+E601.042;Verkeerslichten;24
+E601.043;Verkeersdetectie;37
+E601.045;Afsluitbomen;43
+E601.048;MTM koppeling;35
+E601.049;Koppeling externe systemen;9999
+E601.061;CCTV-installatie;61
+E601.063;Luidsprekerinstallatie;64
+E601.064;Intercominstallatie;63
+E601.065;Telefooninstallatie;65
+E601.067;Audiologger;66
+E601.071;Klimaatregeling;75
+E601.072;Beveiliging en bewaking;83
+E601.072;Beveiliging en bewaking;84
+E601.073;Licht- en krachtinstallaties;78
+E601.074;Brandmeldinstallatie;58
+E601.075;Blusvoorziening en drinkwater Dienstgebouw;79
+E601.076;Waarschuwingsinstallatie;80
+E601.081;Lokale bediening en bewaking;83
+E601.081;Lokale bediening en bewaking;84
+E601.083;Noodbediening;84
+E601.085;Besturingssysteem;83
+E601.086;Transmissie;85
+E601.092;Kabeltrace's, kabelgoten en ladders;87
+E601.094;Vluchtwegvoorzieningen. Vluchtwegaanduiding;22
+E601.094;Vluchtwegvoorzieningen. Vluchtwegaanduiding;1042
+E601.095;Aanwezigheidsdetectie vluchthaven;51
