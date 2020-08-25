@@ -1,4 +1,5 @@
-from bestand_locaties import Standaard_url
+Standaard_url = "https://tbiholding.sharepoint.com/sites/DocumentManagementSysteem/Gedeelde%20documenten/" \
+                "General/Centrale%20opslag"
 
 
 def make_hyperlink_url(project_naam, map_naam, bestand_naam):
