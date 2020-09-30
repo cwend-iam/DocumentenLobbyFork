@@ -2,6 +2,7 @@ import os
 import re
 import PyPDF2
 import docx2txt
+import File
 
 import bestand_locaties
 
@@ -11,23 +12,16 @@ from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize
 
 
-class Document:
-    name = ""
-    path = ""
-    folder = ""
-    fileType = ""
+class Document(File):
     documentClass = ""
+    version = ""
+    status = ""
 
     def __init__(self, folder, filename):
-        opgedeelde_naam = filename.split('.')
+        File.__init__(self, folder, filename)
 
-        self.fileType = f'.{opgedeelde_naam[-1]}'
-        opgedeelde_naam.pop(-1)
-
-        self.name = ".".join(opgedeelde_naam)
-
-        self.path = os.path.join(folder, filename)
-        self.folder = folder
+        self.version = self.GetVersion()
+        self.status = self.GetStatus(self.version)
 
     lijst_letters = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M',
                      'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z',
@@ -104,7 +98,7 @@ class Document:
                 documentklasse = row_series.values[1]
                 self.documentClass = documentklasse
 
-    def document_version(self):
+    def GetVersion(self):
         """
         Functie die het versienummer van het document ophaalt. De functie kijkt welk van de documentformats in het pad
         aanwezig zijn. Op basis daarvan wordt het gepaste proces voor extractie van de versienummers toegapst.
