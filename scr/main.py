@@ -63,13 +63,13 @@ for project in lijst_projecten:
                 discipline = dmp.discipline(deelsysteem_nummer, sbs=bestand_locaties.SBS_Generiek)
                 # todo: give-creation_date_meta aanpassen zodat pdfminer.six gebruikt wordt
                 # Ophalen van de datum waarop het document is aangemaakt
-                datum = dmp.creation_date_file_type(path_to_file)
+                datum = dmp.creation_date_file_type(document.path)
 
                 # Ophalen van de datum waarop het document voor het laatst is aangepast
-                laatst_aangepast_op = dmp.last_modification_file_type(path_to_file)
+                laatst_aangepast_op = dmp.last_modification_file_type(document.path)
 
                 # Ophalen van het versie nummer
-                versie_nummer = dmp.document_version(path_to_file)
+                versie_nummer = dmp.document_version(document.path)
 
                 # Verwijzen van eigenaar aan documenten
                 document_eigenaar = dmp.document_owner(project,
@@ -106,7 +106,7 @@ for project in lijst_projecten:
                 new_record = pd.Series([document.name, document_type, document.documentClass, versie_nummer, status, datum,
                                         laatst_aangepast_op, project, str(deelsysteem_nummer),
                                         str(deelsysteem_naam), str(discipline), project_fase, document_eigenaar,
-                                        bestand_format, link_doc, opmerking, bestand, volle_pad],
+                                        document.fileType, link_doc, opmerking, bestand, volle_pad],
                                        index=Export_data.columns)
 
                 # De nieuwe regel toevoegen aan het DataFrame
