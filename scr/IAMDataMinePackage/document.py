@@ -1,11 +1,15 @@
+import os
 import re
 import PyPDF2
 import docx2txt
+
+import bestand_locaties
 
 from openpyxl import load_workbook
 
 from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize
+
 
 class Document:
     name = ""
@@ -22,12 +26,12 @@ class Document:
 
         self.name = ".".join(opgedeelde_naam)
 
-        self.path = os.path.join(, bestand)
+        self.path = os.path.join(folder, filename)
         self.folder = folder
 
     lijst_letters = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M',
-                 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z',
-                 '1', '2', '3', '4', '5', '6', '7', '8', '9']
+                     'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z',
+                     '1', '2', '3', '4', '5', '6', '7', '8', '9']
 
     def document_status(self, versie_nummer):
         """
@@ -80,7 +84,7 @@ class Document:
         elif project == 'Rijnlandroute':
             gebruik_sbs = bestand_locaties.SBS_Rijnlandroute
         elif project == 'Westerscheldetunnel':
-            if document_type == 'RAMS':
+            if self.fileType == 'RAMS':
                 gebruik_sbs = bestand_locaties.SBS_Westerscheldetunnel_RAMS
             else:
                 gebruik_sbs = bestand_locaties.SBS_Westerscheldetunnel
