@@ -70,7 +70,7 @@ class File:
 
                 raw_modified_date = pdf_reader.getDocumentInfo()['/ModDate']
 
-                clean_modified_date = date_cleaner(raw_modified_date)
+                clean_modified_date = self.date_cleaner(raw_modified_date)
                 return clean_modified_date
             except KeyError:
                 clean_modified_date = last_modification_os_meta(path_to_file)
@@ -140,7 +140,7 @@ class File:
 
                 raw_creation_date = pdf_reader.getDocumentInfo()['/CreationDate']
 
-                clean_creation_date = date_cleaner(raw_creation_date)
+                clean_creation_date = self.date_cleaner(raw_creation_date)
                 return clean_creation_date
             except KeyError:
                 clean_creation_date = creation_date_os_meta(path_to_file)
