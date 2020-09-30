@@ -230,7 +230,7 @@ class Document:
             versie = 'Onbekend'
             return versie
 
-    def di_number(bestandsnaam, projectnaam, sbs):  # Bestandsnaam is de titel uit het DataFrame.
+    def di_number(self, bestandsnaam, projectnaam, sbs):  # Bestandsnaam is de titel uit het DataFrame.
         """
         Vertaalt het deelsysteem nummer van de projecten naar het deelsysteemnummer uit de generieke SBS.
         (!!) Wanneer geen tweede deelsysteem wordt gevonden wordt een waarde '9009' meegegeven. Dit Indiceert dat er geen
@@ -312,7 +312,7 @@ class Document:
             deelsysteem_nummer_1 = raw_deelsysteem_nummer_1
             return deelsysteem_nummer_1
 
-    def di_name(deelsysteem_num, sbs):
+    def di_name(self, deelsysteem_num, sbs):
         """
         Functie voor het ophalen van de naam van de deelsysteem aan de hand van het nummer uit de generieke SBS.
         :param deelsysteem_num: Het generieke SBS nummer van de desbetreffende deelsysteem
