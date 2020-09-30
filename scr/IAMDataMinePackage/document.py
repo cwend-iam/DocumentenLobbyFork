@@ -22,7 +22,7 @@ class Document:
 
         self.name = ".".join(opgedeelde_naam)
 
-        self.path = os.path.join(, bestand)
+        self.path = os.path.join(folder, bestand)
         self.folder = folder
 
     lijst_letters = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M',
