@@ -20,7 +20,7 @@ class Document:
         self.fileType = f'.{opgedeelde_naam[-1]}'
         opgedeelde_naam.pop(-1)
 
-        self.name ".".join(opgedeelde_naam)
+        self.name = ".".join(opgedeelde_naam)
 
         self.path = os.path.join(, bestand)
         self.folder = folder
