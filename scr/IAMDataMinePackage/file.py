@@ -8,6 +8,7 @@ from nltk.tokenize import word_tokenize
 from creation_date_os_meta import *
 from last_modification_os_meta import *
 
+
 class File:
     name = ""
     path = ""
@@ -17,17 +18,17 @@ class File:
     lastModifiedDate = ""
 
     maanden = {'januari': '01',
-           'februari': '02',
-           'maart': '03',
-           'april': '04',
-           'mei': '05',
-           'juni': '06',
-           'juli': '07',
-           'augustus': '08',
-           'september': '09',
-           'oktober': '10',
-           'november': '11',
-           'december': '12'}
+               'februari': '02',
+               'maart': '03',
+               'april': '04',
+               'mei': '05',
+               'juni': '06',
+               'juli': '07',
+               'augustus': '08',
+               'september': '09',
+               'oktober': '10',
+               'november': '11',
+               'december': '12'}
 
     def __init__(self, folder, filename):
         opgedeelde_naam = filename.split('.')
@@ -42,7 +43,7 @@ class File:
 
         self.lastModifiedDate = self.last_modification_file_type(folder + "\\" + filename)
         self.creationDate = self.creation_date_file_type(folder + "\\" + filename)
-    
+
     def date_cleaner(self, metadatum):
         """
         Deze functie schoont de datum uit de metadata op tot de notatie 'dd-mm-jjjj'

@@ -55,7 +55,8 @@ for project in lijst_projecten:
                 document.SetClass(document_type, referentie_doc=bestand_locaties.Document_Klasse_Type)
 
                 deelsysteem_nummer = document.GetDI(project)
-                
+
+                # todo: onderstaande variabele proberen toe te voegen aan Class File of Document
                 # Ophalen van de deelsysteem naam van toepassing
                 deelsysteem_naam = dmp.di_name(deelsysteem_nummer, sbs=bestand_locaties.SBS_Generiek)
 
