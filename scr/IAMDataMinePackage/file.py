@@ -5,7 +5,6 @@ import docx2txt
 from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize
 
-from .date_cleaner import *
 from .creation_date_os_meta import *
 from .last_modification_os_meta import *
 
@@ -44,6 +43,19 @@ class File:
         self.lastModifiedDate = self.last_modification_file_type(folder + filename)
         self.creationDate = self.creation_date_file_type(folder + filename)
     
+    def date_cleaner(self, metadatum):
+        """
+        Deze functie schoont de datum uit de metadata op tot de notatie 'dd-mm-jjjj'
+        :param metadatum: de volledige string zoals verkregen uit de metadata 'D:20160722093347+02'00''
+        :return: De opgeschoonde notatie 'dd-mm-jjjj'
+        """
+        yyyy = metadatum[2:6]
+        mm = metadatum[6:8]
+        dd = metadatum[8:10]
+        clean_datum = dd + '-' + mm + '-' + yyyy
+
+        return clean_datum
+
     def last_modification_file_type(self, path_to_file):
         """
         Leest de datum waarop het bestand voor het laatst is aangepast uit de metadata.
