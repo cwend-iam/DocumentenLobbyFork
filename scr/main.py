@@ -64,7 +64,7 @@ for project in lijst_projecten:
                 # todo: give-creation_date_meta aanpassen zodat pdfminer.six gebruikt wordt
                 
                 # Verwijzen van eigenaar aan documenten
-                document_eigenaar = dmp.document_owner(project,
+                document_eigenaar = document.document_owner(project,
                                                        referentie_doc=bestand_locaties.Referentietabel_Eigenaarschap)
 
                 # Definitie van de waarden voor de lege kolommen

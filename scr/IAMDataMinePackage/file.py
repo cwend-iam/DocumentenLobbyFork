@@ -5,8 +5,8 @@ import docx2txt
 from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize
 
-from .creation_date_os_meta import *
-from .last_modification_os_meta import *
+from creation_date_os_meta import *
+from last_modification_os_meta import *
 
 class File:
     name = ""
@@ -40,8 +40,8 @@ class File:
         self.path = os.path.join(folder, filename)
         self.folder = folder
 
-        self.lastModifiedDate = self.last_modification_file_type(folder + filename)
-        self.creationDate = self.creation_date_file_type(folder + filename)
+        self.lastModifiedDate = self.last_modification_file_type(folder + "\\" + filename)
+        self.creationDate = self.creation_date_file_type(folder + "\\" + filename)
     
     def date_cleaner(self, metadatum):
         """
