@@ -2,7 +2,7 @@ import os
 import re
 import PyPDF2
 import docx2txt
-import File
+from file import File
 
 import bestand_locaties
 
@@ -27,7 +27,7 @@ class Document(File):
                      'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z',
                      '1', '2', '3', '4', '5', '6', '7', '8', '9']
 
-    def document_status(self, versie_nummer):
+    def GetStatus(self, versie_nummer):
         """
         Deze functie bepaalt aan de hand van het versie nummer de status van het document.
         :param versie_nummer: Versie nummer van het document verkregen door de functie 'give_versie'.

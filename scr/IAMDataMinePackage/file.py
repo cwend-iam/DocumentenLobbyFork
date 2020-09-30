@@ -6,6 +6,7 @@ from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize
 
 from .date_cleaner import *
+from .creation_date_os_meta import *
 from .last_modification_os_meta import *
 
 class File:
