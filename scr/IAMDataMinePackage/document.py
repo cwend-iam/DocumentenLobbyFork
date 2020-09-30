@@ -44,7 +44,7 @@ class Document:
                 status_aanduiding = 'Concept'
                 return status_aanduiding
 
-        elif versie_nummer in [f'{x}' for x in lijst_letters]:
+        elif versie_nummer in [f'{x}' for x in self.lijst_letters]:
             status_aanduiding = 'DO/UO'
             return status_aanduiding
 
