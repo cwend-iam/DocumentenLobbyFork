@@ -48,42 +48,14 @@ for project in lijst_projecten:
                 print('Loading...')
 
                 # path_to_file definiëren
-                path_to_file = os.path.join(mappen_doctypes_per_map, bestand)
-
-                # Het omvormen van de volledige bestandsnaam in de Titel en het documenttype/format (.pdf etc.)
-                opgedeelde_naam = bestand.split('.')
-                bestand_format = f'.{opgedeelde_naam[-1]}'
-                opgedeelde_naam.pop(-1)
-
-                # Controleren of er een punt in de titel staat en vervolgens daarop handelen
-                if len(opgedeelde_naam) > 1:
-                    titel = f'{opgedeelde_naam[0]}.{opgedeelde_naam[1]}'
-                else:
-                    titel = str(opgedeelde_naam[0])
-
+                
+                document = dmp.Document(mappen_doctypes_per_map, bestand)
+                
                 # Het bepalen van de document klasse
-                document_klasse = dmp.document_class(document_type,
-                                                     referentie_doc=bestand_locaties.Document_Klasse_Type)
+                document.SetClass(document_type, referentie_doc=bestand_locaties.Document_Klasse_Type)
 
-                # Bepalen van de deelsystemen van toepassing
-                if project == 'Coentunnel-tracé':
-                    gebruik_sbs = bestand_locaties.SBS_Coentunnel
-                elif project == 'Maastunnel':
-                    gebruik_sbs = bestand_locaties.SBS_Maastunnel
-                elif project == 'MaVa':
-                    gebruik_sbs = bestand_locaties.SBS_MaVa
-                elif project == 'Rijnlandroute':
-                    gebruik_sbs = bestand_locaties.SBS_Rijnlandroute
-                elif project == 'Westerscheldetunnel':
-                    if document_type == 'RAMS':
-                        gebruik_sbs = bestand_locaties.SBS_Westerscheldetunnel_RAMS
-                    else:
-                        gebruik_sbs = bestand_locaties.SBS_Westerscheldetunnel
-                else:
-                    gebruik_sbs = None
-
-                deelsysteem_nummer = dmp.di_number(bestandsnaam=bestand, projectnaam=project, sbs=gebruik_sbs)
-
+                deelsysteem_nummer = document.GetDI(project)
+                
                 # Ophalen van de deelsysteem naam van toepassing
                 deelsysteem_naam = dmp.di_name(deelsysteem_nummer, sbs=bestand_locaties.SBS_Generiek)
 
@@ -131,7 +103,7 @@ for project in lijst_projecten:
                     pass
 
                 # Samenstellen van de regel die wordt toegevoegd aan het dataframe
-                new_record = pd.Series([titel, document_type, document_klasse, versie_nummer, status, datum,
+                new_record = pd.Series([document.name, document_type, document.documentClass, versie_nummer, status, datum,
                                         laatst_aangepast_op, project, str(deelsysteem_nummer),
                                         str(deelsysteem_naam), str(discipline), project_fase, document_eigenaar,
                                         bestand_format, link_doc, opmerking, bestand, volle_pad],
