@@ -7,6 +7,7 @@ def find_storage_path():
     user = getpass.getuser()
     _same_user = False
     _del_files = False
+
     # Zorgen dat de GitHub repo de wdir wordt
     while True:
         if os.getcwd().endswith('DocumentenLobby'):

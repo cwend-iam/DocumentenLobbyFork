@@ -1,17 +1,16 @@
-import os
 import re
+
 import PyPDF2
 import docx2txt
-from file import File
-
-import bestand_locaties
-
-from openpyxl import load_workbook
-
 from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize
+from openpyxl import load_workbook
+
+import bestand_locaties
+from file import File
 
 
+# todo: Naamgeving aanpassen zodat deze correct is
 class Document(File):
     documentClass = ""
     version = ""
@@ -50,22 +49,23 @@ class Document(File):
             status_aanduiding = 'Onbekend'
             return status_aanduiding
 
-    def document_owner(self, project_naam, referentie_doc):
+    def GetDocumentOwner(self, project):
         """
         Functie die aan de hand van een referentie CSV-bestand ('Overzicht_Eigenaarschap_documenten.csv') op basis van
         de projectnaam de eigenaar van de documenten toewijst.
-        :param project_naam: De naam van het project waar het document onder valt.
+        :param project: De naam van het project waar het document onder valt.
         :param referentie_doc: Het referentiedocument van de document typen en bijbehorende documentklasse.
         :return: De naam van de eigenaar van het bestand.
         """
+        referentie_doc = bestand_locaties.Referentietabel_Eigenaarschap
 
         for e in range(referentie_doc.shape[0]):
             row_series = referentie_doc.iloc[e]
-            if row_series.values[0] == project_naam:
+            if row_series.values[0] == project:
                 eigenaar = row_series.values[1]
                 return eigenaar
 
-    def GetDI(self, project):
+    def GetDINumber(self, project):
         gebruik_sbs = None
 
         # Bepalen van de deelsystemen van toepassing
@@ -82,8 +82,28 @@ class Document(File):
                 gebruik_sbs = bestand_locaties.SBS_Westerscheldetunnel_RAMS
             else:
                 gebruik_sbs = bestand_locaties.SBS_Westerscheldetunnel
-        
-        return self.di_number(self.name + "." + self.fileType, project, gebruik_sbs)
+
+        _di_number = self.di_number(self.name + "." + self.fileType, project, gebruik_sbs)
+
+        # Controleren of resultaat een tuple is (zo ja, omvormen naar string)
+        if isinstance(_di_number, tuple):
+            di_number = f'{_di_number[0]}, {_di_number[1]}'
+        else:
+            di_number = _di_number
+
+        return di_number
+
+    def GetDIName(self, deelinstallatie_nummer):
+
+        _di_name = self.di_name(deelinstallatie_nummer, sbs=bestand_locaties.SBS_Generiek)
+
+        # Controleren of resultaat een tuple is (zo ja, omvormen naar string)
+        if isinstance(_di_name, tuple):
+            di_name = f'{_di_name[0]}, {_di_name[1]}'
+        else:
+            di_name = _di_name
+
+        return di_name
 
     def SetClass(self, documenttype, referentie_doc):
         """
@@ -97,6 +117,33 @@ class Document(File):
             if row_series.values[0] == documenttype:
                 documentklasse = row_series.values[1]
                 self.documentClass = documentklasse
+
+    def path_to_hyperlink(self, project):
+        """
+        Functie die de naam van het project, de map, en het bestand combineert met een standaard stuk van de url
+        waarmee de bestanden via de browser geopend kunnen worden. Voor communicatie met sharepoint moeten de spaties in de
+        url gesubstitueerd worden door '%20'.
+        :param project_naam: de naam van het project.
+        :param map_naam: de naam van de map.
+        :param bestand_naam: de naam van het bestand met daarbij ook het bestandformat (.xlsx/.pfd etc.).
+        :return: het volledige pad naar het bestand en tevens de url van de hyperlink voor het openen in de browser.
+        """
+        standaard_deel_url = bestand_locaties.Standaard_url
+        hyperlink = f'{standaard_deel_url}/{project}/{self.folder}/{self.name + self.fileType}'
+        hyperlink = hyperlink.replace(' ', '%20')
+        return hyperlink
+
+    def GetDiscipline(self, deelinstallatie_nummer):
+
+        _discipline = self.discipline(deelinstallatie_nummer, sbs=bestand_locaties.SBS_Generiek)
+
+        # Controleren of resultaat een tuple is (zo ja, omvormen naar string)
+        if isinstance(_discipline, tuple):
+            discipline = f'{_discipline[0]}, {_discipline[1]}'
+        else:
+            discipline = _discipline
+
+        return discipline
 
     def GetVersion(self):
         """
@@ -337,3 +384,43 @@ class Document(File):
                 if deelsysteem_num == generiek_sbs_row_series.values[2]:
                     deelsysteem_naam_1 = generiek_sbs_row_series.values[1]
                     return deelsysteem_naam_1
+
+    def discipline(self, deelinstallatie_nummer, sbs):
+        """
+        De functie gebruikt het eerder bepaalde SBS nummer uit de geneireke SBS en haalt uit de generieke SBS
+        de bijbehorende discipline.
+        :param deelinstallatie_nummer: Het generieke SBS nummer van de desbetreffende deelsysteem
+        :param sbs: De verwijzing naar de generieke sbs die wordt gehanteert
+        :return: discipline_1 of discipline_1 en discipline_2
+        """
+        discipline_1 = str()
+        discipline_2 = str()
+
+        if ',' in str(deelinstallatie_nummer):
+            deelinstallatie_nummer_1 = deelinstallatie_nummer[0]
+            deelinstallatie_nummer_2 = deelinstallatie_nummer[1]
+
+            for i in range(sbs.shape[0]):
+                row_series = sbs.iloc[i]
+                if deelinstallatie_nummer_1 == int(row_series.values[2]):
+                    discipline_1 = row_series.values[0]
+
+                if deelinstallatie_nummer_2 != 9999 and deelinstallatie_nummer_2 != 9009 and deelinstallatie_nummer_2 != 0:
+                    for x in range(sbs.shape[0]):
+                        row_series = sbs.iloc[x]
+                        if deelinstallatie_nummer_2 == int(row_series.values[2]):
+                            discipline_2 = row_series.values[0]
+                            if discipline_2 == discipline_1:
+                                return discipline_1
+                            else:
+                                return discipline_1, discipline_2
+                else:
+                    return discipline_1
+        else:
+            deelinstallatie_nummer_1 = deelinstallatie_nummer
+
+            for i in range(sbs.shape[0]):
+                row_series = sbs.iloc[i]
+                if deelinstallatie_nummer_1 == int(row_series.values[2]):
+                    discipline_1 = row_series.values[0]
+                    return discipline_1

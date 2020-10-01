@@ -1,7 +1,6 @@
 import PyPDF2
-import openpyxl
 import docx2txt
-
+import openpyxl
 from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize
 
@@ -133,6 +132,7 @@ class File:
         :return: De datum waarop het document voor het laatst is aangepast
         """
         # todo: datum uitlezen uit .xls bestanden
+        # todo: give_creation_date_meta aanpassen zodat pdfminer.six gebruikt wordt
 
         if '.pdf' in path_to_file:
             try:
