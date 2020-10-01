@@ -1,0 +1,4127 @@
+Imandra
+ 
+id.:
+    
+ 
+3814383
+ 
+Titel:
+                
+RAMS analyse Uitvoerings Ontwerp
+ 
+DI 61 
+
+ 
+CCTV
+-
+camerasysteem en DBOS
+ 
+Versie: 
+            
+A
+ 
+ 
+Datum:            
+26
+-
+04
+-
+2012
+ 
+ 
+ 
+Croon Elektrotechniek B.V.
+ 
+2
+ 
+(
+23
+)
+ 
+1
+ 
+Document
+ 
+w
+ijziging
+matrix
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Versie
+ 
+Beschrijving w
+ijziging
+ 
+Reden wijziging
+ 
+impact 
+verandering
+ 
+klein
+ 
+groot
+ 
+A1
+ 
+Initiële opzet 
+ 
+ 
+ 
+ 
+A2
+ 
+Kleine tekstuele aanpassingen n.a.v. 
+reviewcommentaar engineer
+ 
+Review
+ 
+X
+ 
+ 
+A3
+ 
+Aanpassing van systeemlay
+-
+out, beschrijving, 
+minimale benodigde voorraad, input 
+parameters n.a.v. review engineer DI 86 
+(Besturing)
+ 
+Review
+ 
+ 
+X
+ 
+A
+ 
+Status naar definitief
+ 
+ 
+ 
+ 
+Imandra
+ 
+id.:
+    
+ 
+3814383
+ 
+Titel:
+                
+RAMS analyse Uitvoerings Ontwerp
+ 
+DI 61 
+
+ 
+CCTV
+-
+camerasysteem en DBOS
+ 
+Versie: 
+            
+A
+ 
+ 
+Datum:            
+26
+-
+04
+-
+2012
+ 
+ 
+ 
+Croon Elektrotechniek B.V.
+ 
+3
+ 
+(
+23
+)
+ 
+Inhoudsopgave
+ 
+ 
+1
+ 
+Document wijzigingmatrix
+ 
+................................
+................................
+................................
+......................
+ 
+2
+ 
+2
+ 
+Inleiding
+ 
+................................
+................................
+................................
+................................
+.................
+ 
+4
+ 
+2.1
+ 
+Doel RAMS analyse
+ 
+................................
+................................
+................................
+.....................
+ 
+4
+ 
+2.2
+ 
+Doelgroep
+ 
+................................
+................................
+................................
+................................
+.....
+ 
+4
+ 
+2.3
+ 
+Opbouw
+ 
+document
+ 
+................................
+................................
+................................
+.......................
+ 
+4
+ 
+3
+ 
+Systeembeschrijving
+ 
+................................
+................................
+................................
+.............................
+ 
+5
+ 
+3.1
+ 
+Functies Deelinstallatie
+ 
+................................
+................................
+................................
+................
+ 
+5
+ 
+3.2
+ 
+Boeteregime
+ 
+................................
+................................
+................................
+................................
+.
+ 
+5
+ 
+3.3
+ 
+Toepassingsgebied
+ 
+................................
+................................
+................................
+......................
+ 
+5
+ 
+4
+ 
+Faaldefinitie
+ 
+................................
+................................
+................................
+................................
+...........
+ 
+6
+ 
+4.1
+ 
+Faaldefinitie
+ 
+................................
+................................
+................................
+................................
+..
+ 
+6
+ 
+4.2
+ 
+Faaldefinitie SMART
+ 
+................................
+................................
+................................
+....................
+ 
+6
+ 
+5
+ 
+Systeemarchitectuur
+ 
+................................
+................................
+................................
+..............................
+ 
+8
+ 
+5.1
+ 
+Systeeminteractie
+ 
+................................
+................................
+................................
+.........................
+ 
+8
+ 
+5.2
+ 
+Systeemopbouw
+ 
+................................
+................................
+................................
+...........................
+ 
+9
+ 
+5.3
+ 
+Systeemafbakening RAMS
+ 
+................................
+................................
+................................
+........
+ 
+12
+ 
+5.4
+ 
+Systeemoptimalisaties
+ 
+................................
+................................
+................................
+................
+ 
+12
+ 
+6
+ 
+Failure Mode Effect & Criticality Analysis
+ 
+................................
+................................
+............................
+ 
+13
+ 
+6.1
+ 
+FMECA
+ 
+................................
+................................
+................................
+................................
+.......
+ 
+13
+ 
+6.2
+ 
+Verificatie
+ 
+FMEA 
+Eisen
+ 
+DO
+ 
+................................
+................................
+................................
+........
+ 
+13
+ 
+7
+ 
+Faalkansanalyse
+ 
+................................
+................................
+................................
+................................
+.
+ 
+15
+ 
+7.1
+ 
+Verificatie Input parameters
+ 
+................................
+................................
+................................
+.......
+ 
+15
+ 
+7.2
+ 
+Verificatie FTA Eisen
+ 
+................................
+................................
+................................
+..................
+ 
+16
+ 
+7.3
+ 
+Aannames structuur faalkansanalyse
+ 
+................................
+................................
+........................
+ 
+16
+ 
+7.4
+ 
+Common Cause falen
+ 
+................................
+................................
+................................
+.................
+ 
+17
+ 
+7.5
+ 
+Faalkansanalyse
+ 
+................................
+................................
+................................
+........................
+ 
+17
+ 
+7.6
+ 
+Beschikbaarheid & Betrouwbaarheid
+ 
+................................
+................................
+.........................
+ 
+17
+ 
+8
+ 
+RAMS gedreven Onderhoudsconcepten
+ 
+................................
+................................
+.............................
+ 
+18
+ 
+8.1
+ 
+Testregime &
+ 
+inspecties
+ 
+................................
+................................
+................................
+.............
+ 
+18
+ 
+8.2
+ 
+Voorraadbeheer
+ 
+................................
+................................
+................................
+.........................
+ 
+18
+ 
+9
+ 
+Life Cycle Cost Trade
+-
+off
+ 
+................................
+................................
+................................
+.....................
+ 
+19
+ 
+Bijlage 1 Life
+-
+Cycle
+-
+Cost Trade
+-
+off
+ 
+................................
+................................
+................................
+.............
+ 
+20
+ 
+Bijlage 2 MTBF lijst
+ 
+................................
+................................
+................................
+................................
+.....
+ 
+21
+ 
+Bijlage 3 Minimale Benodigde Voorraad
+ 
+................................
+................................
+................................
+.....
+ 
+23
+ 
+ 
+ 
+Imandra
+ 
+id.:
+    
+ 
+3814383
+ 
+Titel:
+                
+RAMS analyse Uitvoerings Ontwerp
+ 
+DI 61 
+
+ 
+CCTV
+-
+camerasysteem en DBOS
+ 
+Versie: 
+            
+A
+ 
+ 
+Datum:            
+26
+-
+04
+-
+2012
+ 
+ 
+ 
+Croon Elektrotechniek B.V.
+ 
+4
+ 
+(
+23
+)
+ 
+2
+ 
+Inleiding
+ 
+2.1
+ 
+Doel RAMS analyse
+ 
+Deze RAMS analyse heeft als doel de beschikbaarheid en betrouwbaarheid van de deelinstallatie 
+inzichtelijk te maken voor de doelgroep en de geëiste RAMS prest
+aties uit het DO te verifiëren. Verder 
+dient de RAMS analyse de UO ontwerpers te ondersteunen in het maken van eventueel Life
+-
+Cycle
+-
+C
+ost 
+gerelateerde ontwerpkeuzes.
+ 
+ 
+2.2
+ 
+Doelgroep
+ 
+Dit document RAMS is opgesteld
+ 
+voor de volgende doelgroepen:
+ 
+
+ 
+UO ontwerpers VTTI
+ 
+
+ 
+Onderhoudsanalisten exploitatiefase
+ 
+
+ 
+Rijkswaterstaat 
+ 
+2.3
+ 
+Opbouw
+ 
+document
+ 
+In dit document worden de ve
+r
+schillend
+e aspecten welke betrokken zijn
+ 
+bij een RAMS analyse 
+behandeld. 
+Hierbij zullen de nodige aspecten worden behandeld, te weten (in volgorde van 
+rapportage):
+ 
+ 
+
+ 
+Systeembeschrijving 
+
+ 
+Een beschrijving van de functies welke de deelinstallatie vervult en welke 
+boeteregime er op toepasbaar is. Verder wordt het gebied waarop de deelinstallatie is toegepast 
+gedefinieerd.
+ 
+ 
+
+ 
+Faaldefinitie 
+
+ 
+Een SMART uitwerki
+ng van de het level 0 document SD (
+C7
+-
+CR00
+-
+NUR
+-
+2001 / C7
+-
+CR00
+-
+ONB
+-
+2001
+) gestelde faaldefinitie(s) welke van toepassing is/zijn op de deelinstallatie
+ 
+ 
+
+ 
+Systeemarchitectuur 
+
+ 
+Een uitleg over de opbouw van de deelinstallatie. Verder zal er (eventueel) 
+enkele s
+ysteemoptimalisaties worden gegeven welke in hoofdstuk 5 verder zullen worden 
+uitgewerkt.
+ 
+ 
+
+ 
+Failure Mode Effect Analysis 
+
+ 
+Een Failure Mode and Effect analyse op de deelinstallatie
+ 
+ 
+
+ 
+Faalkansanalyse 
+
+ 
+Een uitgewerkte faalkansanalyse met daarbij de uitgangspu
+nten en input 
+parameters.
+ 
+ 
+
+ 
+RAMS gedreven onderhoudsconcept 
+
+ 
+Een vanuit RAMS optiek gevormde onderhoudsconcept.
+ 
+ 
+
+ 
+Life
+-
+Cycle
+-
+Cost trade
+-
+off 
+
+ 
+Een (eventuele) trade
+-
+off op de Life
+-
+Cycle
+-
+Cost op de in hoofdstuk 
+5.4
+ 
+opgesomde ontwerpoptimalisatie
+ 
+ 
+Imandra
+ 
+id.:
+    
+ 
+3814383
+ 
+Titel:
+                
+RAMS analyse Uitvoerings Ontwerp
+ 
+DI 61 
+
+ 
+CCTV
+-
+camerasysteem en DBOS
+ 
+Versie: 
+            
+A
+ 
+ 
+Datum:            
+26
+-
+04
+-
+2012
+ 
+ 
+ 
+Croon Elektrotechniek B.V.
+ 
+5
+ 
+(
+23
+)
+ 
+3
+ 
+Systeembeschrijving
+ 
+3.1
+ 
+Functies Deelinstallatie
+ 
+Voor de deelinstallatie CCTV
+-
+camerasysteem en DBOS wordt er in het DO (ref. 
+DOC_A4
+-
+61
+-
+ONM
+-
+0
+-
+0
+-
+001) de 
+volgende
+ 
+functies gedefinieerd (ta
+bel 1)
+:
+ 
+ 
+Functiecode
+ 
+Functie
+ 
+Functieomschrijving
+ 
+B 3.1.1.1
+ 
+Inwinnen visuele informatie
+ 
+Inwinnen van visuele informatie 
+(camerabeelden) over : algemeen 
+verkeersbeeld, voertuigkenmerken, 
+weeromstandigheden, wegsituatie, etc. en 
+bet
+reft het Hoofdwegennet, de Tunnelbuizen, 
+de toe
+-
+ 
+en afritten en de dienstwegen.
+ 
+B 3.1.1.2.3
+ 
+Automatisch inwinnen data 
+informatie installaties
+ 
+Het betreft hier automatische data informatie 
+inwinnen over de installatie ter ondersteuning 
+van de 
+wegverkeersleider.
+ 
+B 3.1.2.1.1
+ 
+Archiveren van visuele informatie 
+ten behoeve van analyse
+ 
+Het opslaan en archiveren van ingewonnen 
+visuele informatie (camerabeelden) zodat deze 
+in een later stadium geanalyseerd kunnen 
+worden.
+ 
+B 3.1.2.1.2
+ 
+Weergeven visuele
+ 
+informatie ten 
+behoeve van analyse
+ 
+Het op een later tijdstip weergeven en 
+analyseren van opgeslagen visuele informatie 
+(camerabeelden)
+ 
+V 3.3
+ 
+Detecteren van gevaarelijke stoffen 
+Detectiecorridor
+ 
+Hieronder wordt verstaan dat de 
+omgevingsveiligheid wordt gewaarborgd, 
+stoffen en gassen, zodat de aanwezigheid 
+hiervan kan worden geidentificeerd. 
+ 
+Tabel 
+1
+ 
+Geïdentifceerde functies in DO
+ 
+3.2
+ 
+Boeteregime
+ 
+Voor de deelinstallatie CCTV
+-
+camerasysteem en DBOS zijn een 
+tweetal boeteregimes van toepassing, 
+beschikbaarheidcorrectie en boetepunten
+. Voor de boetepunten wordt in deze analyse 
+aangenomen dat 
+één boetepunt overeenkomt met een prestatiekorting van 10.000
+ 
+euro per g
+ebeurtenis. Deze gebeurtenis 
+treedt op indien faaldefinitie m.b.t. prestatiekorting van toepassing is. Deze faaldefinitie is uitgewerkt in 
+hoofdstuk 
+4
+. 
+Een beschikbaarheidcorrectie zal worden opgelegd indien de
+ 
+CCTV en DBOS
+ 
+installatie niet 
+meer aan de functionele eisen voldoet.
+ 
+De hieraan gerelateerde faaldefinities zijn ook te vinden in 
+hoofdstuk 
+4
+.
+ 
+De hoogte van beschikbaarheid
+correctie
+ 
+hangt af van het tracédeel en tijdstip
+ 
+waarop het 
+functioneel falen plaatsvindt
+ 
+en varieert tussen 4000 euro en 1
+6
+.000 euro per kwartier. In deze analyse 
+wordt uitgegaan van een 
+g
+emiddelde
+ 
+waarde 
+van beschikbaarheidcorrectie per 
+tracédeel van 
+9250
+ 
+euro 
+per kwarti
+er voor elk van de tracédelen. 
+ 
+ 
+In deze analyse wordt een conservatieve benadering gehanteerd dat elke aanvraag voor een 
+rijstrookafsluiting vanwege het falen van de deeli
+nstallatie 
+CCTV
+-
+camerasysteem en DBOS
+ 
+zal bijdragen 
+aan de niet
+-
+beschikbaarheid. Er wordt geen rekening gehouden met de eventuele mogelijkheid om 
+herstelwerkzaamheden t
+e laten plaatsvinden in een van de boetevrije (onderhouds)nachten per jaar,
+ 
+waardoor zul
+k herstel niet zal leiden tot extra beschikbaarheid
+scorrectie en/of prestatiekorting
+.
+ 
+3.3
+ 
+Toepassingsgebied
+ 
+De deelinstallatie CCTV en DBOS wordt toegepast op de volgende stukken:
+ 
+ 
+
+ 
+Coentunnel Oost 1
+ 
+
+ 
+Coentunnel Oost 2
+ 
+
+ 
+Coentunnel West 1
+ 
+
+ 
+Coentunnel West 2
+ 
+
+ 
+Wegtracé (A8/A10)
+ 
+
+ 
+VeVa
+ 
+
+ 
+CaDo
+ 
+
+ 
+Afsluitbomen
+ 
+
+ 
+Dienstwegen
+ 
+
+ 
+Verkeersregelinstallatie
+ 
+Imandra
+ 
+id.:
+    
+ 
+3814383
+ 
+Titel:
+                
+RAMS analyse Uitvoerings Ontwerp
+ 
+DI 61 
+
+ 
+CCTV
+-
+camerasysteem en DBOS
+ 
+Versie: 
+            
+A
+ 
+ 
+Datum:            
+26
+-
+04
+-
+2012
+ 
+ 
+ 
+Croon Elektrotechniek B.V.
+ 
+6
+ 
+(
+23
+)
+ 
+4
+ 
+Faaldefinitie
+ 
+4.1
+ 
+Faaldefinitie
+ 
+ 
+
+ 
+BK 17.1
+  
+
+ 
+Er is minder dan 100% observatiedekking in de tunnelbuis (back
+-
+up d.m.v. PTZ 
+
+ 
+ 
+
+ 
+BK 17.2
+ 
+
+ 
+Er is minder dan 100% obse
+rvatiedekking op het wegtracé buiten de tunnelbuis(back
+-
+
+ 
+ 
+
+ 
+BK 17.3
+ 
+
+ 
+Geselecteerde CCTV beelden kunnen op de bedienlocatie niet worden getoond
+.
+ 
+ 
+
+ 
+PK 10.1
+ 
+
+ 
+De opgeslagen beelden dekken de tunnel niet 100% (observatie) en ononderbroken
+ 
+ 
+
+ 
+PK 10.2
+ 
+
+ 
+De z
+oek, lees of afspeelfunctie van
+ 
+het DBOS is gefaald. 
+ 
+ 
+4.2
+ 
+Faaldefinitie SMART
+ 
+De faaldefinities
+ 
+in hoodfstuk 4.1 
+dienen t.b.v. 
+deze RAMS analyse Specifiek, Meetba
+ar, Aantoonbaar, 
+Realistisch en Tijdgebonden (SMART) te zijn.
+ 
+ 
+Faaldefinitie BK  17.1
+ 
+ 
+Er is minder dan 100% observatiedekking
+ 
+in de tunnelbuis 
+(back
+-
+up 
+
+ 
+ 
+Faaldefinitie SMART
+ 
+ 
+Indien er in het open of gesloten gedeelte van een tunnelbuis minder 
+dan 100% observatiedekking is, is het CCTV systeem functioneel 
+gefaald. 
+ 
+ 
+Observatie wordt gedefinieerd als waarnemen met de volgende 
+kwaliteitseisen:
+ 
+1) detecteren
+ 
+2) herkennen,
+ 
+3) ident
+ificeren
+ 
+ 
+van personen/voertuigen/objecten in de tunnelbuis, zie Nota Issue 
+VTTI.019 Ontwerp CCTV (Deelsysteem 61) Versie B,  ref. SharePoint 
+id.  01750
+-
+D
+-
+002001
+ 
+d
+.
+d.07 april 2011, § 5.3 en 6.3
+ 
+ 
+Observatie welke wordt gehinderd door een hoog voertuig (vrac
+htauto), 
+zal 
+niet
+ 
+leiden tot een niet
+-
+functioneel observatiepunt. 
+ 
+ 
+Additionele faaldefinitie 
+onderliggende 
+componenten/systemen
+ 
+ 
+ 
+ 
+Imandra
+ 
+id.:
+    
+ 
+3814383
+ 
+Titel:
+                
+RAMS analyse Uitvoerings Ontwerp
+ 
+DI 61 
+
+ 
+CCTV
+-
+camerasysteem en DBOS
+ 
+Versie: 
+            
+A
+ 
+ 
+Datum:            
+26
+-
+04
+-
+2012
+ 
+ 
+ 
+Croon Elektrotechniek B.V.
+ 
+7
+ 
+(
+23
+)
+ 
+ 
+ 
+Faaldefinitie BK  17.2
+ 
+ 
+Er is minder dan 100% observatiedekking op het wegtracé buiten de 
+tunnelbuis
+ 
+(back
+-
+up d.m.v. 
+
+ 
+ 
+Faaldefinitie SMART
+ 
+Indien er op:
+ 
+
+ 
+Wegtracé A8/A10
+ 
+
+ 
+VeVa
+ 
+
+ 
+CaDo
+ 
+
+ 
+Afsluitbomen
+ 
+
+ 
+Dienstwegen
+ 
+
+ 
+Verkeersregelinstallatie 
+ 
+ 
+minder dan 100% observatiedekking is, is het CCTV systeem 
+functioneel gefaald. 
+ 
+ 
+Observatie wordt gedefinieerd als
+ 
+waarnemen met de volgende 
+kwaliteitseisen:
+ 
+ 
+1) detecteren
+ 
+2) herkennen
+ 
+3) identificeren 
+ 
+ 
+van personen/voertuigen/objecten op he
+t wegtracé buiten de 
+tunnelbuis zie 
+ 
+Nota Issue VTTI.019 Ontwerp CCTV (Deelsysteem 61)
+ 
+Versie B, ref. SharePoint id. 
+01750
+-
+D
+-
+00
+2001dd 07 april 2011, § 5.3 en 
+6.3
+ 
+ 
+Observatie welke wordt gehinderd door een hoog voertuig (vrachtauto), 
+zal 
+niet
+ 
+leiden tot een niet
+-
+functioneel observatiepunt. 
+ 
+ 
+Additionele faaldefinitie 
+onderliggende 
+componenten/systemen
+ 
+ 
+ 
+ 
+Faaldefinitie BK 
+17.3
+ 
+ 
+Geselecteerde CCTV beelden kunnen op de bedienlocatie niet worden 
+getoond.
+ 
+(Het betreft de lokale bedienlocatie en het koppelvlak met de 
+VC)
+ 
+Faaldefinitie SMART
+ 
+ 
+ 
+Geselecteerde CCTV beelden met de geëiste kwaliteit van 
+ 
+
+ 
+Tunneltracé (CT1/CT2)
+ 
+
+ 
+Wegtracé 
+(A8/A10)
+ 
+
+ 
+VeVa
+ 
+
+ 
+CaDo
+ 
+
+ 
+Afsluitbomen
+ 
+
+ 
+Dienstwegen
+ 
+
+ 
+Verkeersregelinstallatie
+ 
+ 
+kunnen niet binnen de in het SD gestelde performancetijd (zie Level 0 
+document § 7.1.6 Diversificatie responsetijden) en/of met de geëiste 
+kwaliteit worden gepresenteerd op de locale 
+bedienlocatie CTT en/of 
+op het koppelvlak met de verkeerscentrale (VCNWN).
+ 
+ 
+Additionele faaldefinitie 
+onderliggende 
+componenten/systemen
+ 
+ 
+ 
+ 
+ 
+ 
+Imandra
+ 
+id.:
+    
+ 
+3814383
+ 
+Titel:
+                
+RAMS analyse Uitvoerings Ontwerp
+ 
+DI 61 
+
+ 
+CCTV
+-
+camerasysteem en DBOS
+ 
+Versie: 
+            
+A
+ 
+ 
+Datum:            
+26
+-
+04
+-
+2012
+ 
+ 
+ 
+Croon Elektrotechniek B.V.
+ 
+8
+ 
+(
+23
+)
+ 
+5
+ 
+Systeemarchitectuur
+ 
+5.1
+ 
+Systeeminteractie
+ 
+De deelinstallatie
+ 
+CCTV en DBOS op het wegtracé heeft ten behoeve
+ 
+van het uitvoeren van de functie 
+interactie met de volgende deelinstallaties:
+ 
+ 
+
+ 
+Energievoorziening (DI 10)
+ 
+
+ 
+Intern Transmissienetwerk (DI 84)
+ 
+
+ 
+Lokale bediening en Bewaking (DI 81)
+ 
+
+ 
+Besturing (DI 86)
+ 
+
+ 
+VTTI Huisjes (DI96)
+ 
+ 
+Op het tunneltracé heeft CCTV en DBOS 
+ten behoeve avn het uitvoeren van de functie interactie met de 
+volgende deelinstallaties:
+ 
+ 
+
+ 
+Energievoorziening (DI 10)
+ 
+
+ 
+Intern Transmissienetwerk (DI 84)
+ 
+
+ 
+Lokale bediening en Bewaking (DI 81)
+ 
+
+ 
+Besturing (DI 86)
+ 
+ 
+ 
+In figuur 1 wordt deze interactie visueel weerg
+even.
+ 
+ 
+ 
+Figuur 1 
+
+ 
+Systeemintractie CCTV en DBOS
+ 
+ 
+Imandra
+ 
+id.:
+    
+ 
+3814383
+ 
+Titel:
+                
+RAMS analyse Uitvoerings Ontwerp
+ 
+DI 61 
+
+ 
+CCTV
+-
+camerasysteem en DBOS
+ 
+Versie: 
+            
+A
+ 
+ 
+Datum:            
+26
+-
+04
+-
+2012
+ 
+ 
+ 
+Croon Elektrotechniek B.V.
+ 
+9
+ 
+(
+23
+)
+ 
+ 
+5.2
+ 
+Systeemopbouw
+ 
+ 
+CCTV & DBOS op Tunneltracé
+ 
+In de tunnelbuis worden Pan
+-
+Tilt
+-
+
+kijkgebied van de tunnelbuis te 
+
+
+
+jn de 
+
+een direct ondersteundende functie hebben aan één enkele CCTV camera, zoals voeding, encoder en 
+glasconversiemodule, worden deze in een OVT
+-
+kast geplaat
+st. Deze OVT
+-
+kast bevindt zich in het midden
+-
+tunnelkanaal en is daardoor te alle tijden toegankelijk zonder daarvoor een rijstrook
+-
+ 
+of rijbaanafsluiting 
+
+20, 
+
+beeldgegevens door naar de Core Switch van deelinstallatie 84 
+
+ 
+Interne Transmissie. Vanuit de Core 
+Switch worden de beeldgegevens doorgestuurd naar een redundante
+ 
+switch van het DBOS systeem. Het 
+DBOS systeem bestaat uit een vijf DIVA clients. Van deze vijf, bevatten er twee XML functionaliteit. Deze 
+
+aansturen w
+elke op dat moment benodigd is. Indien er bijvoorbeeld een melding vanuit DI 43 
+
+ 
+Verkeersdetectie binnenkomt bij Besturing, zorgt de XML functionaliteit i.c.m. business logica voor een 
+juist opschakeling van de benodigde CCTV beelden bij een verkeersdetec
+tiemelding.  De overige drie 
+DIVA clients hebben (samen met de DIVA clients met XML functionaliteit) de beeldopslag functionaliteit. 
+Vervolgens worden er vanuit de DIVA client welke leading is, beeldgegevens doorgestuurd naar een 
+Video Management Systeem (
+videowall controller) welke de beeldgegevens doorsturen/presenteren aan 
+de bedienplek van  de wegverkeersleider. De bedienplek van de wegverkeersleider kan lokaal of centraal 
+zijn, waarbij er voor een centrale bediening een koppeling is met de VOR (koppelv
+lak). Voor een grafische 
+weergrave van de deelinstallatie toegepast op het tunneltracé, zie figuur 3.
+ 
+ 
+CCTV & DBOS op Wegtracé
+ 
+Op het wegtracé worden Pan
+-
+Tilt
+-
+
+zijn om een variabel kijkgebied
+ 
+
+
+zichtgebied van de gefaalde CCTV camera kan overnemen.
+ 
+
+functionali
+teiten hebben, waaronder Incidement Management, Schouwfuncties of het observeren van 
+
+
+
+rijrichting van het wegverkeer mee gepositioneerd.  De componenten welke een direct ondersteundende 
+functie hebben voor de CCTV camera zoals voeding, encoder en glasconversiemodule, worden in een 
+camerakast geplaatst. Deze camera
+kast bevindt zich in onderaan het portaal of mast  en is daardoor in de 
+meeste gevallen toegankelijk zonder daarvoor een rijstrook
+-
+ 
+of rijbaanafsluiting benodigd te hebben.
+ 
+
+opeenvolgende) 
+
+wegtracé. De lokale switch stuurt de beeldgegevens door naar de Core Switch (DI
+-
+84). De systeemopzet 
+van CCTV en DBOS voor het wegtracé is vervolge
+ns identiek aan de systeemopzet van CCTV en DBOS 
+op het tunneltracé. Voor een grafische weergave van de deelinstallatie toegepast op het wegtracé, zie 
+figuur 2.
+ 
+ 
+Imandra
+ 
+id.:
+    
+ 
+3814383
+ 
+Titel:
+                
+RAMS analyse Uitvoerings Ontwerp
+ 
+DI 61 
+
+ 
+CCTV
+-
+camerasysteem en DBOS
+ 
+Versie: 
+            
+A
+ 
+ 
+Datum:            
+26
+-
+04
+-
+2012
+ 
+ 
+ 
+Croon Elektrotechniek B.V.
+ 
+10
+ 
+(
+23
+)
+ 
+ 
+Figuur 2 
+
+ 
+Systeemopbouw CCTV en DBOS op wegtracé
+ 
+Imandra
+ 
+id.:
+    
+ 
+3814383
+ 
+Titel:
+                
+RAMS analyse Uitvoerings Ontwerp
+ 
+DI 61 
+
+ 
+CCTV
+-
+camerasysteem en DBOS
+ 
+Versie: 
+            
+A
+ 
+ 
+Datum:            
+26
+-
+04
+-
+2012
+ 
+ 
+ 
+Croon Elektrotechniek B.V.
+ 
+11
+ 
+(
+23
+)
+ 
+ 
+Figuur 3 
+
+ 
+systeemopbouw CCTV en DBOS op tunneltracé
+ 
+Imandra
+ 
+id.:
+    
+ 
+3814383
+ 
+Titel:
+                
+RAMS analyse Uitvoerings Ontwerp
+ 
+DI 61 
+
+ 
+CCTV
+-
+camerasysteem en DBOS
+ 
+Versie: 
+            
+A
+ 
+ 
+Datum:            
+26
+-
+04
+-
+2012
+ 
+ 
+ 
+Croon Elektrotechniek B.V.
+ 
+12
+ 
+(
+23
+)
+ 
+ 
+ 
+5.3
+ 
+Systeemafbakening RAMS
+ 
+Ten behoeven van de RAMS analyse is er in 
+figuur 2 en 3 
+ 
+een afbakening getekend
+,
+ 
+waarin verduidelijkt 
+wordt welke componenten of input/outputs er 
+we
+l
+ 
+en welk 
+niet
+ 
+worden meegenomen
+ 
+in deze RAMS 
+analyse
+.
+ 
+Deze afbakening dient te worden aangevuld met de volgende op
+-
+ 
+en aanmerkingen:
+ 
+ 
+
+ 
+Energievoorziening 
+
+ 
+Het falen van DI 10 wordt niet meegenomen in deze RAMS analyse. Enkel 
+de dedicated componenten (zoal
+s voedingsblokken) welke actief zijn t.b.v. de deelinstallatie 
+CCTV en DBOS bevinden zich 
+binnen
+ 
+de afbakening van deze RAMS analyse. Het falen van DI 
+
+10 
+
+ 
+Energievo
+
+ 
+
+ 
+Transmissie 
+
+ 
+Het falen van DI 81 Intern Transmissienetwerk (waaronder het koppelvlak tussen 
+intern transmissienetwerk Croon/CCY en VIC
+-
+net Rijkswaterstaat), wordt niet meegenomen in 
+deze RAMS analyse. Dit is onderdeel van 
+de RAMS analyse van deelinstallatie 81 
+-
+ 
+Interne 
+Transmissie (Imandra ID 3814396). Enkel de dedicated componenten van welke actief zijn t.b.v. 
+de deelinstallatie CCTV en DBOS (zoals lokale switches welke enkel voor CCTV zijn geplaatst) 
+worden meegenomen in
+ 
+deze RAMS analyse. 
+ 
+
+ 
+Besturing 
+
+ 
+Het falen van DI 86 
+-
+ 
+
+
+
+ 
+
+(Imandra ID 3814397) behandelt het falen van de bestur
+ing inhoudelijk. 
+ 
+
+ 
+Lokale Bediening & Bewaking 
+
+ 
+Het falen van DI 81 Lokel Bediening en Bewaking valt buiten de 
+
+
+ 
+
+dedicated componenten van 
+Bediening en Bewaking voor CCTV en DBOS (zoals de videowall en controller) worden 
+meegenomen in deze RAMS analyse.
+ 
+
+ 
+VTTI Huis 
+
+ 
+Het falen van de klimaatinstallatie in de VTTI huisjes (DI 96) wordt behandeld in de 
+RAMS analyse van DI 41 Verkeerssignaleringsssyteem (Imandra ID 
+3814315)
+.  Hierdoor zal het 
+falen van DI 96 niet worden meegenomen in deze RAMS analyse
+ 
+5.4
+ 
+ 
+Systeem
+optimalisaties
+ 
+Er zijn geen systeemoptimalisaties bekeken.
+ 
+Imandra
+ 
+id.:
+    
+ 
+3814383
+ 
+Titel:
+                
+RAMS analyse Uitvoerings Ontwerp
+ 
+DI 61 
+
+ 
+CCTV
+-
+camerasysteem en DBOS
+ 
+Versie: 
+            
+A
+ 
+ 
+Datum:            
+26
+-
+04
+-
+2012
+ 
+ 
+ 
+Croon Elektrotechniek B.V.
+ 
+13
+ 
+(
+23
+)
+ 
+6
+ 
+Failure Mode Effect & Criticality Analysis
+ 
+6.1
+ 
+FMECA
+ 
+Ten behoeve van de faalwijzen van deze deelinstallatie is er een Failure Mode Effect & Criticality Analyse 
+uitgevoerd. 
+Deze analyse is te vinden in 
+
+
+ 
+CCTV
+-
+
+ 
+6.2
+ 
+Verificatie
+ 
+FME
+A 
+Eisen
+ 
+D
+O
+ 
+Vanuit de RAMS analyse in d
+e DO fase zijn verscheidene FME
+A eisen gesteld. 
+Deze eisen zijn 
+geverifieerd in de 
+Checklist
+. 
+Hieronder een samenvatting.
+ 
+ 
+FME
+A Eis DO
+ 
+ 
+FMEA Eis DO Beschrijving
+ 
+Geverifieerd UO
+ 
+Toelichting
+ 
+DSC
+-
+C7
+-
+320
+7
+ 
+
+dienen periodiek gereinigd te 
+worden
+ 
+
+ 
+Zie tabel 8 in hoofdstuk 8.1
+ 
+DSC
+-
+C7
+-
+320
+8
+ 
+
+de rijrichting mee 
+te worden 
+gepositioneerd.
+ 
+
+ 
+ 
+DSC
+-
+C7
+-
+32
+09
+ 
+Opdrachtnemer dient te 
+allen tijde toegang te hebben 
+tot CCTV beelden t.b.v. 
+functionele testen
+ 
+ 
+Aantoning eis verschuift naar 
+instandhouding.
+ 
+DSC
+-
+C7
+-
+321
+0
+ 
+Het creëren van voldoende 
+zichtoverlapping
+ 
+
+ 
+Zie document 
+
+Uitvoerings Ontwerp DI 61 
+
+ 
+CCTV
+-
+
+(Imandra ID 3814284)
+ 
+regel 61.1 en 61.28
+ 
+DSC
+-
+C7
+-
+321
+1
+ 
+Opeenvolgende CCTV 
+
+verschillende switches 
+aangesloten te worden
+ 
+
+ 
+
+Uitvoerings 
+Ontwerp DI 61 
+
+ 
+CCTV
+-
+
+(Imandra ID 3814284)
+ 
+regel 61.34,  61.35, 61.36, 61.37, 
+61.38, 61.7, 61.8, 61.9, 
+61.10,61.11.
+ 
+DSC
+-
+C7
+-
+321
+2
+ 
+Video Management Systeem 
+dient redundant uitgevoerd 
+te worden waarbij het falen 
+van één systeem geen 
+nega
+tieve gevolgen dient te 
+hebben voor het andere 
+(redundante) systeem
+ 
+
+ 
+
+Uitvoerings Ontwerp DI 61 
+
+ 
+CCTV
+-
+
+(Imandra ID 3814284)
+ 
+Regel 61.22, 61.48.
+ 
+DSC
+-
+C7
+-
+321
+3
+ 
+De verschillende 
+(redundante) bedienplekken 
+dienen fysiek gescheiden 
+installaties te zijn waarbij het 
+falen van één werkplek geen 
+negatief effect heeft op het 
+functioneren van de overige 
+(redundante) werkplek.
+ 
+
+ 
+
+Uitvoerings Ontwerp DI 61 
+
+ 
+CCTV
+-
+
+(Imandra ID 3814284)
+ 
+regel 61.18, 61.19, 61.20, 
+61.21,61.44, 61.45, 61.46.
+ 
+DSC
+-
+C7
+-
+321
+4
+ 
+Video Controller dient 
+redundant uitgevoerd te 
+worden waarbij het falen van 
+één systeem geen negatieve 
+gevolgen dient te hebben 
+voor het andere 
+(redundante) systeem. 
+ 
+
+ 
+
+Uitvoerings Ontwerp DI 61 
+
+ 
+CCTV
+-
+
+(Imandra ID 3814284)
+ 
+regel 61.18 en 61.44
+ 
+DSC
+-
+C7
+-
+321
+5
+ 
+Video Presentatie Systeem 
+dient redundant uitgevoerd 
+te worden waarbij het falen 
+van één systeem geen 
+negatieve 
+gevolgen dient te 
+ 
+Eis vervalt, functionaliteit is reeds 
+ondervangen in eis 
+DSC
+-
+C7
+-
+3215.
+ 
+Imandra
+ 
+id.:
+    
+ 
+3814383
+ 
+Titel:
+                
+RAMS analyse Uitvoerings Ontwerp
+ 
+DI 61 
+
+ 
+CCTV
+-
+camerasysteem en DBOS
+ 
+Versie: 
+            
+A
+ 
+ 
+Datum:            
+26
+-
+04
+-
+2012
+ 
+ 
+ 
+Croon Elektrotechniek B.V.
+ 
+14
+ 
+(
+23
+)
+ 
+hebben voor het andere 
+(redundante) systeem
+ 
+DSC
+-
+C7
+-
+321
+6
+ 
+MMI dient redundant 
+uitgevoerd te worden waarbij 
+het falen van één systeem 
+geen negatieve gevolgen 
+dient te he
+bben voor het 
+andere (redundante) 
+systeem
+ 
+
+ 
+
+Uitvoerings Ontwerp DI 61 
+
+ 
+CCTV
+-
+
+(Imandra ID 3814284)
+ 
+Regel 61.18, 61.19, 61.20, 
+61.21,61.44, 61.45, 61.46.
+ 
+DSC
+-
+C7
+-
+321
+7
+ 
+Redundante componenten in 
+het DBOS moeten 
+gescheiden opgesteld 
+worden. 
+ 
+ 
+Redundante componenten van 
+DBOS (DIVA) zijn niet gescheiden 
+opgesteld, zie hoofdstuk 5.2.
+ 
+DSC
+-
+C7
+-
+321
+8
+ 
+Harde schijven voor het 
+DBOS moeten op voorraad 
+liggen.
+ 
+
+ 
+Zie hoofstuk 8.2.
+ 
+DSC
+-
+C7
+-
+32
+19
+ 
+Het scherm, toetsenbord en 
+de muis moeten op voorraad 
+liggen allen COTS 
+componenten. of, er moet 
+een tweede werkplek ten 
+behoeve van het DBOS 
+worden geplaatst. Keuze 
+dient in het UO gemaakt te 
+worden.
+ 
+
+ 
+Zie hoofdstuk 8.2
+ 
+DSC
+-
+C7
+-
+322
+0
+ 
+De KVM moe
+t op voorraad 
+liggen. of, er moet een 
+tweede werkplek ten 
+behoeve van het DBOS 
+worden geplaatst. Keuze 
+dient in het UO gemaakt te 
+worden.
+ 
+
+ 
+De KVM (Video Extender HD) 
+wordt op voorraad gehouden. Zie 
+hoofdstuk 8.2, tabel 10.
+ 
+DSC
+-
+C7
+-
+322
+1
+ 
+Het gehele DBOS 
+moet 
+onafhankelijk redundant 
+uitgevoerd worden. of, Het 
+DBOS moet enkelvoudig 
+uitgevoerd worden. Keuze 
+dient in het UO gemaakt te 
+worden.
+ 
+
+ 
+Zie hoofdstuk 5.2
+ 
+Tabel 
+2
+ 
+
+ 
+FMEA Eisen DO aan UO
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Imandra
+ 
+id.:
+    
+ 
+3814383
+ 
+Titel:
+                
+RAMS analyse Uitvoerings Ontwerp
+ 
+DI 61 
+
+ 
+CCTV
+-
+camerasysteem en DBOS
+ 
+Versie: 
+            
+A
+ 
+ 
+Datum:            
+26
+-
+04
+-
+2012
+ 
+ 
+ 
+Croon Elektrotechniek B.V.
+ 
+15
+ 
+(
+23
+)
+ 
+7
+ 
+Faalkansanalyse
+ 
+7.1
+ 
+Verificatie 
+Input parameters
+ 
+In 
+de RAMS analyse van het CCTV
+-
+camerasysteen en DBOS zijn er in het DO betrouwbaarheidsgetallen 
+bepaald voor diverse kritieke componenten. In tabel 3 worden de gerealiseerde betrouwbaarheidsgetallen 
+van het UO geverifieerd t.o.v. het DO. 
+Hieruit is te herleiden dat er nagenoeg geen 
+betrouwbaarheidsgetallen zijn gesteld in het DO en daardoor dus ook niet overeenkomen met de 
+gerealiseerde waardes in het UO. Hierdoor is de faalkansanalyse uit het DO voor het UO niet valide en 
+dient deze opnie
+uw uitgevoerd te worden.
+ 
+ 
+Component
+ 
+MTBF waarde 
+geëist vanuit DO
+ 
+MTBF waarde 
+gerealiseerd 
+UO
+ 
+ 
+Toelichting
+ 
+CCTV Camera
+ 
+Niet opgenomen
+ 
+0,113766 (eens 
+per 8,78995 
+jaar)
+ 
+Zie bijlage 2
+ 
+Objectief
+ 
+Niet opgenomen
+ 
+0,0833 (eens 
+per 12 jaar)
+ 
+Zie bijlage 2
+ 
+Encoder
+ 
+Niet opgenomen
+ 
+0,0438 (eens 
+per 22,83 jaar)
+ 
+Zie bijlage 2
+ 
+Voeding 
+(Encoder/CCTV) 
+Wegtracé
+ 
+Niet opgenomen
+ 
+0,010977 (eens 
+per 91,095 jaar)
+ 
+Zie bijlage 2
+ 
+Voeding 
+(Encoder/CCTV) 
+Tunneltracé
+ 
+Niet opgenomen
+ 
+0,017382 (eens 
+per 57,53 jaar)
+ 
+Zie bijlage 2
+ 
+SFP 
+(Glasconversiemodu
+l
+e)
+ 
+Niet opgenomen
+ 
+0,002894 (eens 
+per 345,56 jaar)
+ 
+Zie bijlage 2
+ 
+DIVA
+ 
+Server
+ 
+Niet opgenomen
+ 
+0,2 (eens per 5 
+jaar)
+ 
+Zie bijlage 2
+ 
+Netwerkpoort 
+DIVA
+ 
+Niet opgenomen
+ 
+DBOS 
+DIVA
+ 
+Niet opgenomen
+ 
+Harde Schijf 
+DIVA
+ 
+0,2 (eens per 5 
+jaar)
+ 
+0,0073 (eens 
+per 136,98 jaar)
+ 
+Zie bijlage 2
+ 
+Videowall Controller
+ 
+1 (eens per jaar)
+ 
+0,2 (eens per 5 
+jaar)
+ 
+Zie bijlage 2
+ 
+
+ 
+Niet opgenomen
+ 
+0,1
+ 
+Dit betreft een aanname.
+ 
+Joystick
+ 
+Niet opgenomen
+ 
+0,058411 (eens 
+per 17,12 jaar)
+ 
+Zie bijlage 2
+ 
+Cisco 
+Switch 3750G
+-
+12S
+-
+S
+ 
+Niet opgenomen
+ 
+0,0407442 
+(eens per 
+ 
+24,54 jaar)
+ 
+ 
+Zie bijlage 2
+ 
+Cisco Switch 3750X
+-
+24T
+-
+S
+ 
+Niet opgenomen
+ 
+0,0461772 
+(eens per 21,65 
+jaar)
+ 
+Zie bijlage 2
+ 
+Cisco Switch 3750X
+-
+24S
+-
+S
+ 
+Niet opgenomen
+ 
+0,0535102 
+(eens per  
+18,688 jaar)
+ 
+Zie bijlage 
+2
+ 
+Voeding Cisco Switch 
+3750X
+ 
+Niet opgenomen
+ 
+0,015085
+ 
+(eens per 
+66,29 
+jaar)
+ 
+Zie bijlage 2
+ 
+User interface
+ 
+0.087 (eens per 
+11,4 jaar)
+ 
+Zie Videowall 
+controller
+ 
+Dit component is onderdeel van de 
+videowall controller
+ 
+KVM Computer
+ 
+1 (eens per jaar)
+ 
+Zie 
+Videowall 
+controller
+ 
+Dit component is onderdeel van de 
+videowall controller
+ 
+Imandra
+ 
+id.:
+    
+ 
+3814383
+ 
+Titel:
+                
+RAMS analyse Uitvoerings Ontwerp
+ 
+DI 61 
+
+ 
+CCTV
+-
+camerasysteem en DBOS
+ 
+Versie: 
+            
+A
+ 
+ 
+Datum:            
+26
+-
+04
+-
+2012
+ 
+ 
+ 
+Croon Elektrotechniek B.V.
+ 
+16
+ 
+(
+23
+)
+ 
+KVM User interface
+ 
+1 (eens per jaar)
+ 
+Zie Video 
+Extender HD
+ 
+Dit component is onderdeel van 
+Video 
+Extender HD.
+ 
+Software DBOS
+ 
+1 (eens per jaar)
+ 
+ 
+Buiten de scope van de RAMS 
+Analyse
+ 
+Video Extender HD
+ 
+(sender/receiver)
+ 
+Niet opgenomen
+ 
+ 
+Zie bijlage 2.
+ 
+PC Business Logica 
+Server
+ 
+Niet opgenomen
+ 
+0,122 (eens per 
+8,2 jaar)
+ 
+
+analyse Uitvoerings Ontwerp DI 86 
+
+ 
+
+ID  
+3814397
+). 
+MTBF 
+waarde is een totaal 
+waarde voor PC Business logica 
+Server, Intern Geheugen en Voeding.
+ 
+PC Business Logica 
+Intern Geheugen
+ 
+Niet opgenomen
+ 
+0,122 (Eens per 
+8,2 jaar)
+ 
+
+analyse Uitvoerings Ontwerp DI 86 
+
+ 
+
+3814397
+). 
+MTBF waarde is een totaal 
+waarde voor PC Business logica 
+Server, Intern Geheugen en Voeding.
+ 
+PC Business Logica 
+Voeding
+ 
+Niet opgenomen
+ 
+ 
+0,122 (
+eens per 
+8,2 jaar) (
+ 
+
+analyse Uitvoerings Ontwerp DI 86 
+
+ 
+
+3814397
+).
+ 
+MTBF waarde is een totaal 
+waarde voor PC Business logica 
+Server, Intern Geheugen en Voeding.
+ 
+Tabel 
+3
+ 
+
+ 
+Verificatie Input parameters DO
+ 
+7.2
+ 
+Verificatie FTA Eisen
+ 
+ 
+n.v.t.
+ 
+7.3
+ 
+Aannames structuur faalkansanalyse
+ 
+
+ 
+
+bestaat voor BK 17.1 uit één zichtpositie met de daaraan kritieke componenten welke invloed 
+hebben op functioneren van 
+enkel
+ 
+de desbetreffende zichtpositie. Voor 
+BK 17.2 bestaat de typical 
+uit één 12 opeenvolgende CCTV zichtposities waarbij er 6 zichtposities van de typical op één 
+(lokale) Cisco Switch 3750G wordt gepatched. In werkelijkheid verschilt het aantal CCTV 
+zichtposities welke wordt aangesloten op één (lo
+kale) Cisco Switch 3750G sterk waardoor er 
+hiervoor gekozen voor één gemiddeld aantal aangesloten CCTV
+-
+zichtposities op één Cisco 
+Switch.
+ 
+
+ 
+Nagenoeg alle CCTV
+-
+zichtposities van het wegtracé worden ook gebruikt ten behoeve van de 
+CCTV
+-
+zichtposities op bijzond
+ere objecten zoals CaDo, VeVa, Afsluitbomen etc. Hierdoor wordt 
+het functioneel falen van de CCTV
+-
+zichtposities op het wegtracé gelijk aan het functioneel falen 
+van de CCTV
+-
+zichtposities van de bijzondere objecten.
+ 
+
+ 
+Voor het modelleren van het faalscenario 
+van BK 
+17.1 en BK 17.2 is gekozen voor een worst
+-
+case scenario. Dit scenario houdt in dat er voor elke CCTV
+-
+zichtpositie zowel voor op het tunnel
+-
+ 
+en wegtracé als de objecten (zoals VeVa, CaDo etc) er één redundante CCTV
+-
+zichpositie 
+aanwezig is. In de werk
+elijkheid zijn voor specifieke zichtposities meerdere redundante CCTV
+-
+zichtposities aanwezig waardoor de werkelijke faalkans 
+beter
+ 
+zal zijn dan wat in het document 
+
+
+ 
+
+3814149
+) is 
+bepaald.
+ 
+
+ 
+Alhoewel het falen van de PTZ functionaliteit niet ten alle tijden hoeft te betekenen dat één CCTV 
+zichtpositie functioneel is gefaald, wordt er in de faalkansanalyse uitgegaan dat het falen van de 
+PTZ functionaliteit betekent dat een CCTV Zichtpositie fun
+ctioneel is gefaald.
+ 
+
+ 
+Alle (kritieke) componenten welke zich in de tunnelbuis bevinden of op een portaal/mast worden 
+
+periodieke geplande onderhoudsinterval van 3 ma
+anden. De MTTR is gelijk gesteld aan 5 uur 
+welke representatief is voor de beschikbare tijd tijdens een periodiek geplande onderhoudsbeurt.
+ 
+
+ 
+Alle overige (kritieke) componenten welke direct toegankelijk zijn zonder daarvoor een rijstrook
+-
+ 
+of 
+rijbaanafsluiti
+ng benodigd te hebben, worden gemodelleerd met een MTTR van 8 uur. 
+ 
+Imandra
+ 
+id.:
+    
+ 
+3814383
+ 
+Titel:
+                
+RAMS analyse Uitvoerings Ontwerp
+ 
+DI 61 
+
+ 
+CCTV
+-
+camerasysteem en DBOS
+ 
+Versie: 
+            
+A
+ 
+ 
+Datum:            
+26
+-
+04
+-
+2012
+ 
+ 
+ 
+Croon Elektrotechniek B.V.
+ 
+17
+ 
+(
+23
+)
+ 
+
+ 
+Voor BK 17.1 en BK 17.2 geldt dat het functioneel falen van de DBOS (DIVA) bij zal dragen aan 
+het optreden van de faaldefinities BK 17.1 en BK 17.2.
+ 
+
+ 
+Voor het functioneren van de lessenaren
+ 
+op de twee werkplekken (lokaal) wordt aangenomen dat 
+beide  werkplekken (met twee lessenaars) ten alle tijden beschikbaar en functioneel dienen te 
+zijn. Dit ten behoeve van een calamiteit, waarbij beide werkplekken en alle lessenaars 
+beschikbaar dienen te
+ 
+zijn.
+ 
+ 
+7.4
+ 
+Common Cause falen
+ 
+
+Dit common cause falen is toe te wijden aan stofvorming en/of vochtvorming binnen de behuizing van de 
+harde schijven. 
+ 
+7.5
+ 
+Faalkansan
+alyse
+ 
+De faalkansanalyse is opgesteld conform de in hoofdstuk 8 van het level 0 document (referentie) gestelde 
+methode. De faalkansanalyse welke met behulp van het programma Faulttree + van Isograph is opgesteld 
+i
+
+analyse Uitvoerings Ontwerp DI 61 
+
+ 
+CCTV
+-
+camerasysteem 
+
+ 
+7.6
+ 
+Beschikbaarheid & 
+Betrouwbaarheid
+ 
+Voor de deelinstallatie CCTV
+-
+camerasysteem en DBOS zijn in tabel 4,5,6,7 en 8 een samenvatting van de 
+beschikbaarheid en betrouwbaarheid 
+gegeven.
+ 
+ 
+BK 17.1
+ 
+Lokatie
+ 
+Niet
+-
+Beschikbaarheid 
+ 
+Faalfrequentie
+ 
+(per jaar)
+ 
+Coentunnel Oost 1
+ 
+9,55E
+-
+3
+ 
+0,2199
+ 
+Coentunnel Oost 2
+ 
+9,55E
+-
+3
+ 
+0,2199
+ 
+Coentunnel West 1
+ 
+8,956E
+-
+3
+ 
+0,2064
+ 
+Coentunnel West 2
+ 
+8,956E
+-
+3
+ 
+0,2064
+ 
+DBOS
+ 
+6,276E
+-
+4
+ 
+1,577E
+-
+2
+ 
+Totaal
+ 
+3,711E
+-
+2
+ 
+0,8438
+ 
+Tabel 
+4
+ 
+ 
+ 
+BK 17.2
+ 
+Lokatie
+ 
+Niet
+-
+Beschikbaarheid 
+ 
+Faalfrequentie
+ 
+(per jaar)
+ 
+Wegtracé 
+ 
+0,0514
+ 
+1,171
+ 
+DBOS
+ 
+6,276E
+-
+4
+ 
+1,577E
+-
+2
+ 
+Totaal
+ 
+0,05199
+ 
+1,185
+ 
+Tabel 
+5
+ 
+ 
+BK 17.3
+ 
+Lokatie
+ 
+Niet
+-
+Beschikbaarheid 
+ 
+Faalfrequentie
+ 
+(per jaar)
+ 
+Geen bediening Lokaal (in geval 
+van calamiteit
+ 
+8,369E
+-
+4
+ 
+0,916
+ 
+DBOS
+ 
+6,276E
+-
+4
+ 
+1,577E
+-
+2
+ 
+Totaal
+ 
+1,829E
+-
+3
+ 
+1,330
+ 
+Tabel 
+6
+ 
+PK 10.1
+ 
+Lokatie
+ 
+Niet
+-
+Beschikbaarheid 
+ 
+Faalfrequentie
+ 
+(per jaar)
+ 
+n.v.t.
+ 
+6,276E
+-
+4
+ 
+1,577E
+-
+2
+ 
+Tabel 
+7
+ 
+PK 10.2
+ 
+Lokatie
+ 
+Niet
+-
+Beschikbaarheid 
+ 
+Faalfrequentie
+ 
+(per jaar)
+ 
+n.v.t.
+ 
+6,276E
+-
+4
+ 
+1,577E
+-
+2
+ 
+Tabel 
+8
+ 
+Imandra
+ 
+id.:
+    
+ 
+3814383
+ 
+Titel:
+                
+RAMS analyse Uitvoerings Ontwerp
+ 
+DI 61 
+
+ 
+CCTV
+-
+camerasysteem en DBOS
+ 
+Versie: 
+            
+A
+ 
+ 
+Datum:            
+26
+-
+04
+-
+2012
+ 
+ 
+ 
+Croon Elektrotechniek B.V.
+ 
+18
+ 
+(
+23
+)
+ 
+8
+ 
+RAMS gedreven Onderhoudsconcepten
+ 
+8.1
+ 
+Testregime & inspecties
+ 
+Vanuit het document 
+
+FMECA Uitvoerings Ontwerp DI 
+61
+ 
+
+ 
+CCTV
+-
+
+ 
+(Imandra ID 
+3814284) 
+zijn in tabel 
+9
+ 
+eisen gesteld aan het onderhoud 
+en het onderhoudsproces in de exploitatiefase. 
+ 
+ 
+Eis
+ 
+Onderhoudsactie
+ 
+Beschrijving
+ 
+Interval
+ 
+Bron
+ 
+RAMSUO.61.1
+ 
+Reinigen lenzen 
+
+ 
+Het reinigen van de 
+CCTV cameralenzen 
+op het tunneltracé
+ 
+Eén keer 
+per 6 
+maanden
+ 
+
+FMECA 
+Uitvoerings Ontwerp DI 
+61
+ 
+
+ 
+CCTV
+-
+camerasysteem en 
+
+ 
+(
+Imandra
+ 
+ID 3814284)
+ 
+regel 61.2 , 
+ 
+RAMSUO.61.2
+ 
+Reinigen lenzen 
+
+ 
+Het reinigen
+ 
+van de 
+CCTV cameralenzen 
+op het wegtracé
+ 
+Eén keer 
+per 6 
+maanden
+ 
+
+FMECA 
+Uitvoerings Ontwerp DI 
+61
+ 
+
+ 
+CCTV
+-
+camerasysteem en 
+
+ 
+(Imandra ID 3814284) 
+Regel 61.29
+ 
+RAMSUO.61.3
+ 
+Testen PTZ 
+functionaliteit
+ 
+Het functioneel testen 
+van de PTZ 
+functionaliteit voor 
+
+wegtracé en 
+tunneltrace
+ 
+Een keer 
+per 6 
+maanden
+ 
+
+FMECA 
+Uitvoerings Ontwerp DI 
+61
+ 
+
+ 
+CCTV
+-
+camerasysteem en 
+
+ 
+(Imandra ID 3814284)
+ 
+Regel 61.3 en 61.30
+ 
+Tabel 
+9
+ 
+
+ 
+Eisen aan exploitatiefa
+se
+ 
+8.2
+ 
+Voorraadbeheer
+ 
+Met inachtneming van de 
+kritikaliteit
+, levertijd en frequentie van toepassing 
+van de verschillende
+ 
+component
+en in het CCTV
+-
+camerasysteen en DBOS
+, 
+bevat tabel 10 een lijst met componenten welke 
+minimaal op voorraad benodigd dienen te zijn 
+om de RAMS prestaties in hoofdstuk 7.6 te waarborgen. 
+Tabel 10 volgt uit de (probablistische) calculatie van de minimale benodigde voorraad uit Bijlage 3.
+ 
+ 
+Component
+ 
+Component code
+ 
+Minimale Voorraad benodigd
+ 
+CCTV Camera
+ 
+TK
+-
+C9510E
+ 
+2
+ 
+Objectief
+ 
+H16ZME
+-
+5P
+ 
+2
+ 
+Encoder
+ 
+C
+-
+50 E
+-
+MC
+ 
+1
+ 
+SFP 
+ 
+XSNet SFP MM/1310
+ 
+1
+ 
+Voeding CCTV/Encoder Wegtracé
+ 
+81.000.6322.0
+ 
+1
+ 
+Voeding CCTV/Encoder Tunneltracé
+ 
+81.000.6132.0
+ 
+1
+ 
+DIVA Client (Server, Netwerkpoort)
+ 
+NVH
+-
+2508
+-
+X
+ 
+1
+ 
+Videowall controller
+ 
+NVH
+-
+1500
+-
+EX
+ 
+1
+ 
+Harde schijf
+ 
+NVH
+-
+92TB
+ 
+1
+ 
+
+ 
+Onbekend
+ 
+1
+ 
+Joystick
+ 
+DCK1000
+ 
+1
+ 
+Video extender HD (Sender / 
+Receiver)
+ 
+EXT
+-
+HD
+-
+1000
+ 
+1
+ 
+Cisco Switch Catalyst 3750X
+-
+24T
+-
+S
+ 
+WS
+-
+C3750X
+-
+24T
+-
+S
+ 
+1
+ 
+Cisco Switch Catalyst 3750G
+-
+12S
+-
+S
+ 
+WS
+-
+C3750G
+-
+12S
+-
+S
+ 
+1
+ 
+Cisco Catalyst 3750X 
+-
+24S
+-
+S
+ 
+WS
+-
+C3750X
+-
+24S
+-
+S
+ 
+1
+ 
+PC 
+Business Logica Server
+ 
+470065
+-
+482HD
+ 
+1
+ 
+PC Business Logica Intern 
+Geheugen
+ 
+500662
+-
+B21
+ 
+1
+ 
+PC Business Logica Voeding
+ 
+503296
+-
+B21
+ 
+1
+ 
+Voeding Cisco Catalyst 3750X
+ 
+C3KX
+-
+PWR
+-
+350WAC
+ 
+1
+ 
+Tabel 
+10
+ 
+Minimal Benodigde Voorraad
+ 
+ 
+ 
+ 
+ 
+Imandra
+ 
+id.:
+    
+ 
+3814383
+ 
+Titel:
+                
+RAMS analyse Uitvoerings Ontwerp
+ 
+DI 61 
+
+ 
+CCTV
+-
+camerasysteem en DBOS
+ 
+Versie: 
+            
+A
+ 
+ 
+Datum:            
+26
+-
+04
+-
+2012
+ 
+ 
+ 
+Croon Elektrotechniek B.V.
+ 
+19
+ 
+(
+23
+)
+ 
+9
+ 
+Life Cycle Cost
+ 
+Trade
+-
+off
+ 
+n.v.t.
+ 
+Imandra
+ 
+id.:
+    
+ 
+3814383
+ 
+Titel:
+                
+RAMS analyse Uitvoerings Ontwerp
+ 
+DI 61 
+
+ 
+CCTV
+-
+camerasysteem en DBOS
+ 
+Versie: 
+            
+A
+ 
+ 
+Datum:            
+26
+-
+04
+-
+2012
+ 
+ 
+ 
+Croon Elektrotechniek B.V.
+ 
+20
+ 
+(
+23
+)
+ 
+Bijlage 1 Life
+-
+Cycle
+-
+Cost Trade
+-
+off
+ 
+ 
+Imandra
+ 
+id.:
+    
+ 
+3814383
+ 
+Titel:
+                
+RAMS analyse Uitvoerings Ontwerp
+ 
+DI 61 
+
+ 
+CCTV
+-
+camerasysteem en DBOS
+ 
+Versie: 
+            
+A
+ 
+ 
+Datum:            
+26
+-
+04
+-
+2012
+ 
+ 
+ 
+Croon Elektrotechniek B.V.
+ 
+21
+ 
+(
+23
+)
+ 
+Bijlage 2 MTBF lijst
+ 
+ 
+ 
+ 
+Imandra
+ 
+id.:
+    
+ 
+3814383
+ 
+Titel:
+                
+RAMS analyse Uitvoerings Ontwerp
+ 
+DI 61 
+
+ 
+CCTV
+-
+camerasysteem en DBOS
+ 
+Versie: 
+            
+A
+ 
+ 
+Datum:            
+26
+-
+04
+-
+2012
+ 
+ 
+ 
+Croon Elektrotechniek B.V.
+ 
+22
+ 
+(
+23
+)
+ 
+ 
+ 
+Imandra
+ 
+id.:
+    
+ 
+3814383
+ 
+Titel:
+                
+RAMS analyse Uitvoerings Ontwerp
+ 
+DI 61 
+
+ 
+CCTV
+-
+camerasysteem en DBOS
+ 
+Versie: 
+            
+A
+ 
+ 
+Datum:            
+26
+-
+04
+-
+2012
+ 
+ 
+ 
+Croon Elektrotechniek B.V.
+ 
+23
+ 
+(
+23
+)
+ 
+Bijlage 3 Minimale Benodigde Voorraad
+ 
+ 
+ 
+ 
+Minimale Benodigde Voorraad
+ 
+ 
+Component
+ 
+Component code
+ 
+MTBF (jaren)
+ 
+Aantal 
+ 
+Levertijd 
+(weken)
+ 
+Minimale 
+Voorraad 
+benodigd
+ 
+CCTV 
+Camera
+ 
+TK
+-
+C9510E
+ 
+8,79
+ 
+163
+*
+ 
+4
+ 
+2
+ 
+Objectief
+ 
+H16ZME
+-
+5P
+ 
+12
+ 
+163
+*
+ 
+4
+ 
+2
+ 
+Encoder
+ 
+C
+-
+50 E
+-
+MC
+ 
+22,83
+ 
+163
+*
+ 
+4
+ 
+1
+ 
+SFP 
+ 
+XSNet SFP MM/1310
+ 
+345,57
+ 
+163
+*
+ 
+4
+ 
+1
+ 
+Voeding CCTV/Encoder 
+Wegtracé
+ 
+81.000.6322.0
+ 
+91,095
+ 
+97
+*
+ 
+4
+ 
+1
+ 
+Voeding CCTV/Encoder 
+Tunneltracé
+ 
+81.000.6132.0
+ 
+57,53
+ 
+66
+*
+ 
+4
+ 
+1
+ 
+DIVA client (DBOS)
+ 
+NVH
+-
+2508
+-
+X
+ 
+5
+ 
+5
+ 
+4
+ 
+1
+ 
+Videowall controller
+ 
+NVH
+-
+1500
+-
+EX
+ 
+5
+ 
+2
+ 
+3
+ 
+1
+ 
+Harde schijf
+ 
+NVH
+-
+92TB
+ 
+136,98
+ 
+16
+ 
+3
+ 
+1
+ 
+
+ 
+Onbekend
+ 
+10
+*
+ 
+4
+ 
+4
+ 
+1
+ 
+Joystick
+ 
+DCK1000
+ 
+17,12
+ 
+2
+ 
+3
+ 
+1
+ 
+Video extender HD (Sender 
+/ Receiver)
+ 
+EXT
+-
+HD
+-
+1000
+ 
+20,0
+ 
+4
+ 
+3
+ 
+1
+ 
+Cisco 
+Switch Catalyst 
+3750X
+-
+24T
+-
+S
+ 
+WS
+-
+C3750X
+-
+24T
+-
+S
+ 
+21,66
+ 
+2
+ 
+2
+ 
+1
+ 
+Cisco Switch Catalyst 
+3750G
+-
+12S
+-
+S
+ 
+WS
+-
+C3750G
+-
+12S
+-
+S
+ 
+24,54
+ 
+8
+ 
+2
+ 
+1
+ 
+Cisco Catalyst 3750X 
+-
+24S
+-
+S
+ 
+WS
+-
+C3750X
+-
+24S
+-
+S
+ 
+18,69
+ 
+4
+ 
+2
+ 
+1
+ 
+Voeding Cisco Catalyst 
+3750X
+ 
+C3KX
+-
+PWR
+-
+350WAC
+ 
+66,29
+ 
+4
+ 
+2
+ 
+1
+ 
+PC Business Logica 
+Server
+ 
+470065
+-
+482HD
+ 
+8,2
+ 
+2
+ 
+2
+ 
+1
+ 
+PC Business Logica Intern 
+Geheugen
+ 
+500662
+-
+B21
+ 
+8,2
+ 
+2
+ 
+2
+ 
+1
+ 
+PC Business Logica 
+Voeding
+ 
+503296
+-
+B21
+ 
+8,2
+ 
+2
+ 
+2
+ 
+1
+ 
+* 
+Dit betreft een schatting
+ 

@@ -1,0 +1,2269 @@
+Revisie
+
+1.0
+
+Status
+
+Definitief
+
+Blad
+
+1 van 26
+
+Datum opgesteld
+
+19 augustus 2014
+
+Datum
+
+24 februari 2015
+
+Nummer
+
+1408-02305
+
+
+
+
+
+Revisie
+
+1.0
+
+Status
+
+Definitief
+
+Blad
+
+1 van 26
+
+Datum opgesteld
+
+19 augustus 2014
+
+Datum
+
+24 februari 2015
+
+Nummer
+
+1408-02305
+
+
+
+
+
+
+
+Revisie
+
+1.0
+
+Status
+
+Definitief
+
+Blad
+
+22 van 26
+
+Datum opgesteld
+
+19 augustus 2014
+
+Datum gewijzigd
+
+24 februari 2015
+
+Nummer
+
+1408-02305
+
+
+
+
+
+Revisie
+
+1.0
+
+Status
+
+Definitief
+
+Blad
+
+22 van 26
+
+Datum opgesteld
+
+19 augustus 2014
+
+Datum gewijzigd
+
+24 februari 2015
+
+Nummer
+
+1408-02305
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Datum opgesteld
+
+27 november 2012
+
+Datum gewijzigd
+
+27 november 2012
+
+Nummer
+
+1211-02434
+
+Revisie
+
+0.1
+
+Status
+
+Concept
+
+Blad
+
+19 van 26
+
+
+
+
+
+Datum opgesteld
+
+27 november 2012
+
+Datum gewijzigd
+
+27 november 2012
+
+Nummer
+
+1211-02434
+
+Revisie
+
+0.1
+
+Status
+
+Concept
+
+Blad
+
+19 van 26
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Datum opgesteld
+
+27 november 2012
+
+Datum gewijzigd
+
+24 februari 2015
+
+Nummer
+
+1048-02305
+
+Project
+
+80000015 A15 Maasvlakte - Vaanplein
+
+Revisie
+
+1.0
+
+Status
+
+Definitief
+
+Blad
+
+1 van 26
+
+
+
+
+
+
+
+Datum opgesteld
+
+27 november 2012
+
+Datum gewijzigd
+
+24 februari 2015
+
+Nummer
+
+1048-02305
+
+Project
+
+80000015 A15 Maasvlakte - Vaanplein
+
+Revisie
+
+1.0
+
+Status
+
+Definitief
+
+Blad
+
+1 van 26
+
+
+
+
+
+
+
+CS-A15 V.O.F.
+
+
+
+Schiemond 20-22
+
+3024 EE Rotterdam
+
+Postbus 6073
+
+3002 AB Rotterdam
+
+
+
+
+
+
+
+
+
+
+
+
+
+CS-A15 V.O.F.
+
+
+
+Schiemond 20-22
+
+3024 EE Rotterdam
+
+Postbus 6073
+
+3002 AB Rotterdam
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Datum opgesteld
+
+19 augustus 2014
+
+Datum gewijzigd
+
+24 februari 2015
+
+Nummer
+
+1408-02305
+
+Revisie
+
+1.0
+
+Projectdeel
+
+80000015-00000
+
+Status
+
+Definitief
+
+Blad
+
+1 van 26
+
+
+
+
+
+
+
+Datum opgesteld
+
+19 augustus 2014
+
+Datum gewijzigd
+
+24 februari 2015
+
+Nummer
+
+1408-02305
+
+Revisie
+
+1.0
+
+Projectdeel
+
+80000015-00000
+
+Status
+
+Definitief
+
+Blad
+
+1 van 26
+
+
+
+
+
+
+
+CS-A15 V.O.F.
+
+
+
+Schiemond 20-22
+
+3024 EE Rotterdam
+
+Postbus 6073
+
+3002 AB Rotterdam
+
+
+
+
+
+
+
+
+
+
+
+
+
+CS-A15 V.O.F.
+
+
+
+Schiemond 20-22
+
+3024 EE Rotterdam
+
+Postbus 6073
+
+3002 AB Rotterdam
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+RAMS dossier DE Laagspanningsverdeling BTI
+
+Auteur(s)
+
+J.A. (Jordi) Greeve
+B. (Bas) van Schie
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Autorisatie
+
+
+
+	Naam
+
+	
+
+	Functie
+
+	
+
+	Afdeling
+
+	
+
+	Handtekening
+
+	
+
+	Datum
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	B.G.C. van Schie
+
+	
+
+	RAMS Engineer
+
+	
+
+	AM
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	R.A. Riet
+
+	
+
+	Asset Manager
+
+	
+
+	AM
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	A.S. van de Graaf
+
+	
+
+	Verificatie
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	P.W.K. van Dam
+
+	
+
+	Eindverantwoordelijke
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+Document wijziging matrix
+
+
+
+
+Versie
+
+Beschrijving wijziging
+
+impact verandering
+
+
+
+
+
+klein
+
+groot
+
+0.1
+
+Initiële opzet Jordi Greeve
+
+
+
+X
+
+0.2
+
+Voltooiing door Bas van Schie
+
+
+
+X
+
+0.3
+
+Reviewcommentaar toegevoegd
+
+X
+
+
+
+0.4
+
+Reviewcommentaar verwerkt
+
+X
+
+
+
+1.0
+
+Eerste definiteve document
+
+X
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Afkortingenlijst
+
+Afkorting 
+
+Omschrijving
+
+BBV
+
+Bruto Beschikbaarheidsvergoeding
+
+BC
+
+Beschikbaarheidscorrectie
+
+BTI
+
+Brug Technische Installaties
+
+DBFM
+
+Design Build Finance and Maintain
+
+FMECA
+
+Failure Mode Effect and Criticality Analysis
+
+FTA
+
+Fault Tree Analysis
+
+Kog
+
+Kritische ondergrens
+
+LCC
+
+Life Cycle Cost
+
+MaVa
+
+Maasvlakte-Vaanplein 
+
+MDT
+
+Mean Down Time
+
+MTBF
+
+Mean Time Between Failures
+
+MTTM
+
+Mean Time To Maintain
+
+MTTF
+
+Mean Time To Failure
+
+MTTR
+
+Mean Time To Repair
+
+Nkog
+
+Niet kritische ondergrens
+
+NSA
+
+Noodstroomaggregaat
+
+PK
+
+Prestatiekorting
+
+PMS
+
+Performance Measurement System
+
+RAMS
+
+Reliability, Availability, Maintainability, Safety
+
+RCM
+
+Reliability centered maintenance
+
+RWS
+
+Rijkswaterstaat
+
+TBS
+
+Technisch Beheer Systeem
+
+TECC
+
+Technische-, Economische-, Compliance- en Commerciële veroudering
+
+TTI
+
+Tunnel Technical Installation
+
+TLC
+
+Total Lifecycle Cost
+
+UPS
+
+Uninteruptable Power Supply
+
+VVU
+
+Voertuig Verlies Uren 
+
+
+
+
+
+
+Conclusies 
+
+In dit document zijn de Faalkansen van het deelsysteem Laagspanningsverdeling geanalyseerd. De belangrijkste conclusies die naar voren komen uit deze analyses zijn:
+
+
+
+Wanneer de Laagspanningsverdeling faalt kan een (N)Kog onderschreden worden, afhankelijk van de op dat moment gevraagde functionele taak van deelinstallaties.
+
+
+
+Falen van het deelsysteem Laagspanningsverdeelinrichting zal gemiddeld eens per 19 jaar plaatsvinden. 
+
+
+
+
+
+
+
+Inhoud
+
+1	Document wijziging matrix	2
+
+2	Conclusies	4
+
+Inhoud	5
+
+3	Inleiding	6
+
+3.1	Doel RAMS dossier	6
+
+3.2	Doelgroep	6
+
+3.3	Opbouw document	6
+
+3.4	RAMS gerelateerde CSM-eisen	7
+
+4	Systeembeschrijving	9
+
+4.1	Functies (FBS)	9
+
+4.2	Functievervullers (SBS)	9
+
+4.3	Boeteregime	10
+
+4.4	Toepassingsgebied	11
+
+5	Faaldefinitie	12
+
+5.1	SMART Faaldefinitie	12
+
+5.2	Degeneratieniveaus	13
+
+5.3	Verificatieprocedure	13
+
+6	Systeemarchitectuur	14
+
+6.1	Systeemopbouw	14
+
+6.2	Systeemafbakening RAMS	15
+
+7	Failure Mode Effect & Criticality Analysis (FMECA)	17
+
+7.1	FMECA	17
+
+7.2	FMECA resultaten	17
+
+7.3	Verificatie FMECA beheersmaatregelen	17
+
+8	Faalkans	18
+
+8.1	Faalkansanalyse	18
+
+8.2	Aannames structuur faalkansanalyse	18
+
+8.3	Beschikbaarheid & Betrouwbaarheid	18
+
+9	RAMS optimalisaties	20
+
+10	RAMS gedreven Onderhoudsconcepten	21
+
+10.1	Onderhoudregime, testregime & inspecties	21
+
+10.2	Voorraadbeheer	21
+
+Bijlage 1 Life-Cycle-Cost Trade-off	22
+
+Bijlage 3 CSM-eisen	23
+
+Bijlage 4 Minimale Benodigde Voorraad	26
+
+
+
+Inleiding
+
+	Doel RAMS dossier
+
+Dit RAMS dossier heeft als doel de beschikbaarheid, betrouwbaarheid, onderhoudbaarheid en veiligheid (RAMS) op (N)kog-eis niveau, van de deelsysteem(s), inzichtelijk te maken voor de doelgroepen zoals omschreven in paragraaf 2.2. Tevens dient dit document tot doel de optimale RAMS prestaties vast te leggen. 
+
+
+
+Het RAMS dossier zal de ontwerpers ook ondersteunen in het geven van een onderbouwing van de door CS-A15 gestelde maintenance eisen (CSM-eisen).
+
+
+
+De CSM-eisen dienen de onderstaande doelstellingen te na te streven:
+
+Minimaliseren van veiligheidsrisico’s;
+
+Optimaliseren Beschikbaarheid en Betrouwbaarheid;
+
+Optimaliseren Life Cycle Costen (LCC) door het optimaliseren van investerings- en onderhoudskosten en het reduceren van Prestatiekortingen (PK, Beschikbaarheidscorrecties (BC) en wegafsluitingen.
+
+	Doelgroep
+
+Dit RAMS document is opgesteld voor de volgende doelgroepen:
+
+Ontwerpers van CS-A15
+
+Maintenance Engineer operatie CS-A15
+
+PMS 2.0 team A-Lanes (i.v.m. de betrouwbaarheidsanalyses)
+
+Management CS-A15
+
+	Opbouw document
+
+In dit document worden de verschillende aspecten welke betrokken zijn bij een RAMS-analyse behandeld. De volgende aspecten zullen in dit RAMS dossier worden gepresenteerd:
+
+
+
+Systeembeschrijving – Een beschrijving van de functie(s) (FBS) die de (deel)installatie vervult en welke (N)kog eis en bijbehorend boeteregime er op toepasbaar is. Verder wordt het gebied waarop de (deel)installatie (SBS) is toegepast gedefinieerd.
+
+
+
+Faaldefinitie – Een SMART-uitwerking van de uitgevoerde (N)kog analyses ((Niet)kritische ondergrens) en de bijbehorende faaldefinitie welke van toepassing is op de deelsysteem.
+
+
+
+Systeemarchitectuur – Een uitleg over de opbouw van de deelsysteem. Verder zal er (eventueel) enkele systeemoptimalisaties worden gegeven welke in hoofdstuk 5 verder worden uitgewerkt.
+
+
+
+Failure Mode Effect and Criticality Analysis (FMECA) – De uitgevoerde FMECA voor de betreffende deelsysteem. 
+
+
+
+Faalkansanalyse (FTA) – Een uitgewerkte faalkansanalyse (m.b.v. Faulttree+ van Isograph) met daarbij de uitgangspunten en input parameters. Inclusief betrouwbaarheid i.r.t. de (N)kog eisen en een overzicht van de beschikbaarheidsgevolgen (PK en BC)
+
+
+
+Risicogestuurd onderhoudsplan op basis van Reliability Centred Maintenance (RCM) – Een vanuit RAMS optiek gevormd onderhoudsplan.
+
+
+
+Life Cycle Cost analyse – Een trade-off op de Life-Cycle-Cost van de in hoofdstuk 9 opgesomde RAMS optimalisatie(s).
+
+
+
+Reservedelen strategie – Een overzicht van benodigde reservedelen inclusief onderbouwing van de gekozen strategie.
+
+
+
+	RAMS gerelateerde CSM-eisen
+
+Vanuit CS-A15 maintenance zijn de onderstaande CSM-eisen (CS-A15 Maintenance) opgesteld. Dit document dient als “hulpmiddel” om de aantoonbaarheid van deze eisen te borgen. In de Bijlage 3 staat per CSM-eis beschreven wanneer en op welke wijze de betreffende eis is geverifieerd, indien van toepassing met toelichting.
+
+
+
+CSM-2001-01
+
+FMECA 
+
+De laagspanningsverdeling van het BTI ontwerp dient middels een FMECA (Failure Mode Effect and Criticality Analyses) conform de NEN-EN 60812 geoptimaliseerd te worden ten aanzien van Kog-00104, Kog-00112, Kog-00114, Kog-00150, Nkog-00127, Nkog-00128, Nkog-00130, Nkog-00131, Nkog-00132, Nkog-00152, Nkog-00172, Nkog-00192
+
+CSM-2002-01
+
+FTA 
+
+Voor de laagspanningsvoorziening van het BTI ontwerp dient de betrouwbaarheid en de niet geplande onbeschikbaarheid berekend te worden middels FTA in het softwarepakket Fault Tree ++ ten aanzien van Kog-00104, Kog-00112, Kog-00114, Kog-00150, Nkog-00127, Nkog-00128, Nkog-00130, Nkog-00131, Nkog-00132, Nkog-00152, Nkog-00172, Nkog-00192.
+
+CSM-2003
+
+TTR 
+
+In elke ontwerpfase van BTI (VO-DO-DE) dient de TTR-tijd per component bepaald te worden.
+
+CSM-2004
+
+Reserveonderdelen
+
+In elke ontwerpfase van BTI (VO-DO-DE) dient per systeem bepaald te worden welke reserveonderdelen noodzakelijk zijn.
+
+CSM-2005
+
+MTBF
+
+In elke ontwerpfase van BTI (VO-DO-DE) dient de MTBF-tijd per component bepaald te worden.
+
+CSM-2006-01
+
+LCC
+
+De laagspanningsverdeling van de BTI dient op een optimale levensduur en betrouwbaarheid geselecteerd te zijn met behulp van een LCC (Life Cycle Cost) analyse ten aanzien van Kog-00104, Kog-00112, Kog-00114, Kog-00150, Nkog-00127, Nkog-00128, Nkog-00130, Nkog-00131, Nkog-00132, Nkog-00152, Nkog-00172, Nkog-00192.
+
+CSM-2007-01
+
+Niet enkelvoudig falen Kog
+
+Enkelvoudig falen van de laagspanningsvoorziening t.b.v. BTI mag niet leiden tot het onderscheiden van Kog-00104, Kog-00112, Kog-00114, Kog-00150.
+
+CSM-2008-01
+
+Niet enkelvoudig falen Nkog
+
+Enkelvoudig falen van de laagspanningsvoorziening t.b.v. BTI mag niet leiden tot het onderscheiden van Nkog-00127, Nkog-00128, Nkog-00130, Nkog-00131, Nkog-00132, Nkog-00152, Nkog-00172, Nkog-00192.
+
+CSM-2010-01
+
+Onderhoud zonder falen Kog
+
+De laagspanningsverdeling van de BTI dient onderhoudbaar te zijn zonder dat het systeem de ondergrens bereikt ten aanzien van Kog-00104, Kog-00112, Kog-00114, Kog-00150
+
+CSM-2017
+
+Storingsmelding
+
+Het ontwerp van de BTI dient te voorzien in de mogelijkheid tot het aanbieden van gedetailleerde storingsmeldingen en status- en conditie-informatie aan de service organisatie. 
+De informatie dient in overleg met de service organisatie bepaald te worden.
+
+CSM-2018
+
+Instellen grenswaarde
+
+Het ontwerp van de BTI dient te voorzien in de mogelijkheid om per faaldefinitie de attentiewaarde, signaleringswaarde, interventiewaarde en kritische waarde te bepalen ten aanzien van Kog-00104, Kog-00112, Kog-00113, Kog-00114, Kog-00150, Kog-00152, Nkog-00127, Nkog-00128, Nkog-00130, Nkog-00131, Nkog-00132, Nkog-00152, Nkog-00172, Nkog-00192.
+
+CSM-2021
+
+TTR
+
+De TTR-tijd van de BTI dient minimaal te zijn na melden van functioneel falen (= niet meer voldoen aan Kog-eis), bij falen op de Kog-eis per kwartier een virtuele wegafsluiting berekend worden. 
+Deze TTR-tijd is van toepassing op Kog-00104, Kog-00112, Kog-00113, Kog-00114, Kog-00150, Kog-00152.
+
+CSM-2023
+
+TTR
+
+De TTR-tijd van de BTI dient maximaal 6 uur te zijn na melden van functioneel falen (= niet meer voldoen aan Nkog eis), dit is inclusief logistieke tijd ( 2uur) diagnosetijd (1uur), hersteltijd (max 2uur) en testtijd (1uur)
+Deze TTR-tijd is van toepassing op NKog-00131 (shared)
+
+CSM-2024
+
+TTR
+
+De TTR-tijd van de BTI dient maximaal 8 uur te zijn na melden van functioneel falen (= niet meer voldoen aan Nkog eis), dit is inclusief logistieke tijd ( 2uur) diagnosetijd (1uur), hersteltijd (max 4uur) en testtijd (1uur)
+Deze TTR-tijd is van toepassing op NKog-00127, NKog-00128, NKog-00130, NKog-00152.
+
+CSM-2025
+
+TTR
+
+De TTR-tijd van de BTI dient maximaal 16 uur te zijn na melden van functioneel falen (= niet meer voldoen aan Nkog eis), dit is inclusief logistieke tijd ( 2uur) diagnosetijd (1uur), hersteltijd (max 12uur) en testtijd (1uur)
+Deze TTR-tijd is van toepassing op NKog-00192.
+
+CSM-2026
+
+TTR
+
+De TTR-tijd van de BTI dient maximaal 24 uur te zijn na melden van functioneel falen (= niet meer voldoen aan Nkog eis), dit is inclusief logistieke tijd ( 2uur) diagnosetijd (1uur), hersteltijd (max 20uur) en testtijd (1uur)
+Deze TTR-tijd is van toepassing op NKog-00132, NKog-00172
+
+
+
+	Systeembeschrijving
+
+De laagspanningsverdeling voorziet alle BTI deelsystemen van energie zodanig dat deze deelsystemen hun functie naar behoren kunnen uitvoeren.
+
+	Functies (FBS)
+
+Voor het deelsysteem laagspanningsverdeling BTI zijn er in het DO (ref. 1303-01119) de volgende functies benoemd, zie tabel 2.
+
+
+
+Eis
+
+Functie
+
+Functieomschrijving
+
+GbBb-00124
+
+Beschermen gebruikers BTI Nieuwe Botlekbrug tegen gevaarlijke spanning
+
+Gebruikers van de Brugtechnische installatie van de Nieuwe Botlekbrug dienen beschermd te worden tegen de gevolgen van zowel directe als indirecte aanraking van onderdelen die door een defect een gevaarlijke spanning voeren door deze onderdelen aan te sluiten op een aardingsinstallatie.
+
+GbBb-00125
+
+Beschermen installaties BTI tegen overspanning door blikseminslag.
+
+Installaties die vallen onder de Brugtechnische installatie van de Nieuwe Botlekbrug dienen beschermd te worden tegen de gevolgen van overspanning als gevolg van Blikseminslag.
+
+Tabel 2 – Geidentificeerde functie-eisen
+
+	Functievervullers (SBS)
+
+De functievervullers van het deelsysteem Laagspanningsverdeling zijn weergegeven in de tabel 3:
+
+
+
+
+
+Component
+
+Functie
+
+Klemmenkast
+
+Distributie van energie tussen inkomende lijn en onderliggende uitgaande lijnen.
+
+Energiemeter 
+(GMS APLUS)
+
+Monitoren van energieverbruik/kwaliteit van inkomende voeding 
+
+Hoofdschakelaar
+
+Spanningsloos schakelen van onderliggende energiedistributie bij onderhouds-werkzaamheden
+
+Netwachter
+
+Monitoren van aanwezigheid inkomende voeding 
+
+Lastschakelaar
+
+Spanningsloos schakelen van onderliggende groep
+
+Smeltzekering
+
+Beschermen tegen kortsluiting of overbelasting
+
+Overspanningsbeveiliging
+FLT-CP-PLUS-35-350
+
+Beschermen tegen overspanningen
+
+Voorbeveiliging overspanningsbeveiliging
+
+Opnemen  grote overspanningen
+
+24VDC Voedingseenheid (aangesloten op preferent)
+(1200S 24)
+
+Leveren van 24VDC aan onderliggende installaties
+
+24VDC Voedingseenheid (aangesloten op Niet-preferent)
+(1200S 24)
+
+Leveren van 24VDC aan onderliggende installaties
+
+Overspanningsbeveiliging / EMC
+(VAL-CP1S-350)
+
+Beveiligen tegen te hoge spanningen
+
+Spanningsschakelaar
+(OT16F4N2)
+
+Spanningsloos schakelen van een 24VDC voedingseenheid
+
+Condensator (2 st.)
+(DCM363U100DF2A)
+
+Opvangen schommelingen in voltage bij lokale kortsluiting
+
+Stroommeter
+(DIV96-E 60A/60MV)
+
+Meten van stroom
+
+Spanningsmeter
+(DIV96 0-40V)
+
+Meten van spanning
+
+Tabel 3 – Functievervulles DI Laagspanningsverdeling
+
+
+
+	Boeteregime
+
+Bij falen van de deelinstallatie laagspanningsverdeling BTI kunnen mogelijk zowel Kog- als Nkog-eisen onderschreden worden, afhankelijk van de deelinstallatie waarvan de voeding gefaald is.
+
+
+
+Kog-eis
+
+Kog-eis staat voor “kritische ondergrens”, dit is een (functionele) contracteis die omschreven is in de DBFM overeenkomst Bijlage 2, Annex 3, tabel 1: Beschikbaarheidseisen en Hersteltermijnen. Dit houdt in dat als de opdrachtnemer niet meer voldoet aan de gestelde Beschikbaarheidseis, gedurende de Hersteltermijn voor de in de Kog-eis aangegeven rijstrook(en) een beschikbaarheidsgevolg zal gelden. De in de Kog-eis aangegeven boetepunten worden pas toegewezen vanaf het moment dat de gestelde hersteltermijn weer wordt overschreden. Voor Kog-eisen gelden ook Beschikbaarheidskortingen (BK), dit is het bedrag dat toegekend wordt aan een Kwartier waarin sprake is van 1 of meerdere (virtuele) rijstrookafsluitingen.
+
+
+
+Nkog-eis
+
+Nkog staat voor niet kritische ondergrens, dit is een (functionele)contracteis die omschreven is in de DBFM overeenkomst Bijlage 2, Annex 3, tabel 2: Hersteltermijnen voor eisen die geen Beschikbaarheidseis zijn. Dit betekent dat op het moment dat de opdrachtnemer niet meer aan de gestelde Nkog-eisen kan voldoen, er een maximale hersteltermijn zal gelden. Tevens wordt de hoeveelheid boetepunten zoals aangegeven in tabel 2 direct aan de opdrachtnemer toegewezen. (Categorie 11) Als de Hersteltermijn langer duurt dan in de eis is aangegeven dan zal het aantal gestelde boetepunten * 1 worden opgelegd. (Categorie 12) Een boetepunt staat voor +/- 10.500,- euro korting op de bruto beschikbaarheidsvergoeding. 
+
+	Toepassingsgebied
+
+Deelsysteem laagspanningsverdeling BTI worden toegepast op de Nieuwe Botlekbrug op diverse locaties. In tabel 4 staat een overzicht van de toepassingslocaties en het betreffende type laagspanningsverdeling BTI (preferent of niet-preferent). Het verzorgen van 24 VDC is ook centraal geregeld op diverse locaties. Tabel 5 geeft de verschillende locaties waarbij 24 VDC aanwezig is.
+
+
+
+
+
+Niet preferente groepen
+
+Preferente groepen
+
+Locaties
+
+BTI
+
+Lichtkracht
+
+HVAC
+
+BTI
+
+Technisch gebouw westoever
+
+X
+
+X
+
+X
+
+X
+
+Pijler 30
+
+X
+
+X
+
+X
+
+X
+
+Pijler 40 west
+
+X
+
+X
+
+X
+
+X
+
+Pijler 40 oost
+
+X
+
+X
+
+X
+
+X
+
+Pijler 50
+
+X
+
+X
+
+X
+
+X
+
+Brugwachtersruimte
+
+X
+
+X
+
+X
+
+X
+
+Technisch gebouw oostoever
+
+X
+
+X
+
+X
+
+X
+
+Tabel 4 – Toepassingsgebied laaspanning
+
+
+
+
+
+24 VDC aangesloten op niet-preferent voeding
+
+24 VDC aangesloten op preferente voeding
+
+Locaties
+
+BTI
+
+BTI
+
+Technisch gebouw westoever
+
+X
+
+X
+
+Pijler 30
+
+X
+
+X
+
+Pijler 40 west
+
+X
+
+X
+
+Pijler 40 oost
+
+X
+
+X
+
+Pijler 50
+
+X
+
+X
+
+Technisch gebouw oostoever
+
+X
+
+X
+
+
+
+	Faaldefinitie
+
+Dit hoofdstuk beschrijft de faaldefinitie van het deelsysteem laagspanningsverdeling BTI. Tevens is in de paragraaf “verificatieprocedure” aangegeven hoe contractueel functionaliteit aantoonbaar gemaakt wordt tijdens de exploitatie fase.
+
+	SMART Faaldefinitie
+
+Het deelsysteem laagspanningsverdeling BTI heeft een (mogelijke) invloed op het onderschrijden van de onderstaande (N)Kog-eisen:
+
+
+
+Kog-00113
+
+De Infrastructuur RWS dient alleen wanneer hiertoe opdracht is verleend vanaf de bedienlocatie afgesloten te worden voor autosnelwegverkeer door het sluiten van één of meerdere slagbomen of het tonen van rood licht op één of meerdere landverkeersseinen.
+
+Nkog-00127 
+
+De vaarweggebruiker dient aangeroepen te kunnen worden door middel van een geluidsinstallatie met de gestelde STI waarden conform document "Specificatie Geluidssystemen verstaanbaarheid criteria voor geluidssystemen bij natte kunstwerken" vanaf de bedienlocatie(s). 
+
+Nkog-00128 
+
+De weggebruiker dient aangeroepen te kunnen worden door middel van een geluidsinstallatie met de gestelde STI waarden conform document "Specificatie Geluidssystemen verstaanbaarheid criteria voor geluidssystemen bij natte kunstwerken" vanaf de bedienlocatie(s). 
+
+Nkog-00130 
+
+Schouwen ten behoeve van de bediening dient conform NEN6787 plaats te kunnen vinden. 
+
+Nkog-00131 
+
+De nieuwe beweegbare brug dient bediend te kunnen worden vanuit de VMC-ZWN. 
+
+Nkog-00132 
+
+Schouwen ten behoeve van de bediening dient conform NEN6787 plaats te kunnen vinden. 
+
+Nkog-00133 
+
+De nieuwe beweegbare brug dient ter plaatse bediend te kunnen worden. 
+
+Nkog-00135 
+
+De tijd om te wisselen van de functie “faciliteren wegverkeer” naar de functie “faciliteren hoog scheepvaartverkeer” mag ten hoogste 200 seconden bedragen. 
+Het wisselen van functie begint met het onderbreken van het wegverkeer d.m.v. het inschakelen van de landverkeerseinen en eindigt met het vrijgeven van het hoge scheepvaartverkeer d.m.v. de scheepvaartseinen (tonen groen). 
+Het bepalen van deze procestijd moet gebeuren op basis van het deelprocesschema brug openen conform het document "Generieke beschrijving beweegbare brug". 
+Bij deze analyse dienen de volgende uitgangspunten te worden gehanteerd: 
+- ontruimingstijd op basis van een vrachtauto met een lengte van 18 m die rijdt met een snelheid van 50 km/u; 
+- een "visuele beoordelingstijd" van 2 s per visuele beoordeling. 
+
+Nkog-00136 
+
+De tijd om te wisselen van de functie “faciliteren hoog scheepvaartverkeer” naar de functie “faciliteren wegverkeer” mag ten hoogste 100 seconden bedragen. 
+Het wisselen van de functie begint met het onderbreken van het scheepvaartverkeer d.m.v. de scheepvaartseinen (tonen rood)en eindigt met het vrijgeven van het wegverkeer d.m.v. de landverkeerseinen (zijn gedoofd). 
+Het bepalen van deze procestijd moet gebeuren op basis van het deelprocesschema brug sluiten conform het document "Generieke beschrijving beweegbare brug". 
+Bij deze analyse dient per visuele beoordeling een "visuele beoordelingstijd" van 2 seconde te worden gehanteerd. 
+
+Nkog-00179 
+
+De beweegbare brug dient te voldoen aan alle succescriteria, zoals genoemd in paragraaf 4.5 van het document "Het functioneel falen van beweegbare bruggen en schutsluizen". 
+
+Nkog-00180 
+
+De beweegbare brug dient te voldoen aan alle succescriteria, zoals genoemd in paragraaf 4.7 van het document "Het functioneel falen van beweegbare bruggen en schutsluizen". 
+
+Nkog-00190 
+
+De tijd om te wisselen van de functie "faciliteren spoorwegverkeer" naar de functie "faciliteren hoog scheepvaartverkeer" dient zo kort mogelijk te zijn. 
+Het wisselen van de functie kan niet eerder beginnen dan nadat de functie "faciliteren spoorverkeer" is geblokkeerd en nadat de spoorweg ter plaatse van de brug, middels een door de spoorwegbeheerder te realiseren melding, is vrijgegeven. Het wisselen van de functie eindigt met het vrijgeven van het hoge scheepvaartverkeer d.m.v. de scheepvaartseinen (tonen groen). De tijd voor het fysiek openen van het val van de brug zelf dient maximaal 90 seconden bedragen. 
+
+Nkog-00231 
+
+De tijd om te wisselen van de functie "faciliteren hoog scheepvaartverkeer" naar de functie "faciliteren spoorwegverkeer" dient zo kort mogelijk te zijn. Het wisselen van de functie begint met het onderbreken van het hoge scheepvaartverkeer door middel van de scheepvaartseinen (tonen rood) en eindigt met het vrijgeven van het spoor richting spoorwegbeheerder. De tijd voor het fysiek sluiten van het val van de brug zelf mag maximaal 90 s. bedragen. 
+
+
+
+Of het deelsysteem laagspanningsverdeling BTI daadwerkelijk een bijdrage levert is afhankelijk van hoe de onderliggende deelsystemen op de laagspanningsverdeling zijn aangesloten. Voor het deelsysteem laagspanningsverdeling wordt echter wel een generieke faaldefinitie gehanteerd voor de laagspanningsverdeling:
+
+
+
+“…verbruikers gekoppeld aan dit systeem niet de juiste energietoevoer krijgen, waardoor de verbruikers niet hun functie uit kunnen voeren”.
+
+
+
+	Degeneratieniveaus 
+
+
+
+De Kritieke waarde van de deelinstallatie wordt bereikt indien een deelinstallatie wordt onderschreden. Deze is terug te vinden als faaldefinitie in de verschillende Prestatie Meet Systeem 2.0 documenten, welke in per (N)Kog in Relatics te vinden zijn.
+
+	Verificatieprocedure
+
+Zoals gesteld in hoofdstuk 4.1 heeft de laagspanningsverdeling BTI een ondersteunende functie t.b.v. de diverse deelsystemen. Indien het deelsysteem laagspanningsverdeling is gefaald, dan wordt dit kenbaar gemaakt door de diverse deelsystemen welke gebruik maken van de laagspanning. 
+
+	Systeemarchitectuur
+
+	Systeemopbouw
+
+
+
+De laagspanningsverdeling BTI bestaat uit twee type verdelingen: laagspanningsverdeling BTI gekoppeld aan preferente voeding en laagspanningsverdeling BTI gekoppeld aan niet-preferente voeding. Preferente voeding houdt in dat de voeding wordt geleverd uit de Brug Hef Installatie (BHI) welke wordt gevormd door netvoeding i.c.m. een UPS en NSA. Hierdoor zal bij wegvallen van de netvoeding (reguliere energievoorziening) alle onderliggende systemen zonder onderbreking worden gevoed. De niet-preferente voeding wordt gevoed vanuit  de Brug Hef Installatie (BHI) welke bestaat uit netvoeding i.c.m. NSA. Bij wegvallen van de netvoeding zullen de onderliggende installaties kortstondig (tot opstarten van NSA) niet worden gevoed. 
+
+
+
+De preferente voeding en niet-preferente voeding zijn vervolgens gekoppeld aan diverse groepen afnemers te weten:
+
+BTI (Brug Technische Installaties) Alle installaties welke een bijdrage hebben aan het (veilig) uitvoeren van het brugproces van de Nieuwe Botlekbrug.
+
+Lichtkracht Alle installaties welke verlichting verzorgen op de Nieuwe Botlekbrug 
+
+HVAC Het conditioneren van het klimaat in de technische en bedienruimten.
+
+
+
+
+
+Voor een verduidelijking van de opzet van de laagspanningsverdeling BTI, zie figuur 2.
+
+
+
+Ten behoeve van diverse afnemers welke gebruik maken van 24VDC is er een centraal aangelegd 24VDC levering. Dit centraal aangelegd systeem bestaat uit een redundante 24VDC voeding waarbij één 24VDC is aangesloten op de preferente voeding en één aangesloten op de niet-preferente voeding. Voor een verduidelijking van de opzet van de 24VDC levering, zie figuur 1.
+
+
+
+Figuur 1 – Systeem lay-out 24VDC verdeling
+
+
+
+Figuur 2 – Systeem lay-out Laagspanningsverdeling BTI
+
+	Systeemafbakening RAMS
+
+Ten behoeve van de RAMS-analyse is er in figuur 1 & 2 een afbakening getekend waarin verduidelijkt wordt welke componenten of input/output er wel en welke niet worden meegenomen. Hierbij dient de volgende opmerkingen worden meegenomen:
+
+Het leveren van preferent of niet-preferente voeding is de verantwoordelijkheid van A-Lanes A15 en valt daardoor buiten de scope van deze CS-A15 en daardoor ook de RAMS analyse. Indien de preferente en/of niet-preferente voeding wegvalt en dit resulteert in onderschrijden van diverse Nkog-eisen dan zullen de daarop volgende kosten worden belast aan A-Lanes A15.
+
+De smeltzekeringen en schakelaars voor de individuele groepen behoren tot de scope van de deelsystemen welke daarop aangesloten zijn.
+
+De laagspanningsverdeling BTI is (zo goed mogelijk) beschermd tegen overspanningen door bijvoorbeeld blikseminslag. Het risico dat een blikseminslag leidt tot falen van de blikseminstallatie wordt niet meegenomen in deze RAMS analyse.
+
+	Failure Mode Effect & Criticality Analysis (FMECA)
+
+	FMECA
+
+Voor elk (deel)systeem is een FMECA uitgevoerd met als doel de faalwijzen ten opzichte van de functionele eis te identificeren, te prioriteren en daar waar nodig het vaststellen van de beheersmaatregelen in zowel het ontwerp als in de onderhoudsstrategie. 
+
+
+
+Deze analyse is te vinden in het document ‘FMECA DE Laagspanningsverdeling BTI ‘ (1408-00736)
+
+	FMECA resultaten
+
+De resultaten komende uit de FMECA zijn vertaald een RPN (Risk Priority Number) 
+
+
+
+Onderstaand staat een overzicht gegeven van de RPN voor- en na beheersmaatregelen. 
+
+
+
+Het initiële DE-ontwerp voldoet aan het RPN budget waardoor er geen maatregelen zijn genomen.
+
+	Verificatie FMECA beheersmaatregelen 
+
+
+
+De beheersmaatregelen die naar voren komen uit de FMECA bestaan uit inspecties en tests of periodieke vervanging van de componenten. Deze zijn specifieker beschreven in Hoofdstuk 10 van dit document.
+
+	Faalkans
+
+	Faalkansanalyse
+
+In de faalkansanalyse is bepaald wat de niet-beschikbaarheid en faalfrequentie is van één groep van een desbetreffende laagspanningsverdeler en een 24VDC verdeler. De deelsystemen welke gebruik maken van de levering van laagspanning bepalen of het falen van één groep (of falen van een volledige laagspanningsverdeler) daadwerkelijk leidt tot het onderschrijden van desbetreffende Nkog-eisen. De foutenboom is te vinden in document “FTA laagspanningsverdeling BTI bij RAMS Dossier” (1409-01299).
+
+
+
+Component
+
+MTBF waarde (jaar)
+
+Faalfrequentie (per jaar)
+
+Lastschakelaar
+
+228,3
+
+0,00438
+
+24VDC Voedingseenheid
+
+14,6
+
+0,068
+
+Tabel 7 – Verificatie input parameters.
+
+	Aannames structuur faalkansanalyse
+
+In deze paragraaf zijn de aannames en de structuur van de faalkansanalyse weergegeven.
+
+
+
+Zoals gesteld in hoofdstuk 7.1 is bepaald wat de niet-beschikbaarheid en faalfrequentie is van één groep van een desbetreffende laagspanningsverdeler en groep van een 24VDC verdeler.
+
+Mogelijk falen van de laagspanningsverdeler (en de daarop aangesloten deelsystemen) door falende overspanningsbeveiliging wordt niet meegenomen in deze faalkansanalyse. Het preventief uitvoeren van het benodigd onderhoud (inspecties) wordt voldoende geacht om het risico hiervan te bagatelliseren. 
+
+Alle componenten vertonen constant faalgedrag.
+
+Falen door menselijk handelen is niet beschouwd in de analyse.
+
+Common cause failures zijn niet beschouwd in de analyse.
+
+Alle componenten zijn direct toegankelijk zonder daardoor een wegafsluiting benodigd te hebben. Of er vanuit de prestatie-eisen ((N)Kog-eisen) de brug bij onderhoud aan het laagspanningsverdeling ook beschikbaar is, is afhankelijk van de aangesloten deelsystemen en de desbetreffende (N)Kog-eisen.
+
+Alle componenten zijn op voorraad waardoor de MTTR 4 uur bedraagt.
+
+
+
+	Beschikbaarheid & Betrouwbaarheid 
+
+De resultaten omtrent de beschikbaarheid en betrouwbaarheid afkomstig uit het document ‘FTA Laagspanningsverdeling BTI bij RAMS Dossier’ (DMS nr. 1409-01299)’ zijn gepresenteerd in tabel 8.
+
+
+
+Locatie
+
+Niet-Beschikbaarheid 
+
+Faalfrequentie (per jaar)
+
+MTBF (jaar)
+
+24VDC levering (per verdeler)
+
+4,727E-7
+
+0,00012
+
+9366
+
+230V Preferent
+
+3,997E-7
+
+0,0088
+
+114,1
+
+Tabel 8 – Beschikbaarheid en betrouwbaarheid 
+
+
+
+In totaal zijn er 5 locaties waar energiedistrubutie van 24 VDC plaatsvindt. Gemiddeld zal dus eens per 9366/5=1873,2 jaar geen levering van 24 V zijn voor de BTI’s. 
+
+
+
+Er zijn 6 punten van Preferente energiedistributie, waardoor eens per 114,1/6= 19,0 jaar de preferente energiedistributie zal falen. Of dit een (N)kog onderschrijding tot gevolg heeft hangt af van de aangesloten deelinstallatie. 
+
+RAMS optimalisaties
+
+Doordat het ontwerp van deelinstallatie laagspanningsverdeling BTI zich reeds in de UO fase bevond bij het opstellen van dit RAMS Dossier, zijn er geen kwantitatieve RAMS optimalisaties doorgevoerd. 
+
+
+
+Door review van het ontwerp door AM zijn er wel kwalitatieve optimalisaties doorgevoerd in het ontwerp ten bate van de beschikbaarheid en onderhoudbaarheid van de deelinstallatie. Deze zijn te vinden in de reviewformulieren van de ontwerpdocumenten.
+
+
+
+Vanwege de vergevoderde fase van het ontwerp waarin geen grote aanpassingen gedaan zouden worden, is er geen Life Cycle Cost analyse uitgevoerd door Asset Management.
+
+	RAMS gedreven Onderhoudsconcepten
+
+	Onderhoudregime, testregime & inspecties
+
+Op basis van document ‘FMECA bij RAMS Dossier DE Laagspanningsverdeling BTI” (1408-02570) worden in tabel 9 eisen gesteld aan het onderhoud en het onderhoudsproces in de exploitatiefase. 
+
+
+
+Onderhoudsactie
+
+Beschrijving
+
+Interval
+
+Bron
+
+uitlezen storingsmeldingen onderhoudsclient
+
+
+
+Inloggen op onderhoudsclient om storingsmeldingen van afgelopen week uit te lezen.
+
+1 week
+
+1408-02570
+
+Inspectie condensatoren
+
+Visuele inspectie condensatoren
+
+ 1 jaar
+
+1408-02570
+
+Functionele inspectie/test werking overspannings-beveiliging (conform NEN 62305)
+
+Functionel inspectie/test werking overspannings-beveiliging (conform NEN 62305)
+
+2 jaar
+
+1408-02570
+
+Remplaceren smeltzekerheid
+
+Vervangen van smeltzekerheden
+
+7 jaar
+
+1408-02570
+
+Tabel 9 – RAMS eisen aan exploitatiefase.
+
+
+
+	Voorraadbeheer
+
+Met inachtneming van de kritikaliteit, levertijd en frequentie van toepassing van de verschillende componenten in Laagspanningsverdeling bevat tabel 10 een lijst met componenten welke minimaal op voorraad benodigd dienen te zijn om de RAMS prestaties in hoofdstuk 7 te waarborgen. Tabel 10 volgt uit de (probablistische) calculatie van de minimale benodigde voorraad welke in Bijlage 4 is opgenomen.
+
+
+
+Component
+
+Faalfrequentie (per jaar)
+
+Aantal componenten
+
+Aantal op voorraad
+
+Lastschakelaar 24 Vdc
+
+0,00438
+
+12
+
+2
+
+Lastschakelaar 230 Vac
+
+0,00438
+
+12
+
+2
+
+24Vdc Voedingseenheid
+
+0,068
+
+12
+
+2
+
+Tabel 10 – Minimale Benodigde Voorraad
+
+
+
+
+
+
+
+Bijlage 1 Life-Cycle-Cost Trade-off
+
+N.v.t
+
+
+
+Bijlage 3 CSM-eisen
+
+Eis
+
+Eistekst
+
+Voldoet
+
+Bewijs
+
+CSM-2001-01
+
+FMECA 
+
+De laagspanningsverdeling van het BTI ontwerp dient middels een FMECA (Failure Mode Effect and Criticality Analyses) conform de NEN-EN 60812 geoptimaliseerd te worden ten aanzien van Kog-00104, Kog-00112, Kog-00114, Kog-00150, Nkog-00127, Nkog-00128, Nkog-00130, Nkog-00131, Nkog-00132, Nkog-00152, Nkog-00172, Nkog-00192.
+
+Ja
+
+Zie document ‘FMECA DE Laagspanningsverdeling BTI’ (1408-00736)
+
+CSM-2002-01
+
+FTA 
+
+Voor de laagspanningsvoorziening van het BTI ontwerp dient de betrouwbaarheid en de niet geplande onbeschikbaarheid berekend te worden middels FTA in het softwarepakket Fault Tree ++ ten aanzien van Kog-00104, Kog-00112, Kog-00114, Kog-00150, Nkog-00127, Nkog-00128, Nkog-00130, Nkog-00131, Nkog-00132, Nkog-00152, Nkog-00172, Nkog-00192.
+
+Nee
+
+Er is een FTA gemaakt met FaultTree+, echter worden hierin niet alle in de eistekst genoemde Kog eisen beschouwd.
+
+CSM-2003
+
+TTR 
+
+In elke ontwerpfase van BTI (VO-DO-DE) dient de TTR-tijd per component bepaald te worden.
+
+Ja
+
+Zie document ‘FMECA DE Laagspanningsverdeling BTI’ (1408-00736)
+
+CSM-2004
+
+Reserveonderdelen
+
+In elke ontwerpfase van BTI (VO-DO-DE) dient per systeem bepaald te worden welke reserveonderdelen noodzakelijk zijn.
+
+Ja
+
+Zie hoofdstuk 9.2 van document ‘RAMS analyse DE Laagspanningsverdeling BTI’ (1408-00735)
+
+CSM-2005
+
+MTBF
+
+In elke ontwerpfase van BTI (VO-DO-DE) dient de MTBF-tijd per component bepaald te worden.
+
+Ja
+
+Zie hoofdstuk 7.1 van document ‘RAMS analyse DE Laagspanningsverdeling BTI’ (1408-00735)
+
+CSM-2006-01
+
+LCC
+
+De laagspanningsverdeling van de BTI dient op een optimale levensduur en betrouwbaarheid geselecteerd te zijn met behulp van een LCC (Life Cycle Cost) analyse ten aanzien van Kog-00104, Kog-00112, Kog-00114, Kog-00150, Nkog-00127, Nkog-00128, Nkog-00130, Nkog-00131, Nkog-00132, Nkog-00152, Nkog-00172, Nkog-00192.
+
+Nee
+
+Tijdens de ontwerpkeuze is er door het ontwerpteam geen Life-Cycle-Cost analyse uitgevoerd t.a.v. de verschillende ontwerpvarianten.
+
+CSM-2007-01
+
+Niet enkelvoudig falen Kog
+
+Enkelvoudig falen van de laagspanningsvoorziening t.b.v. BTI mag niet leiden tot het onderscheiden van Kog-00104, Kog-00112, Kog-00114, Kog-00150.
+
+Ja
+
+Zie document ‘FMECA DE Laagspanningsverdeling BTI’ (1408-00736)
+
+CSM-2008-01
+
+Niet enkelvoudig falen Nkog
+
+Enkelvoudig falen van de laagspanningsvoorziening t.b.v. BTI mag niet leiden tot het onderscheiden van Nkog-00127, Nkog-00128, Nkog-00130, Nkog-00131, Nkog-00132, Nkog-00152, Nkog-00172, Nkog-00192.
+
+Ja
+
+Zie document ‘FMECA DE Laagspanningsverdeling BTI’ (1408-00736)
+
+CSM-2010-01
+
+Onderhoud zonder falen Kog
+
+De laagspanningsverdeling van de BTI dient onderhoudbaar te zijn zonder dat het systeem de ondergrens bereikt ten aanzien van Kog-00104, Kog-00112, Kog-00114, Kog-00150
+
+Ja
+
+Zie document ‘FMECA DE Laagspanningsverdeling BTI’ (1408-00736)
+
+CSM-2017
+
+Storingsmelding
+
+Het ontwerp van de BTI dient te voorzien in de mogelijkheid tot het aanbieden van gedetailleerde storingsmeldingen en status- en conditie-informatie aan de service organisatie. 
+De informatie dient in overleg met de service organisatie bepaald te worden.
+
+Ja
+
+Zie document ‘FMECA DE Laagspanningsverdeling BTI’ (1408-00736)
+
+CSM-2018
+
+Instellen grenswaarde
+
+Het ontwerp van de BTI dient te voorzien in de mogelijkheid om per faaldefinitie de attentiewaarde, signaleringswaarde, interventiewaarde en kritische waarde te bepalen ten aanzien van Kog-00104, Kog-00112, Kog-00113, Kog-00114, Kog-00150, Kog-00152, Nkog-00127, Nkog-00128, Nkog-00130, Nkog-00131, Nkog-00132, Nkog-00152, Nkog-00172, Nkog-00192.
+
+Nee
+
+Er is per faaldefinitie slechts een kritieke waarde en een attentiewaarde vastgesteld. 
+
+CSM-2021
+
+TTR
+
+De TTR-tijd van de BTI dient minimaal te zijn na melden van functioneel falen (= niet meer voldoen aan Kog-eis), bij falen op de Kog-eis per kwartier een virtuele wegafsluiting berekend worden. 
+Deze TTR-tijd is van toepassing op Kog-00104, Kog-00112, Kog-00113, Kog-00114, Kog-00150, Kog-00152.
+
+Nee
+
+Dit dient beschreven te worden in het instandhoudingsplan
+
+CSM-2023
+
+TTR
+
+De TTR-tijd van de BTI dient maximaal 6 uur te zijn na melden van functioneel falen (= niet meer voldoen aan Nkog eis), dit is inclusief logistieke tijd ( 2uur) diagnosetijd (1uur), hersteltijd (max 2uur) en testtijd (1uur)
+Deze TTR-tijd is van toepassing op NKog-00131 (shared)
+
+Nee
+
+
+
+CSM-2024
+
+TTR
+
+De TTR-tijd van de BTI dient maximaal 8 uur te zijn na melden van functioneel falen (= niet meer voldoen aan Nkog eis), dit is inclusief logistieke tijd ( 2uur) diagnosetijd (1uur), hersteltijd (max 4uur) en testtijd (1uur)
+Deze TTR-tijd is van toepassing op NKog-00127, NKog-00128, NKog-00130, NKog-00152.
+
+Nee
+
+
+
+CSM-2025
+
+TTR
+
+De TTR-tijd van de BTI dient maximaal 16 uur te zijn na melden van functioneel falen (= niet meer voldoen aan Nkog eis), dit is inclusief logistieke tijd ( 2uur) diagnosetijd (1uur), hersteltijd (max 12uur) en testtijd (1uur)
+Deze TTR-tijd is van toepassing op NKog-00192.
+
+Nee
+
+
+
+CSM-2026
+
+TTR
+
+De TTR-tijd van de BTI dient maximaal 24 uur te zijn na melden van functioneel falen (= niet meer voldoen aan Nkog eis), dit is inclusief logistieke tijd ( 2uur) diagnosetijd (1uur), hersteltijd (max 20uur) en testtijd (1uur)
+Deze TTR-tijd is van toepassing op NKog-00132, NKog-00172
+
+Ja
+
+Zie document ‘FMECA DE Laagspanningsverdeling BTI’ (1408-00736)
+
+
+
+
+
+
+
+Bijlage 4 Minimale Benodigde Voorraad
+
+De beschikbaarheid van een systeem wordt vergroot door componenten die vervangen moeten worden in geval van storing op voorraad te hebben. Doordat de tijd van stilstand kleiner is wanneer een component op voorraad is, is de totale tijd van beschikbaarheid afhankelijk van de hoeveelheid componenten op voorraad; hoe meer componenten op voorraad, hoe kleiner de kans dat de voorraad op is. 
+
+
+
+De kans dat een gegeven aantal reserveonderdelen n opraakt, als functie van het aantal componenten m in het systeem, de faalfrequentie van de componenten  en de aanlevertijd van de componenten Ta, wordt berekend met:
+
+
+
+
+
+
+
+In de tabel hieronder zijn de ingevoerde parameters en de berekende waarden voor de verschillende componenten weergegeven.
+
+
+
+Component
+
+m (Aantal componenten) 
+
+n (Aantal in voorraad)
+
+ (Faalfrequentie per jaar)
+
+Ta
+
+Kans dat voorraad op is
+
+Lastschakelaar 24 Vdc
+
+12
+
+2
+
+0,00438
+
+0,0767
+
+0,008%
+
+Lastschakelaar 230 Vac
+
+12
+
+2
+
+0,00438
+
+0,0767
+
+0,008%
+
+24Vdc Voedingseenheid
+
+12
+
+2
+
+0,068
+
+0,0767
+
+0,188%
