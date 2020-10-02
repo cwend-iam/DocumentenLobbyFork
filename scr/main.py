@@ -55,7 +55,6 @@ for project in lijst_projecten:
 
             deelsysteem_nummer = document.GetDINumber(project)
 
-            # todo: onderstaande variabele proberen toe te voegen aan Class File of Document
             # Ophalen van de deelsysteem naam van toepassing
             deelsysteem_naam = document.GetDIName(deelsysteem_nummer)
 
