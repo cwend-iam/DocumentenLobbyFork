@@ -129,7 +129,9 @@ class Document(File):
         :return: het volledige pad naar het bestand en tevens de url van de hyperlink voor het openen in de browser.
         """
         standaard_deel_url = bestand_locaties.Standaard_url
-        hyperlink = f'{standaard_deel_url}/{project}/{self.folder}/{self.name + self.fileType}'
+        naam_split = f'{self.folder}'.split('\\')
+        folder_naam = naam_split[-1]
+        hyperlink = f'{standaard_deel_url}/{project}/{folder_naam}/{self.name + self.fileType}'
         hyperlink = hyperlink.replace(' ', '%20')
         return hyperlink
 

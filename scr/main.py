@@ -71,6 +71,7 @@ for project in lijst_projecten:
 
             # Genereren van het volledige pad naar de documenten (pad naar de cloud, niet naar lokale schijf)
             volle_pad_naar_cloud = document.path_to_hyperlink(project)
+            print(f'hyperlink = {volle_pad_naar_cloud}')
 
             # Samenstellen van de regel die wordt toegevoegd aan het dataframe
             new_record = pd.Series([document.name, document_type, document.documentClass, document.version,
