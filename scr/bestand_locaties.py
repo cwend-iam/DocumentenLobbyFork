@@ -30,7 +30,7 @@ centrale_opslag = text
 # Front end Opslag (MS_teams map
 user_path = os.path.join('C:\\Users', getpass.getuser())
 tbi_path = os.path.join(user_path, 'TBI Holding')
-Front_End_Opslag = os.path.join(tbi_path, 'Document Management Systeem - General')
+Front_End_Opslag = os.path.join(tbi_path, 'Documenten Lobby - General')
 
 # Specificatie back-end mappen/bestanden
 sbs_path = os.path.join(res_path, 'sbs')

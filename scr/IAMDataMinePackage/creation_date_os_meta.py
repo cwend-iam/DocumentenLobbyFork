@@ -1,7 +1,7 @@
 import os
 from datetime import datetime
 
-
+# todo: give_creation_date_meta aanpassen zodat pdfminer.six gebruikt wordt
 def creation_date_os_meta(path_to_file):
     """
     Geeft de datum waarop het document is gecreëerd.
