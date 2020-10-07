@@ -1,177 +1,178 @@
 ﻿Voorbeeld;Document klasse;Afkorting
-prestatieverklaring;Verklaring;V
-beleidsverklaring;Verklaring;V
+Prestatieverklaring;Verklaring;V
+Beleidsverklaring;Verklaring;V
 CE verklaring;Verklaring;V
-certificaat;Verklaring;V
-vergunning;Verklaring;V
-gebruikershandboek;Instructie;I
-handboek;Instructie;I
-handleiding;Instructie;I
-meetinstructie;Instructie;I
-montage instructie;Instructie;I
-onderhoudshandboek;Instructie;I
-veiligheidsinstructie;Instructie;I
-brief;Correspondentie;C
-notitie;Correspondentie;C
-fax;Correspondentie;C
-memo ;Correspondentie;C
-transmital;Correspondentie;C
-verzendbrief;Correspondentie;C
-klacht;Correspondentie;C
-agenda;Correspondentie;C
-blokdiagram;Diagram;D
-circuitdiagram;Diagram;D
-hoofdstroomcircuit diagram;Diagram;D
-instrument loop circuit diagram;Diagram;D
+Certificaat;Verklaring;V
+Vergunning;Verklaring;V
+Gebruikershandboek;Instructie;I
+Handboek;Instructie;I
+Handleiding;Instructie;I
+Meetinstructie;Instructie;I
+Montage instructie;Instructie;I
+Onderhoudshandboek;Instructie;I
+Veiligheidsinstructie;Instructie;I
+Tendercalculatie;Calculatie;Cal
+Brief;Correspondentie;C
+Notitie;Correspondentie;C
+Fax;Correspondentie;C
+Memo ;Correspondentie;C
+Transmital;Correspondentie;C
+Verzendbrief;Correspondentie;C
+Klacht;Correspondentie;C
+Agenda;Correspondentie;C
+Blokdiagram;Diagram;D
+Circuitdiagram;Diagram;D
+Hoofdstroomcircuit diagram;Diagram;D
+Instrument loop circuit diagram;Diagram;D
 IO circuit diagram;Diagram;D
-one-line diagram;Diagram;D
-schakeldiagram;Diagram;D
-selectiviteitsdiagram;Diagram;D
-stuurstroomcircuit diagram;Diagram;D
-aanvraagformulier;Formulier;F
-aanwijzingsformulier;Formulier;F
+One-line diagram;Diagram;D
+Schakeldiagram;Diagram;D
+Selectiviteitsdiagram;Diagram;D
+Stuurstroomcircuit diagram;Diagram;D
+Aanvraagformulier;Formulier;F
+Aanwijzingsformulier;Formulier;F
 Afwijking of Tekortkoming formulier;Formulier;F
-begeleidingsformulier;Formulier;F
-calibratieformulier;Formulier;F
-controleformulier;Formulier;F
-data-sheet;Formulier;F
-evaluatieformulier;Formulier;F
-formulier/template;Formulier;F
-klachten formulier;Formulier;F
-ongevalsregistratie formulier;Formulier;F
-opleveringsformulier;Formulier;F
-overdrachtsformulier;Formulier;F
-schade registratie formulier;Formulier;F
-storingenformulier;Formulier;F
-testformulieren;Formulier;F
-verwijderingsformulier;Formulier;F
-wijzigingsformulier;Formulier;F
+Begeleidingsformulier;Formulier;F
+Calibratieformulier;Formulier;F
+Controleformulier;Formulier;F
+Data-sheet;Formulier;F
+Evaluatieformulier;Formulier;F
+Formulier/template;Formulier;F
+Klachten formulier;Formulier;F
+Ongevalsregistratie formulier;Formulier;F
+Opleveringsformulier;Formulier;F
+Overdrachtsformulier;Formulier;F
+Schade registratie formulier;Formulier;F
+Storingenformulier;Formulier;F
+Testformulieren;Formulier;F
+Verwijderingsformulier;Formulier;F
+Wijzigingsformulier;Formulier;F
 VTW formulier;Formulier;F
-toetsingsformulier;Formulier;F
-aanvraagspecificatie;Lijst;L
-alarmlijst;Lijst;L
-apparatenlijst;Lijst;L
-armaturenlijst;Lijst;L
-calibratielijst;Lijst;L
-controlelijst;Lijst;L
-energiebalans;Lijst;L
-instrumentatielijst;Lijst;L
+Toetsingsformulier;Formulier;F
+Aanvraagspecificatie;Lijst;L
+Alarmlijst;Lijst;L
+Apparatenlijst;Lijst;L
+Armaturenlijst;Lijst;L
+Calibratielijst;Lijst;L
+Controlelijst;Lijst;L
+Energiebalans;Lijst;L
+Instrumentatielijst;Lijst;L
 IO-lijst;Lijst;L
-interfacespecificatie;Lijst;L
-issuelijst;Lijst;L
-kabeldoorvoersamenstellingslijst;Lijst;L
-kabellijst;Lijst;L
-kabelmeggerlijst;Lijst;L
-materiaallijst;Lijst;L
-naamplatenlijst;Lijst;L
-overzichtslijst;Lijst;L
-productspecificatie;Lijst;L
-register;Lijst;L
-reservedelenlijst;Lijst;L
-restpuntenlijst;Lijst;L
-risicolijst;Lijst;L
-symbolenlijst;Lijst;L
-systeemspecificatie;Lijst;L
-tekeningenlijst;Lijst;L
-kabelbon;Lijst;L
-verzendlijst;Lijst;L
-bindende internationale norm;Norm & richtlijn;N
-bindende nationale norm;Norm & richtlijn;N
-bindende richtlijn;Norm & richtlijn;N
-niet bindende internationale norm;Norm & richtlijn;N
-niet bindende nationale norm;Norm & richtlijn;N
-niet bindende richtlijn;Norm & richtlijn;N
-contract;Overeenkomst;O
-inkooporder;Overeenkomst;O
-opdracht tot levering;Overeenkomst;O
-order;Overeenkomst;O
-overeenkomst;Overeenkomst;O
-verzekering;Overeenkomst;O
-offerte;Handelsdocument;H
-factuur;Handelsdocument;H
-offerte aanvraag;Handelsdocument;H
-e-mail;E-mail;E
-activiteitenplan;Plan;P
-beheersplan;Plan;P
-bewegwijzeringsplan;Plan;P
+Interfacespecificatie;Lijst;L
+Issuelijst;Lijst;L
+Kabeldoorvoersamenstellingslijst;Lijst;L
+Kabellijst;Lijst;L
+Kabelmeggerlijst;Lijst;L
+Materiaallijst;Lijst;L
+Naamplatenlijst;Lijst;L
+Overzichtslijst;Lijst;L
+Productspecificatie;Lijst;L
+Register;Lijst;L
+Reservedelenlijst;Lijst;L
+Restpuntenlijst;Lijst;L
+Risicolijst;Lijst;L
+Symbolenlijst;Lijst;L
+Systeemspecificatie;Lijst;L
+Tekeningenlijst;Lijst;L
+Kabelbon;Lijst;L
+Verzendlijst;Lijst;L
+Bindende internationale norm;Norm & richtlijn;N
+Bindende nationale norm;Norm & richtlijn;N
+Bindende richtlijn;Norm & richtlijn;N
+Niet bindende internationale norm;Norm & richtlijn;N
+Niet bindende nationale norm;Norm & richtlijn;N
+Niet bindende richtlijn;Norm & richtlijn;N
+Contract;Overeenkomst;O
+Inkooporder;Overeenkomst;O
+Opdracht tot levering;Overeenkomst;O
+Order;Overeenkomst;O
+Overeenkomst;Overeenkomst;O
+Verzekering;Overeenkomst;O
+Offerte;Handelsdocument;H
+Factuur;Handelsdocument;H
+Offerte aanvraag;Handelsdocument;H
+E-mail;E-mail;E
+Activiteitenplan;Plan;P
+Beheersplan;Plan;P
+Bewegwijzeringsplan;Plan;P
 BLVC-plan;Plan;P
-calamiteitenplan;Plan;P
-deelplan;Plan;P
-documentmanagementplan;Plan;P
-faseringsplan;Plan;P
-grondstromenplan;Plan;P
-informatiebehoefteplan;Plan;P
-inspectieplan;Plan;P
-keuringsplan;Plan;P
-mijlpalenplan;Plan;P
-ombouwplan;Plan;P
-onderhoudsplan;Plan;P
-ontwerpplan;Plan;P
-planning;Plan;P
-plan van aanpak;Plan;P
-procedure;Plan;P
-projectmanagementplan;Plan;P
-publiciteitsplan;Plan;P
-risicobeheersplan;Plan;P
-testplan;Plan;P
-uitvoeringsplan;Plan;P
+Calamiteitenplan;Plan;P
+Deelplan;Plan;P
+Documentmanagementplan;Plan;P
+Faseringsplan;Plan;P
+Grondstromenplan;Plan;P
+Informatiebehoefteplan;Plan;P
+Inspectieplan;Plan;P
+Keuringsplan;Plan;P
+Mijlpalenplan;Plan;P
+Ombouwplan;Plan;P
+Onderhoudsplan;Plan;P
+Ontwerpplan;Plan;P
+Planning;Plan;P
+Plan van aanpak;Plan;P
+Procedure;Plan;P
+Projectmanagementplan;Plan;P
+Publiciteitsplan;Plan;P
+Risicobeheersplan;Plan;P
+Testplan;Plan;P
+Uitvoeringsplan;Plan;P
 V&G plan;Plan;P
-verificatieplan;Plan;P
-werkplan;Plan;P
-afname rapport;Rapport;R
+Verificatieplan;Plan;P
+Werkplan;Plan;P
+Afname rapport;Rapport;R
 Afwijkinsrapport;Rapport;R
-begrotingsrapport;Rapport;R
-beproevingsrapport;Rapport;R
-berekeningsrapport;Rapport;R
-calculatierappport;Rapport;R
-herstelrapport;Rapport;R
-meetrapport;Rapport;R
-ontwerprapport;Rapport;R
-schaderapport;Rapport;R
-schadetaxatierapport;Rapport;R
+Begrotingsrapport;Rapport;R
+Beproevingsrapport;Rapport;R
+Berekeningsrapport;Rapport;R
+Calculatierappport;Rapport;R
+Herstelrapport;Rapport;R
+Meetrapport;Rapport;R
+Ontwerprapport;Rapport;R
+Schaderapport;Rapport;R
+Schadetaxatierapport;Rapport;R
 Tekortkomingsrapport;Rapport;R
-template rapport;Rapport;R
-testrapport;Rapport;R
-validatierapport;Rapport;R
-voortgangsrapportage;Rapport;R
-verslag;Rapport;R
-verificatiematrix;Rapport;R
+Template rapport;Rapport;R
+Testrapport;Rapport;R
+Validatierapport;Rapport;R
+Voortgangsrapportage;Rapport;R
+Verslag;Rapport;R
+Verificatiematrix;Rapport;R
 FMECA;Rapport;R
 RAMS;Rapport;R
 Faalkansanalyse;Rapport;R
-aansluitschema;Schema;S
-beslissingsschema;Schema;S
-betalingsschema;Schema;S
-blok- principeschema;Schema;S
-configuratieschema;Schema;S
-grondschema;Schema;S
-installatieschema;Schema;S
-leidingschema;Schema;S
-logicaschema;Schema;S
-organisatieschema;Schema;S
-proces flow schema;Schema;S
-stroomkringschema;Schema;S
-aanzichtstekening;Tekening;T
-aardingstekening;Tekening;T
-bebordingstekening;Tekening;T
-constructietekening;Tekening;T
-doorsnedetekening;Tekening;T
-frontaanzichttekening;Tekening;T
-fundatie tekening;Tekening;T
-installatietekening;Tekening;T
-kabelbaantekening;Tekening;T
-kabellooptekening;Tekening;T
-kastindelingstekening;Tekening;T
-klemmenstrooktekening;Tekening;T
-langsprofieltekening ;Tekening;T
-maatvoeringstekening;Tekening;T
-ontwerptekening;Tekening;T
-plattegrond tekening;Tekening;T
-sparings- en instorttekening;Tekening;T
-terreintekening;Tekening;T
-vormtekening;Tekening;T
-wapeningstekening;Tekening;T
-zone-indelingstekening;Tekening;T
-presentatie;Beeldmateriaal;B
-foto;Beeldmateriaal;B
-film;Beeldmateriaal;B
+Aansluitschema;Schema;S
+Beslissingsschema;Schema;S
+Betalingsschema;Schema;S
+Blok- principeschema;Schema;S
+Configuratieschema;Schema;S
+Grondschema;Schema;S
+Installatieschema;Schema;S
+Leidingschema;Schema;S
+Logicaschema;Schema;S
+Organisatieschema;Schema;S
+Proces flow schema;Schema;S
+Stroomkringschema;Schema;S
+Aanzichtstekening;Tekening;T
+Aardingstekening;Tekening;T
+Bebordingstekening;Tekening;T
+Constructietekening;Tekening;T
+Doorsnedetekening;Tekening;T
+Frontaanzichttekening;Tekening;T
+Fundatie tekening;Tekening;T
+Installatietekening;Tekening;T
+Kabelbaantekening;Tekening;T
+Kabellooptekening;Tekening;T
+Kastindelingstekening;Tekening;T
+Klemmenstrooktekening;Tekening;T
+Langsprofieltekening ;Tekening;T
+Maatvoeringstekening;Tekening;T
+Ontwerptekening;Tekening;T
+Plattegrond tekening;Tekening;T
+Sparings- en instorttekening;Tekening;T
+Terreintekening;Tekening;T
+Vormtekening;Tekening;T
+Wapeningstekening;Tekening;T
+Zone-indelingstekening;Tekening;T
+Presentatie;Beeldmateriaal;B
+Foto;Beeldmateriaal;B
+Film;Beeldmateriaal;B
