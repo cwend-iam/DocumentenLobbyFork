@@ -77,19 +77,24 @@ class File:
                 return clean_modified_date
 
         elif '.xlsx' in path_to_file:
-            wb = openpyxl.load_workbook(path_to_file, read_only=True)
+            try:
+                wb = openpyxl.load_workbook(path_to_file, read_only=True)
 
-            raw_data = wb.properties.modified
-            raw_data = str(raw_data).split(" ")
+                raw_data = wb.properties.modified
+                raw_data = str(raw_data).split(" ")
 
-            r_data = raw_data[0]
+                r_data = raw_data[0]
 
-            yyyy = r_data[:4]
-            mm = r_data[5:7]
-            dd = r_data[8:10]
+                yyyy = r_data[:4]
+                mm = r_data[5:7]
+                dd = r_data[8:10]
 
-            clean_modified_date = dd + '-' + mm + '-' + yyyy
-            return clean_modified_date
+                clean_modified_date = dd + '-' + mm + '-' + yyyy
+                return clean_modified_date
+
+            except:
+                clean_creation_date = creation_date_os_meta(path_to_file)
+                return clean_creation_date
 
         elif '.xls' in path_to_file and '.xlsx' not in path_to_file:
             clean_modified_date = last_modification_os_meta(path_to_file)
@@ -148,19 +153,24 @@ class File:
                 return clean_creation_date
 
         elif '.xlsx' in path_to_file:
-            wb = openpyxl.load_workbook(path_to_file, read_only=True)
+            try:
+                wb = openpyxl.load_workbook(path_to_file, read_only=True)
 
-            raw_data = wb.properties.created
-            raw_data = str(raw_data).split(" ")
+                raw_data = wb.properties.created
+                raw_data = str(raw_data).split(" ")
 
-            r_data = raw_data[0]
+                r_data = raw_data[0]
 
-            yyyy = r_data[:4]
-            mm = r_data[5:7]
-            dd = r_data[8:10]
+                yyyy = r_data[:4]
+                mm = r_data[5:7]
+                dd = r_data[8:10]
 
-            clean_creation_date = dd + '-' + mm + '-' + yyyy
-            return clean_creation_date
+                clean_creation_date = dd + '-' + mm + '-' + yyyy
+                return clean_creation_date
+
+            except:
+                clean_creation_date = creation_date_os_meta(path_to_file)
+                return clean_creation_date
 
         elif '.xls' in path_to_file and '.xlsx' not in path_to_file:
             clean_creation_date = creation_date_os_meta(path_to_file)
