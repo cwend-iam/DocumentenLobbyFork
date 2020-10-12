@@ -223,15 +223,17 @@ class Document(File):
             # Geeft de titel uit de Documenten Lobby (dl) zonder '.xlsx' en hoofdletters
             title_dl = str(file_name).lower()
             title_dl = title_dl.replace('.xlsx', '')
-
             # Zoeken naar 'v' gevolgd door digit in bestandsnaam
             if re.search(r'(?<=v)\d', title_dl):
                 index_v = title_dl.find('v')
                 # Controleren of de naam eindigd op digit. Als dit zo is, is het het laatste getal van versie nummer
                 if not re.search(r'\d$', title_dl):
-                    if re.search(r'(?<=.)\d', title_dl):
+                    if re.search(r'(?<=[.])\d', title_dl):
                         index_punt = title_dl.find('.')
                         versie = title_dl[index_v + 1:index_punt + 2]  # 'v2' of 'v2.0' ==> '2' of '2.0'
+                        return versie
+                    else:
+                        versie = title_dl[index_v + 1::]  # 'v2' of 'v2.0' ==> '2' of '2.0'
                         return versie
                 else:
                     versie = title_dl[index_v + 1::]  # 'v2' of 'v2.0' ==> '2' of '2.0'
@@ -254,17 +256,23 @@ class Document(File):
                 probs = wb.properties
                 # Van de properties de titel van het document isoleren
                 title = probs.title
-                # Zoeken naar een 'v' gevolgd door een digit
-                if re.search(r'(?<=v)\d', title):
-                    # Index van de letter bepalen
-                    index_v = title.find('v')
-                    # Itereren vanaf de index van de letter
-                    for i in range(index_v, len(title)):
-                        # Notaties 'v2' of 'v2.0' eindigen beide op ' '(spatie)
-                        if title[i] == ' ':
-                            versie = title[index_v + 1:i]  # 'v2' of 'v2.0' ==> '2' of '2.0'
-                            return versie
-                # Geen enkele opdracht is gelukt, dus ga uit van geen versie nummer ==> versie = 'onbekend'
+                # Controleren of title in de properties is gegeven
+                if title is not None:
+                    # Zoeken naar een 'v' gevolgd door een digit
+                    if re.search(r'(?<=v)\d', title):
+                        # Index van de letter bepalen
+                        index_v = title.find('v')
+                        # Itereren vanaf de index van de letter
+                        for i in range(index_v, len(title)):
+                            # Notaties 'v2' of 'v2.0' eindigen beide op ' '(spatie)
+                            if title[i] == ' ':
+                                versie = title[index_v + 1:i]  # 'v2' of 'v2.0' ==> '2' of '2.0'
+                                return versie
+                    # Geen enkele opdracht is gelukt, dus ga uit van geen versie nummer ==> versie = 'onbekend'
+                    else:
+                        versie = 'Geen versienummer bekend'
+                        return versie
+                # Als title is None
                 else:
                     versie = 'Geen versienummer bekend'
                     return versie
