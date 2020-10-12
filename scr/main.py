@@ -7,7 +7,6 @@ import IAMDataMinePackage
 import bestand_locaties
 from export_dataframe import Export_data
 
-# todo: Naamgeving optimaliseren (sommige namen maken het moeilijker te begrijpen wat de code doet)
 # todo: voor gehele project: comments toevoegen (dus ook in classes)
 
 print('Script is gestart \n{}'.format("-"*50))
@@ -78,7 +77,6 @@ for project in lijst_projecten:
 
                 # Genereren van het volledige pad naar de documenten (pad naar de cloud, niet naar lokale schijf)
                 volle_pad_naar_cloud = document.path_to_hyperlink(project)
-                print(f'hyperlink = {volle_pad_naar_cloud}')
 
                 # Samenstellen van de regel die wordt toegevoegd aan het dataframe
                 new_record = pd.Series([document.name, document_type, document.documentClass, document.version,
@@ -92,5 +90,5 @@ for project in lijst_projecten:
 
 print('Done..')
 # Exporteren van het DataFrame
-# IAMDataMinePackage.auto_export(Export_data)
-IAMDataMinePackage.test_export(Export_data)
+IAMDataMinePackage.auto_export(Export_data)
+# IAMDataMinePackage.test_export(Export_data)
