@@ -12,15 +12,21 @@ from export_dataframe import Export_data
 print('Script is gestart \n{}'.format("-"*50))
 
 # Onderstaande telt het aantal documenten dat gescand moet/gaat worden.
+# Dit stuk is voor de terugkoppeling in de terminal, zodat men de vooruitgang kan bijhouden
 total_doc_count = 0
 doc_count = 0
+# Lijst met de verschillende projecten in de Centrale Opslag
 lijst_projecten = os.listdir(bestand_locaties.centrale_opslag)
 for project in lijst_projecten:
+    # Lijst met de verschillende mappen (RAMS, FMECA enz.) in de projectmap
     folders_in_projectmap = os.listdir(os.path.join(bestand_locaties.centrale_opslag, project))
     for folder in folders_in_projectmap:
+        # Pad naar de onderliggende map (RAMS, FMECA enz.) van het project die verwerkt gaat worden
         pad_naar_folder = os.path.join(bestand_locaties.centrale_opslag, project, folder)
+        # Lijst van de verschillende documenten en mappen in de map die verwerkt gaat worden
         documenten_in_folder = os.listdir(os.path.join(bestand_locaties.centrale_opslag, project, folder))
         for bestand in documenten_in_folder:
+            # Controle of het bestand een document of een onderliggende map is
             if os.path.isdir(os.path.join(pad_naar_folder, bestand)):
                 pass
             else:
@@ -32,18 +38,21 @@ print(f'Te behandelen documenten: {total_doc_count}')
 lijst_projecten = os.listdir(bestand_locaties.centrale_opslag)
 
 for project in lijst_projecten:
-
+    # Pad naar de project map
     project_map = os.path.join(bestand_locaties.centrale_opslag, project)
+    # Lijst met de verschillende mappen (RAMS, FMECA enz.) in de projectmap
     folders_in_projectmap = os.listdir(os.path.join(bestand_locaties.centrale_opslag, project))
 
     for folder in folders_in_projectmap:
-
+        # Pad naar de onderliggende map (RAMS, FMECA enz.) van het project die verwerkt gaat worden
         pad_naar_folder = os.path.join(bestand_locaties.centrale_opslag, project, folder)
+        # Lijst van de verschillende documenten en mappen in de map die verwerkt gaat worden
         documenten_in_folder = os.listdir(os.path.join(bestand_locaties.centrale_opslag, project, folder))
 
         for bestand in documenten_in_folder:
+            # Controle of het bestand een document of een onderliggende map is
             if os.path.isdir(os.path.join(pad_naar_folder, bestand)):
-                pass
+                pass  # Onderliggende mappen moeten niet worden verwerkt
             else:
                 # De vooruitgang printen
                 doc_count += 1
@@ -59,9 +68,10 @@ for project in lijst_projecten:
                 # Het bepalen van de document klasse
                 document.SetClass(document_type, referentie_doc=bestand_locaties.Document_Klasse_Type)
 
+                # Ophalen van het deelsysteem nummer van het bestand
                 deelsysteem_nummer = document.GetDINumber(project)
 
-                # Ophalen van de deelsysteem naam van toepassing
+                # Ophalen van de deelsysteem naam van het bestand
                 deelsysteem_naam = document.GetDIName(deelsysteem_nummer)
 
                 # Ophalen van de discipline a.h.v. de deelsystemen
@@ -91,4 +101,6 @@ for project in lijst_projecten:
 print('Done..')
 # Exporteren van het DataFrame
 IAMDataMinePackage.auto_export(Export_data)
+
+# Onderstaande is de test export
 # IAMDataMinePackage.test_export(Export_data)
