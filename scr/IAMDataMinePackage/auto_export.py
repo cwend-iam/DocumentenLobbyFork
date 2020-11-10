@@ -1,10 +1,6 @@
-import os
 from datetime import date
 
-import pandas as pd
-
 from bestand_locaties import *
-
 
 toelichting_main = "Dit tabblad bevat een overzicht van de documenten van projecten die vallen onder het beheer van " \
                    "Croonwolter&dros Infra Asset Management (IAM)."
