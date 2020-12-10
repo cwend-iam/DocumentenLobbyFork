@@ -19,3 +19,6 @@ Export_data = pd.DataFrame({"Titel": [],  # naam zonder .pdf etc --> 20200501_Re
                             "Opmerking": [],  # Moet in elke rij leeg blijven
                             "Bestand": [],  # volledige naam --> 20200501_Realisatie_DMS_Model.xlsx
                             "Volledige pad naar document": []})  # Voor het realiseren van de hyperlink naar de docs
+
+# todo: een standaard aanpak definiëren voor het verwijzen van de kolommen in het export document
+# bovenstaande is ter behoeve van de efficiëntie van de beheerder van de Documenten Lobby

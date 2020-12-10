@@ -79,6 +79,7 @@ def auto_export(dataframe):
         cell = f'{link_naar_doc_col}{rij}'
         worksheet_main.write_url(cell, pad, string='Klik voor document')
 
+    # todo: filter toevoegen voor de titel van de documenten zodat specifieke documenten opgezocht kunnen worden
     # Invoegen van de fliters voor de kolommen waar dit van belang is
     worksheet_main.autofilter('C5:N5')
     worksheet_sbs.autofilter('B5:D5')

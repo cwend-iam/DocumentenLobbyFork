@@ -6,6 +6,7 @@ import IAMDataMinePackage
 import bestand_locaties
 from export_dataframe import Export_data
 
+# Back end pad is het pad naar de staging locatie op de lokale hardeschijf
 backend = os.path.join(bestand_locaties.tbi_path, "Documenten Lobby - Beheer")
 folder_tendercalculaties = os.path.join(backend, "Tendercalculaties")
 
@@ -31,7 +32,7 @@ for project in lijst_projecten:
                 document_type = folder
                 document = IAMDataMinePackage.Document(pad_naar_folder, doc)
                 document.SetClass(document_type, referentie_doc=bestand_locaties.Document_Klasse_Type)
-                deelsysteem_nummer = document.GetDIName(project)
+                deelsysteem_nummer = document.GetDINumber(project)
                 deelsysteem_naam = document.GetDIName(deelsysteem_nummer)
                 discipline = document.GetDiscipline(deelsysteem_nummer)
                 document_eigenaar = document.GetDocumentOwner(project)
