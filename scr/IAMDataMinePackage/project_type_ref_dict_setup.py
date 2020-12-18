@@ -1,7 +1,7 @@
 import pandas as pd
 import os
 from collections import Counter
-from bestand_locaties import Project_Informatie
+from bestand_locaties import Project_Informatie, Definities_Object_Typen
 
 # Current working directory aanpassen naar toplevel van de github repo
 while True:
@@ -36,11 +36,15 @@ def sort_objects_per_project():
     return objecten_per_project
 
 
-# Inlezen van de referentie documenten
-definitie_nat_droog = pd.read_csv('res/definitie_nat_droog_kunstwerk.csv', sep=';')
-
 # Uitvoeren van de gedefininieerde functie
 dict_objecten_per_project = sort_objects_per_project()
 
 # lijst projecten
 p = list(dict_objecten_per_project.keys())
+
+# Inlezen van de referentie documenten
+definitie_object_type = Definities_Object_Typen
+
+# Dict initialiseren om op te vullen
+type_object_per_project = dict()
+
