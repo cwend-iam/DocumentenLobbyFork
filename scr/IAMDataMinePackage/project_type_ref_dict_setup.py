@@ -41,3 +41,6 @@ definitie_nat_droog = pd.read_csv('res/definitie_nat_droog_kunstwerk.csv', sep='
 
 # Uitvoeren van de gedefininieerde functie
 dict_objecten_per_project = sort_objects_per_project()
+
+# lijst projecten
+p = list(dict_objecten_per_project.keys())
