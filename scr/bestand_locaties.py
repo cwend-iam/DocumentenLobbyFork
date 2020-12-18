@@ -84,6 +84,10 @@ Status_Aanduiding = pd.read_csv(Overzicht_Status_Aanduiding, sep=';')
 Overzicht_Project_Informatie = os.path.join(res_path, 'Overzicht_Project_Informatie.csv')
 Project_Informatie = pd.read_csv(Overzicht_Project_Informatie, sep=';')
 
+# Locatie en inlezen van de definities van de object typen
+Overzicht_Definities_Object_Typen = os.path.join(res_path, 'definitie_nat_droog_kunstwerk.csv')
+Definities_Object_Typen = pd.read_csv(Overzicht_Definities_Object_Typen, sep=';')
+
 # Standaard deel export url voor het makan van links naar de documenten
 Standaard_url = "https://tbiholding.sharepoint.com/sites/DocumentManagementSysteem/Gedeelde%20documenten/" \
                 "General/Centrale%20opslag"
