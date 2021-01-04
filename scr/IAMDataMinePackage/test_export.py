@@ -105,6 +105,7 @@ def test_export(dataframe):
     merge_format = workbook.add_format({'align': 'left', 'valign': 'top'})
 
     # Genereren van de headers
+    # header main sheet
     update_datum = date.today().strftime('%d-%m-%Y')
     worksheet_main.write('B1', 'Documenten Lobby', sheet_titel_format)
     worksheet_main.write('B2', f'Laatste update: {update_datum}')
@@ -113,26 +114,31 @@ def test_export(dataframe):
     worksheet_main.set_default_row(hide_unused_rows=True)  # verbergd de niet gebruikte rijen onder de dataset
     # worksheet_main.freeze_panes('C6')  # bevriesd de header en de kolom met de titel van de documenten
 
+    # header projecten sheet
     worksheet_projecten.write('B1', project_sheet, sheet_titel_format)
     worksheet_projecten.merge_range('C1:D1', 'Toelichting tabblad', merge_format)
     worksheet_projecten.merge_range('C2:G3', toelichting_personen, merge_format)
     worksheet_projecten.set_default_row(hide_unused_rows=True)
 
+    # header SBS sheet
     worksheet_sbs.write('B1', sbs_sheet, sheet_titel_format)
     worksheet_sbs.merge_range('C1:D1', 'Toelichting tabblad', merge_format)
     worksheet_sbs.merge_range('C2:G3', toelichting_sbs, merge_format)
     worksheet_sbs.set_default_row(hide_unused_rows=True)
 
+    # header document type sheet
     worksheet_doctype.write('B1', doc_type_sheet, sheet_titel_format)
     worksheet_doctype.merge_range('C1:D1', 'Toelichting tabblad', merge_format)
     worksheet_doctype.merge_range('C2:G3', toelichting_doc_type, merge_format)
     worksheet_doctype.set_default_row(hide_unused_rows=True)
 
+    # header status sheet
     worksheet_status.write('B1', status_sheet, sheet_titel_format)
     worksheet_status.merge_range('C1:D1', 'Toelichting tabblad', merge_format)
     worksheet_status.merge_range('C2:G3', toelichting_status, merge_format)
     worksheet_status.set_default_row(hide_unused_rows=True)
 
+    # header personen sheet
     worksheet_personen.write('B1', personen_sheet, sheet_titel_format)
     worksheet_personen.merge_range('C1:D1', 'Toelichting tabblad', merge_format)
     worksheet_personen.merge_range('C2:G3', toelichting_personen, merge_format)
