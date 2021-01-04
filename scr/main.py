@@ -104,8 +104,9 @@ for project in lijst_projecten:
                 Export_data = Export_data.append(new_record, ignore_index=True)
 
 print('Done..')
+
 # Exporteren van het DataFrame
-# IAMDataMinePackage.auto_export(Export_data)
+IAMDataMinePackage.auto_export(Export_data)
 
 # Onderstaande is de test export
-IAMDataMinePackage.test_export(Export_data)
+# IAMDataMinePackage.test_export(Export_data)
