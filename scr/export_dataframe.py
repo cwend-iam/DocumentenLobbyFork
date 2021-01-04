@@ -9,6 +9,7 @@ Export_data = pd.DataFrame({"Titel": [],  # naam zonder .pdf etc --> 20200501_Re
                             "Datum": [],  # Datum van aanmaken doc
                             "Laatst aangepast": [],  # Datum waarop doc voor het laatst is aangepast
                             "Project": [],  # Project van toepassing
+                            "Project type": [],  # Type van het project (Nat/Droog/Combinatie)
                             "Deelinstallatie nummer": [],  # Deelinstallatie/SBS num van toepassing
                             "Deelinstallatie naam": [],  # Deelinstallatie naam van toepassing
                             "Discipline": [],  # E, C, W, GWW of combinatie hiervan
