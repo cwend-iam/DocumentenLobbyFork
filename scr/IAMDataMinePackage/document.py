@@ -86,6 +86,7 @@ class Document(File):
         elif project == 'Rijnlandroute':
             gebruik_sbs = bestand_locaties.SBS_Rijnlandroute
         elif project == 'Westerscheldetunnel':
+            # Todo: Gebruik van fileType lijkt me hier incorrect. Controleren!
             if self.fileType == 'RAMS':
                 gebruik_sbs = bestand_locaties.SBS_Westerscheldetunnel_RAMS
             else:
