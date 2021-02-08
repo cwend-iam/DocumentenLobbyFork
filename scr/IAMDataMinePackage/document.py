@@ -8,7 +8,6 @@ from openpyxl import load_workbook
 
 import bestand_locaties
 from file import File
-from changing_document_properties import *
 
 
 # todo: Naamgeving aanpassen zodat deze correct is (camelCase en de variatie deelinstallatie/deelsysteem)
@@ -173,40 +172,6 @@ class Document(File):
             discipline = _discipline
 
         return discipline
-
-    def ChangeDocumentProperties(self, title=None, subject=None, keywords=None, category=None, comments=None):
-        """
-
-        :param title:
-        :param subject:
-        :param keywords:
-        :param category:
-        :param comments:
-        :return: Nothing
-        """
-        if self.fileType == '.xlsx':
-            change_xlsx_properties(filename=self.path,
-                                   title=title,
-                                   subject=subject,
-                                   keywords=keywords,
-                                   category=category,
-                                   comments=comments)
-
-        elif self.fileType == '.docx':
-            change_docx_properties(filename=self.path,
-                                   title=title,
-                                   subject=subject,
-                                   keywords=keywords,
-                                   category=category,
-                                   comments=comments)
-
-        elif self.fileType == '.pdf':
-            change_pdf_properties(filename=self.path,
-                                  title=title,
-                                  subject=subject,
-                                  keywords=keywords,
-                                  category=category,
-                                  comments=comments)
 
     def GetVersion(self):
         """

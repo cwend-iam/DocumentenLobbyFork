@@ -2,12 +2,58 @@
 This script is the general place for the setup of the modules used for changing the document properties.
 This functions defined here are imported and used in a module.
 """
+# todo: tekst en uitleg bij de functies
 import os
 
 import openpyxl
 from PyPDF2 import PdfFileReader, PdfFileWriter
 from PyPDF2.generic import NameObject, createStringObject
 from docx import Document
+
+
+def get_docx_properties(filename):
+    # Creating an instance of Document
+    _doc = Document(docx=filename)
+
+    # Isolating the properties of the document
+    properties = _doc.core_properties
+
+    return properties
+
+
+def get_pdf_properties(filename):
+    # Opening and reading the file
+    _file = open(file=filename, mode='rb')
+    pdf_in = PdfFileReader(_file)
+
+    # Extracting the document properties
+    properties = pdf_in.documentInfo
+
+    # Closing both _file and pdf_out
+    _file.close()
+
+    return properties
+
+
+def get_xlsx_properties(filename):
+    # Creating an instance of Document
+    _doc = openpyxl.load_workbook(filename=filename)
+
+    # Isolating the properties of the document
+    properties = _doc.properties
+
+    return properties
+
+
+def get_properties(filename):
+    if filename.endswith('.xlsx'):
+        return get_xlsx_properties(filename=filename)
+
+    elif filename.endswith('.docx'):
+        return get_docx_properties(filename=filename)
+
+    elif filename.endswith('.pdf'):
+        return get_pdf_properties(filename=filename)
 
 
 def change_docx_properties(filename, title=None, subject=None, keywords=None, category=None, comments=None):
@@ -103,10 +149,13 @@ def change_pdf_properties(filename, title=None, subject=None, keywords=None, cat
     None if subject is None else propertyDict.update({NameObject('/Subject'): createStringObject(subject)})
     None if keywords is None else propertyDict.update({NameObject('/Keywords'): createStringObject(keywords)})
     None if category is None else propertyDict.update({NameObject('/Category'): createStringObject(category)})
-    None if comments is None else propertyDict.Update({NameObject('/Comments'): createStringObject(comments)})
+    None if comments is None else propertyDict.update({NameObject('/Comments'): createStringObject(comments)})
 
     # Defining the name of the output file and opening the output file
-    output_filename = f'output_{filename}'
+    split_path = filename.rsplit('\\', 1)
+    _output_filename = split_path[-1]
+    _output_folder = split_path[0]
+    output_filename = f'{_output_folder}\\output_{_output_filename}'
     pdf_out = open(file=output_filename, mode='wb')
 
     # Writing writer content to pdf_out
@@ -119,3 +168,39 @@ def change_pdf_properties(filename, title=None, subject=None, keywords=None, cat
     # Deleting the original file and renaming the new pdf file to give it the name of the orignal file
     os.unlink(filename)
     os.rename(output_filename, filename)
+
+
+def change_properties(filename, title=None, subject=None, keywords=None, category=None, comments=None):
+    """
+
+    :param filename:
+    :param title:
+    :param subject:
+    :param keywords:
+    :param category:
+    :param comments:
+    :return:
+    """
+    if filename.endswith('.xlsx'):
+        change_xlsx_properties(filename=filename,
+                               title=title,
+                               subject=subject,
+                               keywords=keywords,
+                               category=category,
+                               comments=comments)
+
+    elif filename.endswith('.docx'):
+        change_docx_properties(filename=filename,
+                               title=title,
+                               subject=subject,
+                               keywords=keywords,
+                               category=category,
+                               comments=comments)
+
+    elif filename.endswith('.pdf'):
+        change_pdf_properties(filename=filename,
+                              title=title,
+                              subject=subject,
+                              keywords=keywords,
+                              category=category,
+                              comments=comments)
