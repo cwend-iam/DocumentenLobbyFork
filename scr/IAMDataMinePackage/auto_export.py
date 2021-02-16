@@ -142,7 +142,7 @@ def auto_export(dataframe):
     worksheet_personen.set_default_row(hide_unused_rows=True)
 
     # Verbergen van de kolom met de volledige paden
-    volle_pad_kolom = 'S'
+    volle_pad_kolom = 'T'
     worksheet_main.set_column(f'{volle_pad_kolom}:{volle_pad_kolom}', None, None, {'hidden': True})
 
     # Verbergen van de indexnummers op elk tabblad
