@@ -7,8 +7,6 @@ import IAMDataMinePackage
 import bestand_locaties
 from export_dataframe import Export_data
 
-# todo: voor gehele project: comments toevoegen (dus ook in classes)
-
 print('Script is gestart \n{}'.format("-"*50))
 
 # Onderstaande telt het aantal documenten dat gescand moet/gaat worden.
@@ -106,7 +104,7 @@ for project in lijst_projecten:
 print('Done..')
 
 # Exporteren van het DataFrame
-IAMDataMinePackage.auto_export(Export_data)
+# IAMDataMinePackage.auto_export(Export_data)
 
 # Onderstaande is de test export
 # IAMDataMinePackage.test_export(Export_data)
