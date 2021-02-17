@@ -6,6 +6,7 @@ from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize
 from openpyxl import load_workbook
 
+from changing_document_properties import get_docx_properties, get_pdf_properties, get_xlsx_properties
 import bestand_locaties
 from file import File
 
@@ -25,6 +26,16 @@ class Document(File):
     lijst_letters = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M',
                      'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z',
                      '1', '2', '3', '4', '5', '6', '7', '8', '9']
+
+    def GetProperties(self):
+        if self.path.endswith('.xlsx'):
+            return get_xlsx_properties(filename=self.path)
+
+        elif self.path.endswith('.docx'):
+            return get_docx_properties(filename=self.path)
+
+        elif self.path.endswith('.pdf'):
+            return get_pdf_properties(filename=self.path)
 
     def GetStatus(self, versie_nummer):
         """

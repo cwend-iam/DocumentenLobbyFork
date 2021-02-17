@@ -10,6 +10,11 @@ from PyPDF2 import PdfFileReader, PdfFileWriter
 from PyPDF2.generic import NameObject, createStringObject
 from docx import Document
 
+"""
+Document (IAMDataMinePackage class) has a module that extracts the properties of a document using the functions
+definied in this script.
+"""
+
 
 def get_docx_properties(filename):
     # Creating an instance of Document
@@ -43,17 +48,6 @@ def get_xlsx_properties(filename):
     properties = _doc.properties
 
     return properties
-
-
-def get_properties(filename):
-    if filename.endswith('.xlsx'):
-        return get_xlsx_properties(filename=filename)
-
-    elif filename.endswith('.docx'):
-        return get_docx_properties(filename=filename)
-
-    elif filename.endswith('.pdf'):
-        return get_pdf_properties(filename=filename)
 
 
 def change_docx_properties(filename, title=None, subject=None, keywords=None, category=None, comments=None):
