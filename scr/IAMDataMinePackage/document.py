@@ -87,7 +87,7 @@ class Document(File):
         """
         gebruik_sbs = None
 
-        # Bepalen van de deelsystemen van toepassing
+        # Het project van toepassing specificeren
         if project == 'Coentunnel-tracé':
             gebruik_sbs = bestand_locaties.SBS_Coentunnel
         elif project == 'Maastunnel':
