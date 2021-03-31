@@ -91,3 +91,9 @@ Definities_Object_Typen = pd.read_csv(Overzicht_Definities_Object_Typen, sep=';'
 # Standaard deel export url voor het makan van links naar de documenten
 Standaard_url = "https://tbiholding.sharepoint.com/sites/DocumentManagementSysteem/Gedeelde%20documenten/" \
                 "General/Centrale%20opslag"
+
+# Reading the general SBS overview (new)
+sbs_overview = pd.read_excel(os.path.join(sbs_path, 'sbs_koppeldoc_dl.xlsx'))
+
+# Reading the reference doc for the document type and class
+doc_type_class_overview = pd.read_csv(os.path.join(res_path, 'document_type_class_overview.csv'),sep=';')

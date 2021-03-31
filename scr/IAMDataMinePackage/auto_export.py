@@ -37,7 +37,7 @@ def auto_export(dataframe):
     export_locatie = Front_End_Opslag
 
     # Genereren van de documentnaam
-    excel_export_naam = 'Documenten Lobby.xlsx'
+    excel_export_naam = 'Navigatie document Documenten Lobby.xlsx'
 
     # Namen van de tabbladen
     main_sheet = 'Main'

@@ -13,6 +13,7 @@ from file import File
 
 # todo: Naamgeving aanpassen zodat deze correct is (camelCase en de variatie deelinstallatie/deelsysteem)
 class Document(File):
+    documentType = ""
     documentClass = ""
     version = ""
     status = ""
@@ -20,12 +21,31 @@ class Document(File):
     def __init__(self, folder, filename):
         File.__init__(self, folder, filename)
 
+        self.documentType = self.GetDocType(folder)
+        self.documentClass = self.GetDocClass()
+
         self.version = self.GetVersion()
         self.status = self.GetStatus(self.version)
 
     lijst_letters = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M',
                      'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z',
                      '1', '2', '3', '4', '5', '6', '7', '8', '9']
+
+    @staticmethod
+    def string_to_tuple(string):
+        """
+        Transforms a tuple that was formed to a string in the extraction-phase back to a tuple for further
+        handling. "(25, 61)" => ("25", "61")
+        :param string:
+        :return:
+        """
+        string = string.split(', ')
+        value_list = []
+        for i in range(len(string)):
+            value_list.append(string[i])
+
+        values = tuple(value_list)
+        return values
 
     def GetProperties(self):
         if self.path.endswith('.xlsx'):
@@ -76,7 +96,7 @@ class Document(File):
                 eigenaar = row_series.values[1]
                 return eigenaar
 
-    def GetDINumber(self, project):
+    def GetDINumber(self, project, ):
         """
         Deze module bepaalt op basis van het project welke project specifieke sbs gebruikt moet worden. Vervolgens
         wordt de onderliggende module voor het ophalen van het deelsysteem nummer toegepast en wordt het verkregen
@@ -85,34 +105,33 @@ class Document(File):
         :param project: De naam van het project
         :return: Het deelsysteem nummer(s)
         """
-        gebruik_sbs = None
-
-        # Bepalen van de deelsystemen van toepassing
-        if project == 'Coentunnel-tracé':
-            gebruik_sbs = bestand_locaties.SBS_Coentunnel
-        elif project == 'Maastunnel':
-            gebruik_sbs = bestand_locaties.SBS_Maastunnel
-        elif project == 'MaVa':
-            gebruik_sbs = bestand_locaties.SBS_MaVa
-        elif project == 'Rijnlandroute':
-            gebruik_sbs = bestand_locaties.SBS_Rijnlandroute
-        elif project == 'Westerscheldetunnel':
-            # Todo: Gebruik van fileType lijkt me hier incorrect. Controleren!
-            if self.fileType == 'RAMS':
-                gebruik_sbs = bestand_locaties.SBS_Westerscheldetunnel_RAMS
-            else:
-                gebruik_sbs = bestand_locaties.SBS_Westerscheldetunnel
+        # gebruik_sbs = None
+        #
+        # # Het project van toepassing specificeren
+        # if project == 'Coentunnel-tracé':
+        #     gebruik_sbs = bestand_locaties.SBS_Coentunnel
+        # elif project == 'Maastunnel':
+        #     gebruik_sbs = bestand_locaties.SBS_Maastunnel
+        # elif project == 'MaVa':
+        #     gebruik_sbs = bestand_locaties.SBS_MaVa
+        # elif project == 'Rijnlandroute':
+        #     gebruik_sbs = bestand_locaties.SBS_Rijnlandroute
+        # elif project == 'Westerscheldetunnel':
+        #     if self.documentType == 'RAMS':
+        #         gebruik_sbs = bestand_locaties.SBS_Westerscheldetunnel_RAMS
+        #     else:
+        #         gebruik_sbs = bestand_locaties.SBS_Westerscheldetunnel
 
         # Toepassen van de onderliggende module
-        _di_number = self.di_number(self.name + "." + self.fileType, project, gebruik_sbs)
+        _di_number = self.di_number(self.name, project, bestand_locaties.SBS_MaVa)
 
-        # Controleren of resultaat een tuple is (zo ja, omvormen naar string)
-        if isinstance(_di_number, tuple):
-            di_number = f'{_di_number[0]}, {_di_number[1]}'
-        else:
-            di_number = _di_number
+        # # Controleren of resultaat een tuple is (zo ja, omvormen naar string)
+        # if isinstance(_di_number, tuple):
+        #     di_number = f'{_di_number[0]}, {_di_number[1]}'
+        # else:
+        #     di_number = _di_number
 
-        return di_number
+        return [_di_number]
 
     def GetDIName(self, deelinstallatie_nummer):
         """
@@ -133,18 +152,34 @@ class Document(File):
 
         return di_name
 
-    def SetClass(self, documenttype, referentie_doc):
+    def GetDocType(self, folder):
+        """
+        Module to get the document type based on the directory structure that is used in the central
+        saving point of the Documenten Lobby
+        :param folder: the full path to the folder
+        :return: just the name of the folder
+        """
+        split_name = folder.split('\\')
+        return split_name[-1]
+
+    def GetDocClass(self):
         """
         Deze module geeft de klasse van het document en wijst deze toe aan een class variabele.
         :param documenttype: De map waarin het document op het centrale punt is opgeslagen.
-        :param referentie_doc: Het referentiedocument van de document typen en bijbehorende documentklasse.
         :return: De document klasse
         """
-        for i in range(referentie_doc.shape[0]):
-            row_series = referentie_doc.iloc[i]
-            if row_series.values[0] == documenttype:
-                documentklasse = row_series.values[1]
-                self.documentClass = documentklasse
+        class_col = "Document klasse"
+        type_col = "Document type"
+        doc_class = next(bestand_locaties.doc_type_class_overview.at[index, class_col]
+                         for index in range(bestand_locaties.doc_type_class_overview.shape[0])
+                         if bestand_locaties.doc_type_class_overview.at[index, type_col] == self.documentType)
+        """
+        The build in next() function used above works the same as a list comprehension, but selects the following 
+        element each time it is called. In this case (were list has len = 1) it calls the only value that is found 
+        and returns it as a single value instead of returning the single value as a string inside a list. 
+        ["x"] => 'x'
+        """
+        return doc_class
 
     def path_to_hyperlink(self, project):
         """
@@ -343,7 +378,8 @@ class Document(File):
             versie = 'Onbekend'
             return versie
 
-    def di_number(self, bestandsnaam, projectnaam, sbs=None):
+    @staticmethod
+    def di_number(bestandsnaam, projectnaam, sbs=None):
         """
         Deze module geeft het generieke deelsysteem nummer van een document. Er wordt altijd een Tuple van 2 elementen
         teruggekoppeld. Wanneer er echter maar één nummer van toepassing is, is het tweede nummer '9009' - 'n.v.t.'.
@@ -439,7 +475,8 @@ class Document(File):
             deelsysteem_nummer_1 = raw_deelsysteem_nummer_1
             return deelsysteem_nummer_1
 
-    def di_name(self, deelsysteem_num, sbs=None):
+    @staticmethod
+    def di_name(deelsysteem_num, sbs=None):
         """
         Module voor het ophalen van de deelsysteem naam aan de hand van het deelsysteem nummer uit de generieke SBS.
         :param deelsysteem_num: Het generieke SBS nummer van de desbetreffende deelsysteem
@@ -471,7 +508,8 @@ class Document(File):
                     deelsysteem_naam_1 = generiek_sbs_row_series.values[1]
                     return deelsysteem_naam_1
 
-    def discipline(self, deelinstallatie_nummer, sbs):
+    @staticmethod
+    def discipline(deelinstallatie_nummer, sbs):
         """
         De onderliggende module voor het bepalen van de discipline. In deze module wordt er eerst gecontroleerd of
         twee deelsysteem nummer van toepassing zijn op het document. Vervolgens wordt op basis van het
@@ -520,3 +558,141 @@ class Document(File):
                 if deelinstallatie_nummer_1 == int(row_series.values[2]):
                     discipline_1 = row_series.values[0]
                     return discipline_1
+
+    def check_numbers(self, project_sbs_number, found_sbs_numbers):
+        """
+        function to check whether a project specific number is in the collection of found numbers from the file title
+        :param project_sbs_number:
+        :param found_sbs_numbers:
+        :return:
+        """
+        # Making set of the found numbers
+        found_sbs_numbers_set = set(found_sbs_numbers)
+        """
+        The if statement bellow covers the case of multiple project specific numbers pointing to one generic sbs number.
+        If any of the project specific numbers is found in the 'found numbers set', return True. If none is found,
+        return False.
+        """
+        if ',' in project_sbs_number:
+            project_sbs_nummer_set = self.string_to_tuple(project_sbs_number)
+            return 1 in [c in found_sbs_numbers_set for c in project_sbs_nummer_set]
+        else:  # check if project_sbs_number is in found_sbs_numbers_set
+            return 1 if project_sbs_number in found_sbs_numbers_set else 0
+
+    def di_number_v2(self, file_name, projectnaam):
+        """
+        An updated version of the module that gives the deelinstallatie nummer based on the file name. This new
+        version also comes with a new resource document that is used to make the translation between the projects
+        and the generic sbs overview.
+        Do see that 'MaVa' can't be included in this new workflow. The way the files of this project points to the
+        deelinstallaties doesn't allow this workflow to work. It needs both the project specific name and number of
+        the installation.
+        :param file_name: self.name
+        :param projectnaam: the project name
+        :return: the translated numbers from the generieke sbs. dtype can vary with the amount of numbers that need
+                 to be returned.
+        """
+        # file types with documents applying to deelinstallaties
+        if self.documentType not in ('RAMS', 'FMECA', 'Faalkansanalyse'):
+            return 9009
+        elif projectnaam in ('Sluis Eefde', 'Velsertunnel', 'VOBO'):  # list of projects that need to be excluded
+            return 9009
+
+        # MaVa can't handle this workflow and needs to use the v1 workflow
+        if projectnaam == 'MaVa':
+            return self.GetDINumber(projectnaam)
+
+        # For westerscheldertunnel RAMS an extra column is needed because of the use of other project specific numbers
+        project_column = f'sbs nummer {projectnaam}'
+        if projectnaam == 'Westerscheldetunnel' and self.documentType == 'RAMS':
+            project_column = project_column + ' ' + self.documentType
+
+        known_project_numbers = list(bestand_locaties.sbs_overview[project_column])
+        known_project_numbers = [x for x in known_project_numbers if not isinstance(x, float)]
+
+        """
+        found_project_numbers contains all the project specific sbs numbers that are found in the file name.
+        """
+        found_project_numbers = []
+        for n in known_project_numbers:
+            if str(n) in file_name:
+                found_project_numbers.append(str(n))
+                """
+                n is added as a string to make it possible to apply the function 'contains_any()' in the list 
+                comprehension for result_list.
+                """
+            elif isinstance(n, str) and ',' in n:
+                split_numbers = self.string_to_tuple(n)
+                num2append = [num for num in split_numbers if num in file_name]
+                if len(num2append) != 0:
+                    for num in num2append:
+                        found_project_numbers.append(num)
+            else:
+                pass
+
+        # Filling the nan values to make the list comprehension for result_list possible
+        # !!! HAS to be the assignment of a new variable. NO INPLACE=TRUE as this fucks up the know_numbers variable
+        # in a following sequence.
+        sbs = bestand_locaties.sbs_overview.fillna(value=-1)
+
+        gen_col = 'sbs nummer generiek'
+
+        # A function is build for the check in the if-statement. It felt like it wasn't possible without the function.
+        result_list = [sbs.at[index, gen_col]
+                       for index in range(sbs.shape[0])
+                       if self.check_numbers(project_sbs_number=str(sbs.at[index, project_column]),
+                                             found_sbs_numbers=found_project_numbers)]
+
+        return result_list
+
+    @staticmethod
+    def di_name_v2(di_num):
+        """
+        An updated version of the module that returns the deelinstallatie naam based on the generieke
+        deelinstallatie nummer. This new version also comes with a new resource document that is used to make
+        the translation between the projects and the generic sbs overview.
+        :param di_num: result of di_number_v2
+        :return:
+        """
+        if di_num == (9009 or 9999):
+            di_name = 'n.v.t.'
+            return di_name
+
+        di_num = set(di_num)
+        sbs = bestand_locaties.sbs_overview
+        gen_col = 'sbs nummer generiek'
+        name_col = 'sbs omschrijving'
+        di_name = [sbs.at[index, name_col]
+                   for index in range(sbs.shape[0])
+                   if sbs.at[index, gen_col] in di_num]
+
+        return di_name
+
+    @staticmethod
+    def discipline_v2(di_num):
+        """
+        An updated version of the module that returns the ddiscipline of a deelinstallatie based on the generieke
+        deelinstallatie nummer. This new version also comes with a new resource document that is used to make
+        the translation between the projects and the generic sbs overview.
+        :param di_num: result of di_number_v2
+        :return:
+        """
+        if di_num == (9009 or 9999):
+            di_name = 'n.v.t.'
+            return di_name
+
+        di_num = set(di_num)
+        sbs = bestand_locaties.sbs_overview
+        gen_col = 'sbs nummer generiek'
+        discipline_col = 'discipline'
+        found_discipline = [sbs.at[index, discipline_col]
+                            for index in range(sbs.shape[0])
+                            if sbs.at[index, gen_col] in di_num]
+        """
+        Changing the list of all the found disciplines to a set only gives the unique values of the list. The set is
+        changed back to a list to preserve the list dtype for di_num, di_name, and discipline 
+        """
+        discipline = list(set(found_discipline))
+
+        return discipline
+
