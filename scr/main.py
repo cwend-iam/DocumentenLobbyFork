@@ -67,20 +67,14 @@ for project in lijst_projecten:
                 # Definitie van document type (FMECA, Faalanalyse, RAMS etc.)
                 document_type = folder
 
-                print(f'project = {project}')
-                print(f'file name = {document.name}')
-
                 # Ophalen van het deelsysteem nummer van het bestand
                 deelsysteem_nummer = document.di_number_v2(file_name=document.name, projectnaam=project)
-                print(f'di nummer = {deelsysteem_nummer}')
 
                 # Ophalen van de deelsysteem naam van het bestand
                 deelsysteem_naam = document.di_name_v2(di_num=deelsysteem_nummer)
-                print(f'di naam = {deelsysteem_naam}')
 
                 # Ophalen van de discipline a.h.v. de deelsystemen
                 discipline = document.discipline_v2(deelsysteem_nummer)
-                print(f'discipline = {discipline}')
 
                 # Verwijzen van eigenaar aan documenten
                 document_eigenaar = document.GetDocumentOwner(project)
@@ -107,7 +101,7 @@ for project in lijst_projecten:
 print('Done..')
 
 # Exporteren van het DataFrame
-# IAMDataMinePackage.auto_export(Export_data)
+IAMDataMinePackage.auto_export(Export_data)
 
 # Onderstaande is de test export
 # IAMDataMinePackage.test_export(Export_data)
