@@ -25,7 +25,13 @@ for project in lijst_projecten:
         documenten_in_folder = os.listdir(os.path.join(bestand_locaties.centrale_opslag, project, folder))
         for bestand in documenten_in_folder:
             # Controle of het bestand een document of een onderliggende map is
-            if os.path.isdir(os.path.join(pad_naar_folder, bestand)):
+            if os.path.isdir(os.path.join(pad_naar_folder, bestand)) and folder == 'Storingsanalyse':
+                sa_map = bestand  # jaartal
+                pad_sa_map = os.path.join(pad_naar_folder, sa_map)
+                sa_docs_per_jaar = os.listdir(pad_sa_map)
+                for sa in sa_docs_per_jaar:
+                    total_doc_count += 1
+            elif os.path.isdir(os.path.join(pad_naar_folder, bestand)):
                 pass
             else:
                 total_doc_count += 1
@@ -53,7 +59,48 @@ for project in lijst_projecten:
 
         for bestand in documenten_in_folder:
             # Controle of het bestand een document of een onderliggende map is
-            if os.path.isdir(os.path.join(pad_naar_folder, bestand)):
+            if os.path.isdir(os.path.join(pad_naar_folder, bestand)) and folder == 'Storingsanalyse':
+                sa_map = bestand  # map met jaartal als naam
+                pad_sa_map = os.path.join(pad_naar_folder, sa_map)
+                sa_docs_per_jaar = os.listdir(pad_sa_map)  # documenten per sa_map
+                for sa in sa_docs_per_jaar:
+                    # De vooruitgang printen
+                    doc_count += 1
+                    print(f'{doc_count} van de {total_doc_count}')
+                    print('Loading...')
+
+                    storingsanalyse = IAMDataMinePackage.Document(pad_sa_map, sa)
+
+                    document_type = storingsanalyse.documentType
+
+                    deelsysteem_nummer = storingsanalyse.di_number_v2(file_name=storingsanalyse.name,
+                                                                      projectnaam=project)
+
+                    deelsysteem_naam = storingsanalyse.di_name_v2(di_num=deelsysteem_nummer)
+
+                    discipline = storingsanalyse.discipline_v2(deelsysteem_nummer)
+
+                    document_eigenaar = storingsanalyse.GetDocumentOwner(project)
+
+                    # Definitie van de waarden voor de lege kolommen
+                    project_fase = str()
+                    opmerking = storingsanalyse.get_quarter()  # vermelding betrekking op Q1/Q2/Q3/Q4
+                    link_doc = str()
+
+                    volle_pad_naar_cloud = storingsanalyse.path_to_hyperlink(project)
+
+                    new_record = pd.Series([storingsanalyse.name, storingsanalyse.documentType,
+                                            storingsanalyse.documentClass, storingsanalyse.version,
+                                            storingsanalyse.status, storingsanalyse.creationDate,
+                                            storingsanalyse.lastModifiedDate, project, project_type, deelsysteem_nummer,
+                                            deelsysteem_naam, discipline, project_fase, document_eigenaar,
+                                            storingsanalyse.fileType, link_doc, opmerking, sa, volle_pad_naar_cloud],
+                                           index=Export_data.columns)
+
+                    # De nieuwe regel toevoegen aan het DataFrame
+                    Export_data = Export_data.append(new_record, ignore_index=True)
+
+            elif os.path.isdir(os.path.join(pad_naar_folder, bestand)):
                 pass  # Onderliggende mappen moeten niet worden verwerkt
             else:
                 # De vooruitgang printen
