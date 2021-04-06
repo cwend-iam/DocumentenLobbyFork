@@ -88,7 +88,7 @@ for project in lijst_projecten:
                 volle_pad_naar_cloud = document.path_to_hyperlink(project)
 
                 # Samenstellen van de regel die wordt toegevoegd aan het dataframe
-                new_record = pd.Series([document.name, document_type, document.documentClass, document.version,
+                new_record = pd.Series([document.name, document.documentType, document.documentClass, document.version,
                                         document.status, document.creationDate, document.lastModifiedDate, project,
                                         project_type, deelsysteem_nummer, deelsysteem_naam, discipline, project_fase,
                                         document_eigenaar, document.fileType, link_doc, opmerking, bestand,

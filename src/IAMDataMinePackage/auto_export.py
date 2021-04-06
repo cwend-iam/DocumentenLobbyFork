@@ -70,7 +70,7 @@ def auto_export(dataframe):
     worksheet_status = writer.sheets[status_sheet]
     worksheet_personen = writer.sheets[personen_sheet]
 
-    # Genereren van de links naar de documenten # todo: (optioneel) links toevoegen van personen naar persoon info tab
+    # Genereren van de links naar de documenten
     link_naar_doc_col = 'P'
     doc_link_start_rij = start_rij + 2
     for i in range(dataframe.shape[0]):

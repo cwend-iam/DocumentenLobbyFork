@@ -23,7 +23,6 @@ res_path = os.path.abspath('res')
 os.chdir(res_path)
 with open('centrale_opslag_path.txt', 'r') as file:
     text = file.read()
-file.close()
 
 centrale_opslag = text
 
@@ -96,4 +95,4 @@ Standaard_url = "https://tbiholding.sharepoint.com/sites/DocumentManagementSyste
 sbs_overview = pd.read_excel(os.path.join(sbs_path, 'sbs_koppeldoc_dl.xlsx'))
 
 # Reading the reference doc for the document type and class
-doc_type_class_overview = pd.read_csv(os.path.join(res_path, 'document_type_class_overview.csv'),sep=';')
+doc_type_class_overview = pd.read_csv(os.path.join(res_path, 'document_type_class_overview.csv'), sep=';')

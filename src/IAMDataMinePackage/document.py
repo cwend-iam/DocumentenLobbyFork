@@ -96,7 +96,7 @@ class Document(File):
                 eigenaar = row_series.values[1]
                 return eigenaar
 
-    def GetDINumber(self, project, ):
+    def GetDINumber(self, project):
         """
         Deze module bepaalt op basis van het project welke project specifieke sbs gebruikt moet worden. Vervolgens
         wordt de onderliggende module voor het ophalen van het deelsysteem nummer toegepast en wordt het verkregen
