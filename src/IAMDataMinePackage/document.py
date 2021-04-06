@@ -160,6 +160,10 @@ class Document(File):
         :return: just the name of the folder
         """
         split_name = folder.split('\\')
+        if 'Storingsanalyse' in split_name:
+            split_name.pop(-1)
+            return split_name[-1]
+
         return split_name[-1]
 
     def GetDocClass(self):
@@ -233,7 +237,7 @@ class Document(File):
         versie = str()
 
         # Bestandsformat checken
-        if '.pdf' in path_to_file or '.docx' in path_to_file:
+        if '.pdf' in path_to_file or '.docx' in path_to_file or '.doc' in path_to_file:
             # Aanpak voor pdf documenten
             if '.pdf' in path_to_file:
                 # Pdf document openen
@@ -264,12 +268,14 @@ class Document(File):
                         text += page_obj.extractText()
                     else:
                         pass
-
             # Aanpak voor docx documenten
             elif '.docx' in path_to_file:
                 # De tekst in het document lezen
                 text = docx2txt.process(path_to_file)
-
+            elif '.doc' in path_to_file:
+                # todo: write process to read files from .doc
+                #  (zie: https://stackoverflow.com/questions/36001482/read-doc-file-with-python)
+                text = ""
             else:
                 text = ""
 
@@ -696,3 +702,12 @@ class Document(File):
 
         return discipline
 
+    def get_quarter(self):
+        """
+        A moldule specially build for storingsanalyses. it is used to find the Qx in the file name.
+        With storingsrapportages the quarter in which it applies needs to be added as opmerking.
+        :return:
+        """
+        quarter_set = ('Q1', 'Q2', 'Q3', 'Q4')
+        found_quarter = [x for x in quarter_set if x in self.name]
+        return found_quarter

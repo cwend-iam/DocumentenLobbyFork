@@ -57,8 +57,8 @@ def auto_export(dataframe):
     start_rij = 4
     dataframe.to_excel(writer, sheet_name=main_sheet, startrow=start_rij)
     Referentietabel_Eigenaarschap['Project'].to_excel(writer, sheet_name=project_sheet, startrow=start_rij)
-    SBS_Generiek.to_excel(writer, sheet_name=sbs_sheet, startrow=start_rij)
-    Document_Klasse_Type.to_excel(writer, sheet_name=doc_type_sheet, startrow=start_rij)
+    sbs_overview.to_excel(writer, sheet_name=sbs_sheet, startrow=start_rij)
+    doc_type_class_overview.to_excel(writer, sheet_name=doc_type_sheet, startrow=start_rij)
     Status_Aanduiding.to_excel(writer, sheet_name=status_sheet, startrow=start_rij)
     Personen_Informatie.to_excel(writer, sheet_name=personen_sheet, startrow=start_rij)
 
@@ -81,7 +81,7 @@ def auto_export(dataframe):
 
     # todo: filter toevoegen voor de titel van de documenten zodat specifieke documenten opgezocht kunnen worden
     # Invoegen van de fliters voor de kolommen waar dit van belang is
-    worksheet_main.autofilter('C5:N5')
+    worksheet_main.autofilter('C5:R5')
     worksheet_sbs.autofilter('B5:D5')
     worksheet_doctype.autofilter('B5:D5')
     worksheet_personen.autofilter('B5:D5')

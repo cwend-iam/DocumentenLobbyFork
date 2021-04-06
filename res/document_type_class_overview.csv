@@ -125,11 +125,15 @@ Begrotingsrapport;Rapport;R
 Beproevingsrapport;Rapport;R
 Berekeningsrapport;Rapport;R
 Calculatierappport;Rapport;R
+Faalkansanalyse;Rapport;R
+FMECA;Rapport;R
 Herstelrapport;Rapport;R
 Meetrapport;Rapport;R
 Ontwerprapport;Rapport;R
+RAMS;Rapport;R
 Schaderapport;Rapport;R
 Schadetaxatierapport;Rapport;R
+Storingsanalyse;Rapport;R
 Tekortkomingsrapport;Rapport;R
 Template rapport;Rapport;R
 Testrapport;Rapport;R
@@ -137,9 +141,6 @@ Validatierapport;Rapport;R
 Voortgangsrapportage;Rapport;R
 Verslag;Rapport;R
 Verificatiematrix;Rapport;R
-FMECA;Rapport;R
-RAMS;Rapport;R
-Faalkansanalyse;Rapport;R
 Aansluitschema;Schema;S
 Beslissingsschema;Schema;S
 Betalingsschema;Schema;S
